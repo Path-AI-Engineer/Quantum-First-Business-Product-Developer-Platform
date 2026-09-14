@@ -1,0 +1,75 @@
+{
+  "schema_version": "pqc-product.standards-profile.v1",
+  "profile_id": "day-1562-research-snapshot",
+  "checked_on": "2026-09-14",
+  "status_semantics": "Publisher publication status only; not proof of compliant implementations or jurisdictional applicability.",
+  "sources": [
+    {
+      "id": "NIST-FIPS-203",
+      "title": "Module-Lattice-Based Key-Encapsulation Mechanism Standard",
+      "publisher": "NIST",
+      "publication_status": "final",
+      "publication_date": "2024-08-13",
+      "checked_on": "2026-09-14",
+      "url": "https://csrc.nist.gov/pubs/fips/203/final",
+      "relevance": "ML-KEM reference for key-establishment observations",
+      "qualification": "The publisher lists potential errata; implementation conformity is out of scope."
+    },
+    {
+      "id": "NIST-FIPS-204",
+      "title": "Module-Lattice-Based Digital Signature Standard",
+      "publisher": "NIST",
+      "publication_status": "final",
+      "publication_date": "2024-08-13",
+      "checked_on": "2026-09-14",
+      "url": "https://csrc.nist.gov/pubs/fips/204/final",
+      "relevance": "ML-DSA reference for signature observations",
+      "qualification": "The July 2026 planning note points to potential errata; implementation conformity is out of scope."
+    },
+    {
+      "id": "NIST-FIPS-205",
+      "title": "Stateless Hash-Based Digital Signature Standard",
+      "publisher": "NIST",
+      "publication_status": "final",
+      "publication_date": "2024-08-13",
+      "checked_on": "2026-09-14",
+      "url": "https://csrc.nist.gov/pubs/fips/205/final",
+      "relevance": "SLH-DSA reference for signature observations",
+      "qualification": "A named algorithm does not establish correct deployment."
+    },
+    {
+      "id": "NIST-SP-800-227",
+      "title": "Recommendations for Key-Encapsulation Mechanisms",
+      "publisher": "NIST",
+      "publication_status": "final",
+      "publication_date": "2025-09-18",
+      "checked_on": "2026-09-14",
+      "url": "https://csrc.nist.gov/pubs/sp/800/227/final",
+      "relevance": "KEM implementation and use guidance for later review",
+      "qualification": "The local assessment cannot certify secure KEM usage."
+    },
+    {
+      "id": "NIST-CSWP-39upd1",
+      "title": "Considerations for Achieving Crypto Agility: Strategies and Practices",
+      "publisher": "NIST",
+      "publication_status": "final",
+      "publication_date": "2026-06-29",
+      "checked_on": "2026-09-14",
+      "url": "https://csrc.nist.gov/pubs/cswp/39/upd1/considerations-for-achieving-crypto-agility/final",
+      "relevance": "Operational crypto-agility and transition-design trade-offs",
+      "supersedes": "NIST-CSWP-39",
+      "qualification": "Survey guidance, not a mandatory certification criterion."
+    },
+    {
+      "id": "NIST-IR-8547",
+      "title": "Transition to Post-Quantum Cryptography Standards",
+      "publisher": "NIST",
+      "publication_status": "initial_public_draft",
+      "publication_date": "2024-11-12",
+      "checked_on": "2026-09-14",
+      "url": "https://csrc.nist.gov/pubs/ir/8547/ipd",
+      "relevance": "Transition watch list; no binding product deadline",
+      "qualification": "No universal customer deadline is inferred from a draft."
+    }
+  ]
+}
