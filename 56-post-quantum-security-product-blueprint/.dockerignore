@@ -1,0 +1,11 @@
+.venv
+.git
+apps/web/node_modules
+apps/web/.next
+apps/web/test-results
+data/local
+artifacts/local
+reports
+tests
+__pycache__
+*.pyc

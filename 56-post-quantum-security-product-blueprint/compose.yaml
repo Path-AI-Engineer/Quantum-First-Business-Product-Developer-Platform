@@ -1,0 +1,39 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: pqc_synthetic
+      POSTGRES_USER: pqc_local
+      POSTGRES_PASSWORD: ${PQC_DB_PASSWORD:-synthetic-local-only}
+    volumes:
+      - pqc_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pqc_local -d pqc_synthetic"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    environment:
+      PQC_DATABASE_URL: postgresql+psycopg://pqc_local:${PQC_DB_PASSWORD:-synthetic-local-only}@db:5432/pqc_synthetic
+      PQC_OBJECT_ROOT: /app/data/local/objects
+    volumes:
+      - pqc_objects:/app/data/local/objects
+    ports:
+      - "127.0.0.1:8056:8056"
+    depends_on:
+      db:
+        condition: service_healthy
+  web:
+    build: ./apps/web
+    environment:
+      PQC_API_BASE: http://api:8056
+    ports:
+      - "127.0.0.1:3056:3056"
+    depends_on:
+      - api
+volumes:
+  pqc_db:
+  pqc_objects:

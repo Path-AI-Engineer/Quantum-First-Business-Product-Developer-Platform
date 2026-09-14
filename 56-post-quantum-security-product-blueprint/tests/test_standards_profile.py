@@ -8,7 +8,6 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
-
 PROFILE = Path(__file__).resolve().parents[1] / "contracts" / "standards-profile.v1.json"
 
 
@@ -25,8 +24,12 @@ class StandardsProfileTests(unittest.TestCase):
         self.assertEqual(
             set(self.sources),
             {
-                "NIST-FIPS-203", "NIST-FIPS-204", "NIST-FIPS-205",
-                "NIST-SP-800-227", "NIST-CSWP-39upd1", "NIST-IR-8547",
+                "NIST-FIPS-203",
+                "NIST-FIPS-204",
+                "NIST-FIPS-205",
+                "NIST-SP-800-227",
+                "NIST-CSWP-39upd1",
+                "NIST-IR-8547",
             },
         )
         for row in rows:
