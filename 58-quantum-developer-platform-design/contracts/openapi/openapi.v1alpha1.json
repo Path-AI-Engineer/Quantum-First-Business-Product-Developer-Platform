@@ -1,0 +1,50 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Quantum Developer Platform Reference API",
+    "version": "1.0.0-alpha.1",
+    "description": "Local executable reference contract; not a commercial SLA."
+  },
+  "servers": [{"url": "http://127.0.0.1:8058"}],
+  "paths": {
+    "/v1/organizations": {"post": {"operationId": "createOrganization", "responses": {"201": {"description": "Created"}}}},
+    "/v1/projects": {"post": {"operationId": "createProject", "responses": {"201": {"description": "Created"}}}},
+    "/v1/api-keys": {"post": {"operationId": "createApiKey", "responses": {"201": {"description": "One-time reveal"}}}},
+    "/v1/api-keys/{id}/rotate": {"post": {"operationId": "rotateApiKey", "responses": {"201": {"description": "Rotated"}}}},
+    "/v1/api-keys/{id}": {"delete": {"operationId": "revokeApiKey", "responses": {"200": {"description": "Revoked"}}}},
+    "/v1/capabilities": {"get": {"operationId": "listCapabilities", "responses": {"200": {"description": "Explicit capabilities"}}}},
+    "/v1/jobs/estimate": {"post": {"operationId": "estimateJob", "responses": {"200": {"description": "Non-billing estimate"}}}},
+    "/v1/jobs": {
+      "post": {"operationId": "submitJob", "parameters": [{"$ref": "#/components/parameters/IdempotencyKey"}], "responses": {"202": {"description": "Accepted"}, "409": {"description": "Idempotency conflict"}}},
+      "get": {"operationId": "listJobs", "responses": {"200": {"description": "Cursor page"}}}
+    },
+    "/v1/jobs/{id}": {"get": {"operationId": "getJob", "responses": {"200": {"description": "Job"}}}},
+    "/v1/jobs/{id}/cancel": {"post": {"operationId": "cancelJob", "responses": {"200": {"description": "Best-effort cancellation"}}}},
+    "/v1/jobs/{id}/artifacts": {"get": {"operationId": "listJobArtifacts", "responses": {"200": {"description": "Artifacts"}}}},
+    "/v1/artifacts/{id}/download": {"get": {"operationId": "downloadArtifact", "responses": {"200": {"description": "Integrity-bound download"}}}},
+    "/v1/webhook-endpoints": {"post": {"operationId": "createWebhookEndpoint", "responses": {"201": {"description": "Created"}}}},
+    "/v1/webhook-endpoints/{id}/rotate-secret": {"post": {"operationId": "rotateWebhookSecret", "responses": {"200": {"description": "Rotated"}}}},
+    "/v1/webhook-deliveries": {"get": {"operationId": "listWebhookDeliveries", "responses": {"200": {"description": "Deliveries"}}}},
+    "/v1/webhook-deliveries/{id}/replay": {"post": {"operationId": "replayWebhookDelivery", "responses": {"200": {"description": "Replayed with original event identity"}}}},
+    "/v1/usage": {"get": {"operationId": "listUsage", "responses": {"200": {"description": "Usage ledger"}}}},
+    "/v1/quotas": {"get": {"operationId": "getQuotas", "responses": {"200": {"description": "Quota decisions"}}}},
+    "/v1/audit": {"get": {"operationId": "listAudit", "responses": {"200": {"description": "Tenant-safe audit"}}}},
+    "/v1/health/live": {"get": {"operationId": "liveness", "responses": {"200": {"description": "Live"}}}},
+    "/v1/health/ready": {"get": {"operationId": "readiness", "responses": {"200": {"description": "Ready"}}}}
+  },
+  "components": {
+    "parameters": {
+      "IdempotencyKey": {"name": "Idempotency-Key", "in": "header", "required": true, "schema": {"type": "string", "maxLength": 128}}
+    },
+    "schemas": {
+      "Problem": {
+        "type": "object",
+        "required": ["code", "detail", "correlation_id", "remediation_hint"],
+        "properties": {
+          "code": {"type": "string"}, "detail": {"type": "string"}, "correlation_id": {"type": "string"}, "remediation_hint": {"type": "string"}
+        }
+      }
+    }
+  }
+}
+

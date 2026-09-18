@@ -1,0 +1,20 @@
+{
+  "schema_version": "qdp.standards-profile.v1",
+  "frozen_at": "2026-09-18",
+  "freeze_state": "sealed",
+  "cloud_live_smoke_required": false,
+  "profiles": {
+    "openapi": "3.1.1",
+    "json_schema": "2020-12",
+    "asyncapi": "3.0.0",
+    "cloudevents": "1.0.2",
+    "opentelemetry_semantic_conventions": "1.44.0",
+    "problem_details": "RFC 9457",
+    "trace_context": "W3C Trace Context"
+  },
+  "notes": [
+    "Cloud provider surfaces are contract stubs unless credentials are configured outside the repository.",
+    "Pricing values are fixtures and never represent billing."
+  ]
+}
+

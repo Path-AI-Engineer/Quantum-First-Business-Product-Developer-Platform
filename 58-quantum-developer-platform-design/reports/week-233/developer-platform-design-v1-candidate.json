@@ -1,0 +1,82 @@
+{
+  "approval": null,
+  "boundaries": {
+    "arbitrary_code_execution": false,
+    "commercial_billing": false,
+    "enterprise_sla": false,
+    "human_usability_study": false,
+    "live_cloud_jobs": 0
+  },
+  "decision": null,
+  "evidence": {
+    "cases": {
+      "api_contract_property": 180,
+      "authorization_tenant": 120,
+      "fresh_environment_ttfs": 12,
+      "golden_path_automated_sessions": 20,
+      "provider_fault_state_machine": 90,
+      "quota_metering_reconciliation": 30,
+      "sdk_parity_python": 60,
+      "sdk_parity_typescript": 60,
+      "webhook_signature_retry_replay": 72
+    },
+    "limitations": [
+      "Usability and TTFS sessions are automated fixtures, not independent human research.",
+      "Provider cloud surfaces are contract stubs and were not live-tested."
+    ],
+    "results": {
+      "commercial_sla_claim": false,
+      "cross_tenant_exposures": 0,
+      "duplicate_provider_submissions": 0,
+      "live_cloud_jobs": 0,
+      "median_ttfs_seconds": 522.5,
+      "terminal_jobs_with_evidence_manifest_percent": 100
+    },
+    "schema_version": "qdp.evaluation.v1",
+    "status": "verified"
+  },
+  "release": "developer-platform-design-v1",
+  "schema_version": "qdp.release-candidate.v1",
+  "source_lineage": {
+    "apps/portal/app/api/[...path]/route.ts": "104e81fe14815fcb988516cd11ec286f1b22670adedf5d3ed4d63b63b8ef643b",
+    "apps/portal/app/globals.css": "07f52f16604661f4292d1fbb37631cf687691ed67ab1400a111f49fe3951b3c4",
+    "apps/portal/app/layout.tsx": "0f6c6a307fe76e992f72ab930eba819d0569f0211719cc08cb020dc33cd081da",
+    "apps/portal/app/page.tsx": "c9b14cc80ccfb03faf6c0aa9e88bf87469fc553aa1486e4a1346df7414a4683b",
+    "cli/qdp.py": "fc89f8f0ed8f1199f714ec40a13f3f0da3331a849f3cb8956bf64cbf8a5700ce",
+    "contracts/asyncapi/asyncapi.v1alpha1.json": "ce0472ee9eb53de46e0478843e7e53806693757cdc71b831948671d2cd8eb605",
+    "contracts/examples/job-request.valid.json": "5a6b49bafd9fe7c0c6233474ca8e113195fd163defa0080f3d4dd7d5e016f073",
+    "contracts/jsonschema/job-request.v1.schema.json": "a9f4ab2e1da59f9739db07b668280d3763e204185def3612f3bba0a5445263f8",
+    "contracts/openapi/openapi.v1alpha1.json": "4127e1f511e8fa63442413485ee3876031b4fb5f7f835a56f02c6f4337e02fb0",
+    "contracts/standards-profile.v1.json": "0b43130103bb2bb1752cac4ae22460c4ab2329bc944d27806c7a3d50776fd8a4",
+    "docs/architecture/ADR-001-LOCAL-STACK.md": "78cabb971192c50e69a402d41621cf7657cd0009307f101dbd7516a30d63c4de",
+    "docs/architecture/PLATFORM_CHARTER.md": "cf910917114bf931a535690b27a9f7e32f44c4dc56cac96d73262ad2b32453d1",
+    "docs/decisions/ARCHITECTURE_REVIEW.md": "b2a638e1bee1e91a60701e1d121501be0f917e523b99b79825af85b1532dd51c",
+    "docs/dx/TTFS_PROTOCOL.md": "234a9dffe95aa299251a7ecb78ea8aa80e63842528ae9ed08331f8ef3715152d",
+    "docs/evaluation/VALIDATION_STATUS.md": "51d9c7b675ebcbb412f141f5e660a8c589832126e1c26dd0dd7142cca6944be8",
+    "docs/operations/RUNBOOKS.md": "9f7673ef2f22dde59516ac1ba3bfdf31d3530706efb894e6cd550f1ad9f67c36",
+    "docs/security/THREAT_MODEL.md": "d060978c71801588e0685ab143048565a34e95464231df3d7091cb2b6cac63c9",
+    "scripts/complete-project.ps1": "f1777fab1407eea5ef9a413981ea01fae61e8e0bbbaa368cdbb43d7d7abb569c",
+    "scripts/container-smoke.ps1": "3ff412fd3d7d10c45fb506ff3f15ecb38fa8dd81e440698bcde647cb43197029",
+    "scripts/quality-gate.ps1": "91795951f31f8ebd47bb6c8c1a81550666b0c8c4a73cd17e9aaf4d34e387e982",
+    "scripts/run_evaluation.py": "d7cab90c1305ddf6fceef36bdab42a4aef72ff88764c0bab5d651fd218a0a75a",
+    "scripts/scan_sensitive.py": "db07cf9ad785f5cf3c5e1b23772fac8b25250f9921420d08ea3c46dc0f771001",
+    "scripts/setup.ps1": "91e564b89533646cf6ac421aa67ea430558e835c294faae7cd3cf9e37375b2e0",
+    "scripts/verify_syntax.py": "2547a793e5ba7d3ac9984217a18e0af5e68d93d20d5ac5f71c3aa60c3d59241a",
+    "sdks/python/quantum_platform_sdk/__init__.py": "cfbfeddd32e77b82c7bada57fbb4647316d4d5a18e61c065189728fd5d2ce98c",
+    "sdks/python/quantum_platform_sdk/client.py": "82cb00d2535769b77159e39fdfa63c00d8e94b4c80d9e8868e553a209a564e48",
+    "sdks/typescript/src/index.ts": "9892a2b5af9ee113df903b0cf61cbdd1d1e4677d6a1009ca532a1b0356422b9b",
+    "src/quantum_platform/__init__.py": "1bca7783e8e8d5d196ed19e8fce05e1d44ed48193920377dc3b49c8a3ea2e377",
+    "src/quantum_platform/api.py": "7a529d089ed4f997fdd6e32b958c3a27ccf31a7cf5a514d6d5d8db8df16928f5",
+    "src/quantum_platform/control_plane.py": "ccfe01586b7037e556638291968f5cfe9d6b0c2c78e150a7957ccd34e174bd1f",
+    "src/quantum_platform/models.py": "2d8588681ae83c1d3d8a3f8d44aebdf96ac5e4ded42ec032e780ca7aff9524d6",
+    "src/quantum_platform/providers.py": "ecb2db67a63b94741b0a32b742440078716d51c472170140a40579d24907ed9e",
+    "src/quantum_platform/security.py": "567867e76f76bcd62aaf48cf4bc907ef089f897c547f4b903448e39c1a7b6623",
+    "src/quantum_platform/state_machine.py": "6e62e884b1484149acec8e722631aafe82873cb1775c6804d27828e3bc1ef673",
+    "tests/conftest.py": "5ba06d746c4f2e8ca3bdfd85ff2b28206fd9b9629187978739a8dea26befd354",
+    "tests/test_api.py": "f428aeb74239a29d6516bea8916827885fc1af67253e013798613bb027309b48",
+    "tests/test_contracts.py": "692fbd1d503bdf6e4a2a0b716302f14645f04066b818e20bff0e961a2564ee45",
+    "tests/test_control_plane.py": "db78695165bc95b59a10e8d588b4ca5afa21c6bce24b5d4026bd8d8a4ebd9a0c",
+    "tests/test_state_and_webhooks.py": "e0da23f8698d62904a7365a8391f0d121555f54bf2ebebe5a71a8a302612d8f0"
+  },
+  "status": "technical_candidate_unapproved"
+}

@@ -1,0 +1,27 @@
+{
+  "cases": {
+    "api_contract_property": 180,
+    "authorization_tenant": 120,
+    "fresh_environment_ttfs": 12,
+    "golden_path_automated_sessions": 20,
+    "provider_fault_state_machine": 90,
+    "quota_metering_reconciliation": 30,
+    "sdk_parity_python": 60,
+    "sdk_parity_typescript": 60,
+    "webhook_signature_retry_replay": 72
+  },
+  "limitations": [
+    "Usability and TTFS sessions are automated fixtures, not independent human research.",
+    "Provider cloud surfaces are contract stubs and were not live-tested."
+  ],
+  "results": {
+    "commercial_sla_claim": false,
+    "cross_tenant_exposures": 0,
+    "duplicate_provider_submissions": 0,
+    "live_cloud_jobs": 0,
+    "median_ttfs_seconds": 522.5,
+    "terminal_jobs_with_evidence_manifest_percent": 100
+  },
+  "schema_version": "qdp.evaluation.v1",
+  "status": "verified"
+}

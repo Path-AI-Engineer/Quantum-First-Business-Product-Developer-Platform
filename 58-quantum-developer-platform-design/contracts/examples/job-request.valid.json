@@ -1,0 +1,6 @@
+{
+  "operation": "circuit.sample",
+  "provider": "local",
+  "payload": {"qubits": 2, "shots": 256}
+}
+

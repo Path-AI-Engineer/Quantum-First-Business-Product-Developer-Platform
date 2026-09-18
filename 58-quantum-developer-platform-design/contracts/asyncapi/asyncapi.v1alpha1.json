@@ -1,0 +1,56 @@
+{
+  "asyncapi": "3.0.0",
+  "info": {
+    "title": "Quantum Developer Platform Events",
+    "version": "1.0.0-alpha.1",
+    "description": "CloudEvents delivered at least once; ordering is not guaranteed."
+  },
+  "channels": {
+    "jobEvents": {
+      "address": "webhook://configured-endpoint",
+      "messages": {
+        "jobSucceeded": {"$ref": "#/components/messages/jobSucceeded"},
+        "jobFailed": {"$ref": "#/components/messages/jobFailed"}
+      }
+    }
+  },
+  "operations": {
+    "deliverJobEvents": {
+      "action": "send",
+      "channel": {"$ref": "#/channels/jobEvents"},
+      "messages": [
+        {"$ref": "#/channels/jobEvents/messages/jobSucceeded"},
+        {"$ref": "#/channels/jobEvents/messages/jobFailed"}
+      ]
+    }
+  },
+  "components": {
+    "messages": {
+      "jobSucceeded": {
+        "name": "job.succeeded",
+        "contentType": "application/cloudevents+json",
+        "payload": {"$ref": "#/components/schemas/cloudEvent"}
+      },
+      "jobFailed": {
+        "name": "job.failed",
+        "contentType": "application/cloudevents+json",
+        "payload": {"$ref": "#/components/schemas/cloudEvent"}
+      }
+    },
+    "schemas": {
+      "cloudEvent": {
+        "type": "object",
+        "required": ["specversion", "id", "source", "type", "time", "data"],
+        "properties": {
+          "specversion": {"const": "1.0"},
+          "id": {"type": "string"},
+          "source": {"type": "string"},
+          "type": {"type": "string"},
+          "time": {"type": "string", "format": "date-time"},
+          "data": {"type": "object"}
+        }
+      }
+    }
+  }
+}
+
