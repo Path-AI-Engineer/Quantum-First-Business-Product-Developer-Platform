@@ -1,0 +1,5306 @@
+{
+  "domain": "workforce_scheduling",
+  "instances": [
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-00",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          10,
+          13,
+          16,
+          12,
+          15
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 2,
+        "preferences": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5700,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-00",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-01",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          11,
+          14,
+          10,
+          13,
+          16
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 2,
+        "preferences": [
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5701,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-01",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-02",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          12,
+          15,
+          11,
+          14,
+          10
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 2,
+        "preferences": [
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5702,
+        "synthetic": true
+      },
+      "scenario_id": "tight-02",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-03",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          13,
+          16,
+          12,
+          15,
+          11
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 2,
+        "preferences": [
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5703,
+        "synthetic": true
+      },
+      "scenario_id": "tight-03",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-04",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          14,
+          10,
+          13,
+          16,
+          12
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          6
+        ],
+        "max_shifts_per_worker": 2,
+        "preferences": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5704,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-04",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-05",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          15,
+          11,
+          14,
+          10,
+          13
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 2,
+        "preferences": [
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5705,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-05",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-06",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          16,
+          12,
+          15,
+          11,
+          14
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 2,
+        "preferences": [
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5706,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-06",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-07",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          10,
+          13,
+          16,
+          12,
+          15
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 2,
+        "preferences": [
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5707,
+        "synthetic": true
+      },
+      "scenario_id": "tight-07",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-08",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          11,
+          14,
+          10,
+          13,
+          16
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 2,
+        "preferences": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5708,
+        "synthetic": true
+      },
+      "scenario_id": "tight-08",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-09",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          12,
+          15,
+          11,
+          14,
+          10
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          6
+        ],
+        "max_shifts_per_worker": 2,
+        "preferences": [
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5709,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-09",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-10",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5710,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-10",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-11",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5711,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-11",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-12",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5712,
+        "synthetic": true
+      },
+      "scenario_id": "tight-12",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-13",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5713,
+        "synthetic": true
+      },
+      "scenario_id": "tight-13",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-14",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          9
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5714,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-14",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-15",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5715,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-15",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-16",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5716,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-16",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-17",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5717,
+        "synthetic": true
+      },
+      "scenario_id": "tight-17",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-18",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5718,
+        "synthetic": true
+      },
+      "scenario_id": "tight-18",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-19",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          9
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5719,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-19",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07",
+          "worker-08",
+          "worker-09",
+          "worker-10",
+          "worker-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-20",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5720,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-20",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07",
+          "worker-08",
+          "worker-09",
+          "worker-10",
+          "worker-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-21",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5721,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-21",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07",
+          "worker-08",
+          "worker-09",
+          "worker-10",
+          "worker-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-22",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5722,
+        "synthetic": true
+      },
+      "scenario_id": "tight-22",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07",
+          "worker-08",
+          "worker-09",
+          "worker-10",
+          "worker-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-23",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5723,
+        "synthetic": true
+      },
+      "scenario_id": "tight-23",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07",
+          "worker-08",
+          "worker-09",
+          "worker-10",
+          "worker-11"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-24",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          13
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5724,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-24",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07",
+          "worker-08",
+          "worker-09",
+          "worker-10",
+          "worker-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-25",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5725,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-25",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07",
+          "worker-08",
+          "worker-09",
+          "worker-10",
+          "worker-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-26",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5726,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-26",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07",
+          "worker-08",
+          "worker-09",
+          "worker-10",
+          "worker-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-27",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5727,
+        "synthetic": true
+      },
+      "scenario_id": "tight-27",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07",
+          "worker-08",
+          "worker-09",
+          "worker-10",
+          "worker-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-28",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15
+        ],
+        "demand": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            9
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5728,
+        "synthetic": true
+      },
+      "scenario_id": "tight-28",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "workforce_scheduling",
+      "entities": {
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "workers": [
+          "worker-00",
+          "worker-01",
+          "worker-02",
+          "worker-03",
+          "worker-04",
+          "worker-05",
+          "worker-06",
+          "worker-07",
+          "worker-08",
+          "worker-09",
+          "worker-10",
+          "worker-11"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "workforce_scheduling-29",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "costs": [
+          11,
+          14,
+          10,
+          13,
+          16,
+          12,
+          15,
+          11,
+          14,
+          10,
+          13,
+          16
+        ],
+        "demand": [
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3,
+          13
+        ],
+        "max_shifts_per_worker": 3,
+        "preferences": [
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            0,
+            1
+          ]
+        ],
+        "unavailable": [
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5729,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-29",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    }
+  ],
+  "schema_version": "optimization.instances.v1"
+}

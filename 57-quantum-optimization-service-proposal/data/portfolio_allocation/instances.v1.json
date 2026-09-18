@@ -1,0 +1,2686 @@
+{
+  "domain": "portfolio_allocation",
+  "instances": [
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-00",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 3,
+        "max_per_sector": 2,
+        "minimum_return": 27,
+        "return_weight": 2,
+        "returns": [
+          4,
+          9,
+          14,
+          7,
+          12
+        ],
+        "risk_weight": 1,
+        "risks": [
+          2,
+          9,
+          7,
+          5,
+          3
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5700,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-00",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-01",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 3,
+        "max_per_sector": 2,
+        "minimum_return": 30,
+        "return_weight": 2,
+        "returns": [
+          5,
+          10,
+          15,
+          8,
+          13
+        ],
+        "risk_weight": 1,
+        "risks": [
+          3,
+          10,
+          8,
+          6,
+          4
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5701,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-01",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-02",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 3,
+        "max_per_sector": 2,
+        "minimum_return": 32,
+        "return_weight": 2,
+        "returns": [
+          6,
+          11,
+          4,
+          9,
+          14
+        ],
+        "risk_weight": 1,
+        "risks": [
+          4,
+          2,
+          9,
+          7,
+          5
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5702,
+        "synthetic": true
+      },
+      "scenario_id": "tight-02",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-03",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 3,
+        "max_per_sector": 2,
+        "minimum_return": 35,
+        "return_weight": 2,
+        "returns": [
+          7,
+          12,
+          5,
+          10,
+          15
+        ],
+        "risk_weight": 1,
+        "risks": [
+          5,
+          3,
+          10,
+          8,
+          6
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5703,
+        "synthetic": true
+      },
+      "scenario_id": "tight-03",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-04",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 3,
+        "max_per_sector": 2,
+        "minimum_return": 42,
+        "return_weight": 2,
+        "returns": [
+          8,
+          13,
+          6,
+          11,
+          4
+        ],
+        "risk_weight": 1,
+        "risks": [
+          6,
+          4,
+          2,
+          9,
+          7
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5704,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-04",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-05",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 3,
+        "max_per_sector": 2,
+        "minimum_return": 27,
+        "return_weight": 2,
+        "returns": [
+          9,
+          14,
+          7,
+          12,
+          5
+        ],
+        "risk_weight": 1,
+        "risks": [
+          7,
+          5,
+          3,
+          10,
+          8
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5705,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-05",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-06",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 3,
+        "max_per_sector": 2,
+        "minimum_return": 30,
+        "return_weight": 2,
+        "returns": [
+          10,
+          15,
+          8,
+          13,
+          6
+        ],
+        "risk_weight": 1,
+        "risks": [
+          8,
+          6,
+          4,
+          2,
+          9
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5706,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-06",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-07",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 3,
+        "max_per_sector": 2,
+        "minimum_return": 32,
+        "return_weight": 2,
+        "returns": [
+          11,
+          4,
+          9,
+          14,
+          7
+        ],
+        "risk_weight": 1,
+        "risks": [
+          9,
+          7,
+          5,
+          3,
+          10
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5707,
+        "synthetic": true
+      },
+      "scenario_id": "tight-07",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-08",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 3,
+        "max_per_sector": 2,
+        "minimum_return": 35,
+        "return_weight": 2,
+        "returns": [
+          12,
+          5,
+          10,
+          15,
+          8
+        ],
+        "risk_weight": 1,
+        "risks": [
+          10,
+          8,
+          6,
+          4,
+          2
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5708,
+        "synthetic": true
+      },
+      "scenario_id": "tight-08",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-09",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 3,
+        "max_per_sector": 2,
+        "minimum_return": 43,
+        "return_weight": 2,
+        "returns": [
+          13,
+          6,
+          11,
+          4,
+          9
+        ],
+        "risk_weight": 1,
+        "risks": [
+          2,
+          9,
+          7,
+          5,
+          3
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5709,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-09",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "small",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-10",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 4,
+        "max_per_sector": 2,
+        "minimum_return": 46,
+        "return_weight": 2,
+        "returns": [
+          14,
+          7,
+          12,
+          5,
+          10,
+          15,
+          8,
+          13
+        ],
+        "risk_weight": 1,
+        "risks": [
+          3,
+          10,
+          8,
+          6,
+          4,
+          2,
+          9,
+          7
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5710,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-10",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-11",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 4,
+        "max_per_sector": 2,
+        "minimum_return": 45,
+        "return_weight": 2,
+        "returns": [
+          15,
+          8,
+          13,
+          6,
+          11,
+          4,
+          9,
+          14
+        ],
+        "risk_weight": 1,
+        "risks": [
+          4,
+          2,
+          9,
+          7,
+          5,
+          3,
+          10,
+          8
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5711,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-11",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-12",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 4,
+        "max_per_sector": 2,
+        "minimum_return": 49,
+        "return_weight": 2,
+        "returns": [
+          4,
+          9,
+          14,
+          7,
+          12,
+          5,
+          10,
+          15
+        ],
+        "risk_weight": 1,
+        "risks": [
+          5,
+          3,
+          10,
+          8,
+          6,
+          4,
+          2,
+          9
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5712,
+        "synthetic": true
+      },
+      "scenario_id": "tight-12",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-13",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 4,
+        "max_per_sector": 2,
+        "minimum_return": 47,
+        "return_weight": 2,
+        "returns": [
+          5,
+          10,
+          15,
+          8,
+          13,
+          6,
+          11,
+          4
+        ],
+        "risk_weight": 1,
+        "risks": [
+          6,
+          4,
+          2,
+          9,
+          7,
+          5,
+          3,
+          10
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5713,
+        "synthetic": true
+      },
+      "scenario_id": "tight-13",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-14",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 4,
+        "max_per_sector": 2,
+        "minimum_return": 56,
+        "return_weight": 2,
+        "returns": [
+          6,
+          11,
+          4,
+          9,
+          14,
+          7,
+          12,
+          5
+        ],
+        "risk_weight": 1,
+        "risks": [
+          7,
+          5,
+          3,
+          10,
+          8,
+          6,
+          4,
+          2
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5714,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-14",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-15",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 4,
+        "max_per_sector": 2,
+        "minimum_return": 42,
+        "return_weight": 2,
+        "returns": [
+          7,
+          12,
+          5,
+          10,
+          15,
+          8,
+          13,
+          6
+        ],
+        "risk_weight": 1,
+        "risks": [
+          8,
+          6,
+          4,
+          2,
+          9,
+          7,
+          5,
+          3
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5715,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-15",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-16",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 4,
+        "max_per_sector": 2,
+        "minimum_return": 39,
+        "return_weight": 2,
+        "returns": [
+          8,
+          13,
+          6,
+          11,
+          4,
+          9,
+          14,
+          7
+        ],
+        "risk_weight": 1,
+        "risks": [
+          9,
+          7,
+          5,
+          3,
+          10,
+          8,
+          6,
+          4
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5716,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-16",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-17",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 4,
+        "max_per_sector": 2,
+        "minimum_return": 49,
+        "return_weight": 2,
+        "returns": [
+          9,
+          14,
+          7,
+          12,
+          5,
+          10,
+          15,
+          8
+        ],
+        "risk_weight": 1,
+        "risks": [
+          10,
+          8,
+          6,
+          4,
+          2,
+          9,
+          7,
+          5
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5717,
+        "synthetic": true
+      },
+      "scenario_id": "tight-17",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-18",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 4,
+        "max_per_sector": 2,
+        "minimum_return": 47,
+        "return_weight": 2,
+        "returns": [
+          10,
+          15,
+          8,
+          13,
+          6,
+          11,
+          4,
+          9
+        ],
+        "risk_weight": 1,
+        "risks": [
+          2,
+          9,
+          7,
+          5,
+          3,
+          10,
+          8,
+          6
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5718,
+        "synthetic": true
+      },
+      "scenario_id": "tight-18",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-19",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 4,
+        "max_per_sector": 2,
+        "minimum_return": 57,
+        "return_weight": 2,
+        "returns": [
+          11,
+          4,
+          9,
+          14,
+          7,
+          12,
+          5,
+          10
+        ],
+        "risk_weight": 1,
+        "risks": [
+          3,
+          10,
+          8,
+          6,
+          4,
+          2,
+          9,
+          7
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5719,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-19",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "medium",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07",
+          "asset-08",
+          "asset-09",
+          "asset-10",
+          "asset-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-20",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 5,
+        "max_per_sector": 2,
+        "minimum_return": 57,
+        "return_weight": 2,
+        "returns": [
+          12,
+          5,
+          10,
+          15,
+          8,
+          13,
+          6,
+          11,
+          4,
+          9,
+          14,
+          7
+        ],
+        "risk_weight": 1,
+        "risks": [
+          4,
+          2,
+          9,
+          7,
+          5,
+          3,
+          10,
+          8,
+          6,
+          4,
+          2,
+          9
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5720,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-20",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07",
+          "asset-08",
+          "asset-09",
+          "asset-10",
+          "asset-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-21",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 5,
+        "max_per_sector": 2,
+        "minimum_return": 57,
+        "return_weight": 2,
+        "returns": [
+          13,
+          6,
+          11,
+          4,
+          9,
+          14,
+          7,
+          12,
+          5,
+          10,
+          15,
+          8
+        ],
+        "risk_weight": 1,
+        "risks": [
+          5,
+          3,
+          10,
+          8,
+          6,
+          4,
+          2,
+          9,
+          7,
+          5,
+          3,
+          10
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5721,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-21",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07",
+          "asset-08",
+          "asset-09",
+          "asset-10",
+          "asset-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-22",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 5,
+        "max_per_sector": 2,
+        "minimum_return": 63,
+        "return_weight": 2,
+        "returns": [
+          14,
+          7,
+          12,
+          5,
+          10,
+          15,
+          8,
+          13,
+          6,
+          11,
+          4,
+          9
+        ],
+        "risk_weight": 1,
+        "risks": [
+          6,
+          4,
+          2,
+          9,
+          7,
+          5,
+          3,
+          10,
+          8,
+          6,
+          4,
+          2
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5722,
+        "synthetic": true
+      },
+      "scenario_id": "tight-22",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07",
+          "asset-08",
+          "asset-09",
+          "asset-10",
+          "asset-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-23",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 5,
+        "max_per_sector": 2,
+        "minimum_return": 63,
+        "return_weight": 2,
+        "returns": [
+          15,
+          8,
+          13,
+          6,
+          11,
+          4,
+          9,
+          14,
+          7,
+          12,
+          5,
+          10
+        ],
+        "risk_weight": 1,
+        "risks": [
+          7,
+          5,
+          3,
+          10,
+          8,
+          6,
+          4,
+          2,
+          9,
+          7,
+          5,
+          3
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5723,
+        "synthetic": true
+      },
+      "scenario_id": "tight-23",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07",
+          "asset-08",
+          "asset-09",
+          "asset-10",
+          "asset-11"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-24",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 5,
+        "max_per_sector": 2,
+        "minimum_return": 75,
+        "return_weight": 2,
+        "returns": [
+          4,
+          9,
+          14,
+          7,
+          12,
+          5,
+          10,
+          15,
+          8,
+          13,
+          6,
+          11
+        ],
+        "risk_weight": 1,
+        "risks": [
+          8,
+          6,
+          4,
+          2,
+          9,
+          7,
+          5,
+          3,
+          10,
+          8,
+          6,
+          4
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5724,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-24",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07",
+          "asset-08",
+          "asset-09",
+          "asset-10",
+          "asset-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-25",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 5,
+        "max_per_sector": 2,
+        "minimum_return": 57,
+        "return_weight": 2,
+        "returns": [
+          5,
+          10,
+          15,
+          8,
+          13,
+          6,
+          11,
+          4,
+          9,
+          14,
+          7,
+          12
+        ],
+        "risk_weight": 1,
+        "risks": [
+          9,
+          7,
+          5,
+          3,
+          10,
+          8,
+          6,
+          4,
+          2,
+          9,
+          7,
+          5
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5725,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-25",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07",
+          "asset-08",
+          "asset-09",
+          "asset-10",
+          "asset-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-26",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 5,
+        "max_per_sector": 2,
+        "minimum_return": 57,
+        "return_weight": 2,
+        "returns": [
+          6,
+          11,
+          4,
+          9,
+          14,
+          7,
+          12,
+          5,
+          10,
+          15,
+          8,
+          13
+        ],
+        "risk_weight": 1,
+        "risks": [
+          10,
+          8,
+          6,
+          4,
+          2,
+          9,
+          7,
+          5,
+          3,
+          10,
+          8,
+          6
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5726,
+        "synthetic": true
+      },
+      "scenario_id": "nominal-26",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07",
+          "asset-08",
+          "asset-09",
+          "asset-10",
+          "asset-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-27",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 5,
+        "max_per_sector": 2,
+        "minimum_return": 63,
+        "return_weight": 2,
+        "returns": [
+          7,
+          12,
+          5,
+          10,
+          15,
+          8,
+          13,
+          6,
+          11,
+          4,
+          9,
+          14
+        ],
+        "risk_weight": 1,
+        "risks": [
+          2,
+          9,
+          7,
+          5,
+          3,
+          10,
+          8,
+          6,
+          4,
+          2,
+          9,
+          7
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5727,
+        "synthetic": true
+      },
+      "scenario_id": "tight-27",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "test",
+      "test_locked": true,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07",
+          "asset-08",
+          "asset-09",
+          "asset-10",
+          "asset-11"
+        ]
+      },
+      "expected_feasibility": "FEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-28",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 5,
+        "max_per_sector": 2,
+        "minimum_return": 63,
+        "return_weight": 2,
+        "returns": [
+          8,
+          13,
+          6,
+          11,
+          4,
+          9,
+          14,
+          7,
+          12,
+          5,
+          10,
+          15
+        ],
+        "risk_weight": 1,
+        "risks": [
+          3,
+          10,
+          8,
+          6,
+          4,
+          2,
+          9,
+          7,
+          5,
+          3,
+          10,
+          8
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5728,
+        "synthetic": true
+      },
+      "scenario_id": "tight-28",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    },
+    {
+      "business_unit": "Fictional Operations",
+      "currency": "USD",
+      "domain": "portfolio_allocation",
+      "entities": {
+        "assets": [
+          "asset-00",
+          "asset-01",
+          "asset-02",
+          "asset-03",
+          "asset-04",
+          "asset-05",
+          "asset-06",
+          "asset-07",
+          "asset-08",
+          "asset-09",
+          "asset-10",
+          "asset-11"
+        ]
+      },
+      "expected_feasibility": "INFEASIBLE",
+      "hard_constraints": [
+        "capacity_or_coverage",
+        "availability_or_exposure",
+        "declared_domain_limits"
+      ],
+      "instance_id": "portfolio_allocation-29",
+      "objective_terms": [
+        {
+          "name": "primary_operational_cost",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        },
+        {
+          "name": "soft_constraint_penalty",
+          "unit": "synthetic_score",
+          "weight": 1.0
+        }
+      ],
+      "parameters": {
+        "max_assets": 5,
+        "max_per_sector": 2,
+        "minimum_return": 75,
+        "return_weight": 2,
+        "returns": [
+          9,
+          14,
+          7,
+          12,
+          5,
+          10,
+          15,
+          8,
+          13,
+          6,
+          11,
+          4
+        ],
+        "risk_weight": 1,
+        "risks": [
+          4,
+          2,
+          9,
+          7,
+          5,
+          3,
+          10,
+          8,
+          6,
+          4,
+          2,
+          9
+        ],
+        "sectors": [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      },
+      "provenance": {
+        "generator": "optimization_lab.corpus",
+        "seed": 5729,
+        "synthetic": true
+      },
+      "scenario_id": "infeasible-29",
+      "schema_version": "optimization.instance.v1alpha1",
+      "sensitive_data_classification": "SYNTHETIC_PUBLIC",
+      "size": "large",
+      "soft_constraints": [
+        "preference_or_stability"
+      ],
+      "split": "development",
+      "test_locked": false,
+      "time_zone": "UTC"
+    }
+  ],
+  "schema_version": "optimization.instances.v1"
+}

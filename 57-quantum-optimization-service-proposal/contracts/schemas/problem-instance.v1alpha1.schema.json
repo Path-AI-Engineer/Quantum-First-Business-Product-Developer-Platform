@@ -1,0 +1,145 @@
+{
+  "$defs": {
+    "Domain": {
+      "enum": [
+        "workforce_scheduling",
+        "distribution_routing",
+        "portfolio_allocation"
+      ],
+      "title": "Domain",
+      "type": "string"
+    },
+    "Feasibility": {
+      "enum": [
+        "FEASIBLE",
+        "INFEASIBLE",
+        "UNKNOWN"
+      ],
+      "title": "Feasibility",
+      "type": "string"
+    },
+    "Size": {
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "title": "Size",
+      "type": "string"
+    },
+    "Split": {
+      "enum": [
+        "development",
+        "test"
+      ],
+      "title": "Split",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "business_unit": {
+      "default": "Fictional Operations",
+      "title": "Business Unit",
+      "type": "string"
+    },
+    "currency": {
+      "default": "USD",
+      "title": "Currency",
+      "type": "string"
+    },
+    "domain": {
+      "$ref": "#/$defs/Domain"
+    },
+    "entities": {
+      "additionalProperties": true,
+      "title": "Entities",
+      "type": "object"
+    },
+    "expected_feasibility": {
+      "$ref": "#/$defs/Feasibility"
+    },
+    "hard_constraints": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Hard Constraints",
+      "type": "array"
+    },
+    "instance_id": {
+      "title": "Instance Id",
+      "type": "string"
+    },
+    "objective_terms": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Objective Terms",
+      "type": "array"
+    },
+    "parameters": {
+      "additionalProperties": true,
+      "title": "Parameters",
+      "type": "object"
+    },
+    "provenance": {
+      "additionalProperties": true,
+      "title": "Provenance",
+      "type": "object"
+    },
+    "scenario_id": {
+      "title": "Scenario Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "default": "optimization.instance.v1alpha1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "sensitive_data_classification": {
+      "default": "SYNTHETIC_PUBLIC",
+      "title": "Sensitive Data Classification",
+      "type": "string"
+    },
+    "size": {
+      "$ref": "#/$defs/Size"
+    },
+    "soft_constraints": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Soft Constraints",
+      "type": "array"
+    },
+    "split": {
+      "$ref": "#/$defs/Split"
+    },
+    "test_locked": {
+      "default": false,
+      "title": "Test Locked",
+      "type": "boolean"
+    },
+    "time_zone": {
+      "default": "UTC",
+      "title": "Time Zone",
+      "type": "string"
+    }
+  },
+  "required": [
+    "instance_id",
+    "domain",
+    "size",
+    "split",
+    "scenario_id",
+    "entities",
+    "parameters",
+    "hard_constraints",
+    "soft_constraints",
+    "objective_terms",
+    "provenance",
+    "expected_feasibility"
+  ],
+  "title": "ProblemInstance",
+  "type": "object"
+}

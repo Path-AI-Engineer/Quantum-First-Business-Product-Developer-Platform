@@ -1,0 +1,23 @@
+{
+  "domains": [
+    {
+      "domain": "workforce_scheduling",
+      "feasibility_rate": 0.8333333333333334,
+      "guardrail": "re-solve and require independent feasibility check after every material input change",
+      "scenarios": 6
+    },
+    {
+      "domain": "distribution_routing",
+      "feasibility_rate": 0.8333333333333334,
+      "guardrail": "re-solve and require independent feasibility check after every material input change",
+      "scenarios": 6
+    },
+    {
+      "domain": "portfolio_allocation",
+      "feasibility_rate": 0.8333333333333334,
+      "guardrail": "re-solve and require independent feasibility check after every material input change",
+      "scenarios": 6
+    }
+  ],
+  "schema_version": "optimization.robustness.v1"
+}

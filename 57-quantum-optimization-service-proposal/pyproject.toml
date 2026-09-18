@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "optimization-value-validation-lab"
+version = "0.1.0"
+description = "Classical-first, quantum-ready optimization opportunity assessment lab"
+requires-python = ">=3.13"
+dependencies = [
+  "duckdb==1.4.1",
+  "fastapi==0.141.1",
+  "networkx==3.5",
+  "numpy==2.5.1",
+  "ortools==9.14.6206",
+  "pydantic==2.13.1",
+  "uvicorn[standard]==0.35.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx==0.28.1",
+  "hypothesis==6.138.2",
+  "jsonschema==4.25.1",
+  "mypy==1.17.1",
+  "pytest==8.4.1",
+  "pytest-cov==6.2.1",
+  "ruff==0.12.11",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/optimization_lab"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+packages = ["optimization_lab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --cov=optimization_lab --cov-branch --cov-fail-under=82"

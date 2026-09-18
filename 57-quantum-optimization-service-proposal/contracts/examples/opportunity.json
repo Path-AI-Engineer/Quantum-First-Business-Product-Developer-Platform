@@ -1,0 +1,21 @@
+{
+  "name": "Fictional workforce planning",
+  "domain": "workforce_scheduling",
+  "decision_frequency_per_year": 250,
+  "current_cost_per_decision": 120,
+  "dimensions": {
+    "decision_value": 0.72,
+    "outcome_controllability": 0.72,
+    "data_quality": 0.72,
+    "data_latency": 0.72,
+    "constraint_stability": 0.72,
+    "combinatorial_structure": 0.72,
+    "baseline_maturity": 0.72,
+    "integration_readiness": 0.72,
+    "error_tolerance": 0.72,
+    "human_validation": 0.72,
+    "current_solution_cost": 0.72,
+    "qubo_fit": 0.72,
+    "organizational_maturity": 0.72
+  }
+}

@@ -1,0 +1,1211 @@
+{
+  "components": {
+    "schemas": {
+      "Domain": {
+        "enum": [
+          "workforce_scheduling",
+          "distribution_routing",
+          "portfolio_allocation"
+        ],
+        "title": "Domain",
+        "type": "string"
+      },
+      "Feasibility": {
+        "enum": [
+          "FEASIBLE",
+          "INFEASIBLE",
+          "UNKNOWN"
+        ],
+        "title": "Feasibility",
+        "type": "string"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "title": "Detail",
+            "type": "array"
+          }
+        },
+        "title": "HTTPValidationError",
+        "type": "object"
+      },
+      "Opportunity": {
+        "additionalProperties": false,
+        "properties": {
+          "current_cost_per_decision": {
+            "maximum": 1000000.0,
+            "minimum": 0.0,
+            "title": "Current Cost Per Decision",
+            "type": "number"
+          },
+          "decision_frequency_per_year": {
+            "maximum": 100000.0,
+            "minimum": 1.0,
+            "title": "Decision Frequency Per Year",
+            "type": "integer"
+          },
+          "dimensions": {
+            "additionalProperties": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "title": "Dimensions",
+            "type": "object"
+          },
+          "domain": {
+            "$ref": "#/components/schemas/Domain"
+          },
+          "name": {
+            "maxLength": 100,
+            "minLength": 3,
+            "title": "Name",
+            "type": "string"
+          },
+          "opportunity_id": {
+            "title": "Opportunity Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "domain",
+          "decision_frequency_per_year",
+          "current_cost_per_decision",
+          "dimensions",
+          "opportunity_id"
+        ],
+        "title": "Opportunity",
+        "type": "object"
+      },
+      "OpportunityCreate": {
+        "additionalProperties": false,
+        "properties": {
+          "current_cost_per_decision": {
+            "maximum": 1000000.0,
+            "minimum": 0.0,
+            "title": "Current Cost Per Decision",
+            "type": "number"
+          },
+          "decision_frequency_per_year": {
+            "maximum": 100000.0,
+            "minimum": 1.0,
+            "title": "Decision Frequency Per Year",
+            "type": "integer"
+          },
+          "dimensions": {
+            "additionalProperties": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "title": "Dimensions",
+            "type": "object"
+          },
+          "domain": {
+            "$ref": "#/components/schemas/Domain"
+          },
+          "name": {
+            "maxLength": 100,
+            "minLength": 3,
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "domain",
+          "decision_frequency_per_year",
+          "current_cost_per_decision",
+          "dimensions"
+        ],
+        "title": "OpportunityCreate",
+        "type": "object"
+      },
+      "PilotCreate": {
+        "additionalProperties": false,
+        "properties": {
+          "acceptance_metrics": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 3,
+            "title": "Acceptance Metrics",
+            "type": "array"
+          },
+          "domain": {
+            "$ref": "#/components/schemas/Domain"
+          },
+          "opportunity_id": {
+            "title": "Opportunity Id",
+            "type": "string"
+          },
+          "owner": {
+            "maxLength": 100,
+            "minLength": 3,
+            "title": "Owner",
+            "type": "string"
+          },
+          "rollback_trigger": {
+            "minLength": 10,
+            "title": "Rollback Trigger",
+            "type": "string"
+          }
+        },
+        "required": [
+          "opportunity_id",
+          "domain",
+          "owner",
+          "acceptance_metrics",
+          "rollback_trigger"
+        ],
+        "title": "PilotCreate",
+        "type": "object"
+      },
+      "ProblemInstance": {
+        "additionalProperties": false,
+        "properties": {
+          "business_unit": {
+            "default": "Fictional Operations",
+            "title": "Business Unit",
+            "type": "string"
+          },
+          "currency": {
+            "default": "USD",
+            "title": "Currency",
+            "type": "string"
+          },
+          "domain": {
+            "$ref": "#/components/schemas/Domain"
+          },
+          "entities": {
+            "additionalProperties": true,
+            "title": "Entities",
+            "type": "object"
+          },
+          "expected_feasibility": {
+            "$ref": "#/components/schemas/Feasibility"
+          },
+          "hard_constraints": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Hard Constraints",
+            "type": "array"
+          },
+          "instance_id": {
+            "title": "Instance Id",
+            "type": "string"
+          },
+          "objective_terms": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Objective Terms",
+            "type": "array"
+          },
+          "parameters": {
+            "additionalProperties": true,
+            "title": "Parameters",
+            "type": "object"
+          },
+          "provenance": {
+            "additionalProperties": true,
+            "title": "Provenance",
+            "type": "object"
+          },
+          "scenario_id": {
+            "title": "Scenario Id",
+            "type": "string"
+          },
+          "schema_version": {
+            "default": "optimization.instance.v1alpha1",
+            "title": "Schema Version",
+            "type": "string"
+          },
+          "sensitive_data_classification": {
+            "default": "SYNTHETIC_PUBLIC",
+            "title": "Sensitive Data Classification",
+            "type": "string"
+          },
+          "size": {
+            "$ref": "#/components/schemas/Size"
+          },
+          "soft_constraints": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Soft Constraints",
+            "type": "array"
+          },
+          "split": {
+            "$ref": "#/components/schemas/Split"
+          },
+          "test_locked": {
+            "default": false,
+            "title": "Test Locked",
+            "type": "boolean"
+          },
+          "time_zone": {
+            "default": "UTC",
+            "title": "Time Zone",
+            "type": "string"
+          }
+        },
+        "required": [
+          "instance_id",
+          "domain",
+          "size",
+          "split",
+          "scenario_id",
+          "entities",
+          "parameters",
+          "hard_constraints",
+          "soft_constraints",
+          "objective_terms",
+          "provenance",
+          "expected_feasibility"
+        ],
+        "title": "ProblemInstance",
+        "type": "object"
+      },
+      "Size": {
+        "enum": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "title": "Size",
+        "type": "string"
+      },
+      "Split": {
+        "enum": [
+          "development",
+          "test"
+        ],
+        "title": "Split",
+        "type": "string"
+      },
+      "ValidationError": {
+        "properties": {
+          "ctx": {
+            "title": "Context",
+            "type": "object"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "title": "Location",
+            "type": "array"
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError",
+        "type": "object"
+      },
+      "ValueModelInput": {
+        "additionalProperties": false,
+        "properties": {
+          "adoption_high": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Adoption High",
+            "type": "number"
+          },
+          "adoption_low": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Adoption Low",
+            "type": "number"
+          },
+          "annual_operating_cost": {
+            "minimum": 0.0,
+            "title": "Annual Operating Cost",
+            "type": "number"
+          },
+          "baseline_cost_per_decision": {
+            "exclusiveMinimum": 0.0,
+            "title": "Baseline Cost Per Decision",
+            "type": "number"
+          },
+          "decisions_per_year": {
+            "exclusiveMinimum": 0.0,
+            "title": "Decisions Per Year",
+            "type": "integer"
+          },
+          "horizon_years": {
+            "maximum": 10.0,
+            "minimum": 1.0,
+            "title": "Horizon Years",
+            "type": "integer"
+          },
+          "improvement_high": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Improvement High",
+            "type": "number"
+          },
+          "improvement_low": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Improvement Low",
+            "type": "number"
+          },
+          "integration_cost": {
+            "minimum": 0.0,
+            "title": "Integration Cost",
+            "type": "number"
+          },
+          "risk_adjustment": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Risk Adjustment",
+            "type": "number"
+          }
+        },
+        "required": [
+          "baseline_cost_per_decision",
+          "decisions_per_year",
+          "improvement_low",
+          "improvement_high",
+          "adoption_low",
+          "adoption_high",
+          "integration_cost",
+          "annual_operating_cost",
+          "risk_adjustment",
+          "horizon_years"
+        ],
+        "title": "ValueModelInput",
+        "type": "object"
+      }
+    }
+  },
+  "info": {
+    "description": "Classical-first local prototype. Outputs are evidence, not automated operational or financial advice.",
+    "title": "Optimization Value Validation Lab",
+    "version": "1.0.0-alpha.1"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/health": {
+      "get": {
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "title": "Response Health Health Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Health"
+      }
+    },
+    "/v1/benchmarks": {
+      "post": {
+        "operationId": "create_benchmark_v1_benchmarks_post",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Create Benchmark V1 Benchmarks Post",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Benchmark"
+      }
+    },
+    "/v1/benchmarks/{benchmark_id}": {
+      "get": {
+        "operationId": "get_benchmark_v1_benchmarks__benchmark_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "benchmark_id",
+            "required": true,
+            "schema": {
+              "title": "Benchmark Id",
+              "type": "string"
+            }
+          },
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Get Benchmark V1 Benchmarks  Benchmark Id  Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Benchmark"
+      }
+    },
+    "/v1/benchmarks/{benchmark_id}/comparison": {
+      "get": {
+        "operationId": "benchmark_comparison_v1_benchmarks__benchmark_id__comparison_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "benchmark_id",
+            "required": true,
+            "schema": {
+              "title": "Benchmark Id",
+              "type": "string"
+            }
+          },
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Benchmark Comparison V1 Benchmarks  Benchmark Id  Comparison Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Benchmark Comparison"
+      }
+    },
+    "/v1/benchmarks/{benchmark_id}/runs": {
+      "get": {
+        "operationId": "benchmark_runs_v1_benchmarks__benchmark_id__runs_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "benchmark_id",
+            "required": true,
+            "schema": {
+              "title": "Benchmark Id",
+              "type": "string"
+            }
+          },
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Benchmark Runs V1 Benchmarks  Benchmark Id  Runs Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Benchmark Runs"
+      }
+    },
+    "/v1/evidence/{record_id}": {
+      "get": {
+        "operationId": "evidence_v1_evidence__record_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "record_id",
+            "required": true,
+            "schema": {
+              "title": "Record Id",
+              "type": "string"
+            }
+          },
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Evidence V1 Evidence  Record Id  Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Evidence"
+      }
+    },
+    "/v1/formulations": {
+      "get": {
+        "operationId": "formulations_v1_formulations_get",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Formulations V1 Formulations Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Formulations"
+      }
+    },
+    "/v1/instances": {
+      "post": {
+        "operationId": "create_instance_v1_instances_post",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProblemInstance"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemInstance"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Instance"
+      }
+    },
+    "/v1/opportunities": {
+      "post": {
+        "operationId": "create_opportunity_v1_opportunities_post",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OpportunityCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Opportunity"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Opportunity"
+      }
+    },
+    "/v1/opportunities/{opportunity_id}": {
+      "get": {
+        "operationId": "get_opportunity_v1_opportunities__opportunity_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "opportunity_id",
+            "required": true,
+            "schema": {
+              "title": "Opportunity Id",
+              "type": "string"
+            }
+          },
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Opportunity"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Opportunity"
+      }
+    },
+    "/v1/opportunities/{opportunity_id}/assess": {
+      "post": {
+        "operationId": "assess_opportunity_v1_opportunities__opportunity_id__assess_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "opportunity_id",
+            "required": true,
+            "schema": {
+              "title": "Opportunity Id",
+              "type": "string"
+            }
+          },
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Assess Opportunity V1 Opportunities  Opportunity Id  Assess Post"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Assess Opportunity"
+      }
+    },
+    "/v1/pilots": {
+      "post": {
+        "operationId": "create_pilot_v1_pilots_post",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PilotCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Create Pilot V1 Pilots Post"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Pilot"
+      }
+    },
+    "/v1/proposals": {
+      "post": {
+        "operationId": "create_proposal_v1_proposals_post",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "opportunity_id",
+            "required": true,
+            "schema": {
+              "title": "Opportunity Id",
+              "type": "string"
+            }
+          },
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Create Proposal V1 Proposals Post"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Proposal"
+      }
+    },
+    "/v1/snapshot": {
+      "get": {
+        "operationId": "snapshot_v1_snapshot_get",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Snapshot V1 Snapshot Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Snapshot"
+      }
+    },
+    "/v1/value-models": {
+      "post": {
+        "operationId": "create_value_model_v1_value_models_post",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "x-demo-identity",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Demo-Identity"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ValueModelInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Create Value Model V1 Value Models Post"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Value Model"
+      }
+    }
+  }
+}
