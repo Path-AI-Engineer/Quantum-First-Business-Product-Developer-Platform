@@ -4,6 +4,7 @@ import copy
 
 import pytest
 
+from optimization_lab.benchmark import run_benchmark
 from optimization_lab.corpus import build_corpus
 from optimization_lab.models import Domain, Feasibility, Size
 from optimization_lab.solvers import check_feasibility, objective_gap, solve_heuristic, solve_strong
@@ -51,3 +52,11 @@ def test_heuristic_is_only_reported_when_independently_feasible(domain: Domain) 
 def test_gap_is_none_without_two_feasible_results() -> None:
     instance = next(item for item in build_corpus() if item.expected_feasibility is Feasibility.INFEASIBLE)
     assert objective_gap(solve_strong(instance), solve_strong(instance, exact=True)) is None
+
+
+def test_frozen_benchmark_normalizes_nondeterministic_timings() -> None:
+    benchmark = run_benchmark(include_locked_test=False, normalize_timings=True)
+
+    assert benchmark["protocol"]["timing_mode"] == "normalized"
+    assert all(run["wall_time_ms"] == 0.0 for run in benchmark["runs"])
+    assert all(point["elapsed_ms"] == 0.0 for run in benchmark["runs"] for point in run["best_so_far"])

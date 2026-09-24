@@ -29,7 +29,8 @@
     "hardware": "local CPU",
     "per_instance_time_budget_seconds": 0.08,
     "same_input_and_objective": true,
-    "test_locked_until_final": true
+    "test_locked_until_final": true,
+    "timing_mode": "normalized"
   },
   "qaoa_advantage_claim": false,
   "qaoa_experiment": [
@@ -146,7 +147,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 8.647899987408891,
+          "elapsed_ms": 0.0,
           "objective": 140.0
         }
       ],
@@ -160,14 +161,14 @@
       "notes": [],
       "objective": 140.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "f62a2d8f55c36cc840f3d0ac82f62a2d6138ee4b00044896074a5f35aa337309",
+      "reproducibility_sha256": "e49315464f39e5e42ca77198f8745516392619b3378e0eff8377d2b3d2854dc2",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 8.646899979794398
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -216,7 +217,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.049299997044727206,
+          "elapsed_ms": 0.0,
           "objective": 144.0
         }
       ],
@@ -230,14 +231,14 @@
       "notes": [],
       "objective": 144.0,
       "oracle_gap": 0.02857142857142857,
-      "reproducibility_sha256": "de693a8821a58f951b2f8511c40bab28dbace6c54d37dcbf8dd33d9ef7b51198",
+      "reproducibility_sha256": "1cc57f776cba66ab614138680c4b37aedb7368cfe1f19c2c8de07b0784213c9f",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.048699992476031184
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -286,7 +287,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.4723999958951026,
+          "elapsed_ms": 0.0,
           "objective": 140.0
         }
       ],
@@ -300,14 +301,14 @@
       "notes": [],
       "objective": 140.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "74be570598e2cfdf7b77bcf24792f8453b52c128aaa4c17b555ab4e08fc3060a",
+      "reproducibility_sha256": "9718e03cd3fa92fe530c1c205381e810d1a8d87d7c4358d6ee0873e8f139c4aa",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.4714999890420586
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -356,7 +357,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.4665000091772527,
+          "elapsed_ms": 0.0,
           "objective": 140.0
         }
       ],
@@ -370,14 +371,14 @@
       "notes": [],
       "objective": 140.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "ce7f9e0906514b7704d3b6a5cf61159edd0ac0afe6bf68ee9dad1081957532e6",
+      "reproducibility_sha256": "40335d9bd6fb69f6df1e464fe24a8cb7ffca3ef04d27f42a7d666fda005715c8",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.4658000038471073
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -392,7 +393,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "ab54b5d030b338bd1a44bc0cc6e53420f02f4f394b671c69d24b8ffe6d751b6f",
+      "reproducibility_sha256": "863f6f04ac349132d4dbd9b26bfc2af60a51a50b785a36e60a202efd01749090",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
@@ -401,7 +402,7 @@
       "violations": [
         "coverage:2"
       ],
-      "wall_time_ms": 0.033199990866705775
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -450,7 +451,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.6089000166393816,
+          "elapsed_ms": 0.0,
           "objective": 140.0
         }
       ],
@@ -464,14 +465,14 @@
       "notes": [],
       "objective": 140.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "8cfe3393048c01ba4bcc83806a1024888bb03ef53f41fccc72e5f3e8eadec917",
+      "reproducibility_sha256": "9a86795e44049d91484b35458e6d15286180242de40a60042214eb1d5bf3f980",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.6082000113092363
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -520,7 +521,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.312199998414144,
+          "elapsed_ms": 0.0,
           "objective": 132.0
         }
       ],
@@ -534,14 +535,14 @@
       "notes": [],
       "objective": 132.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "1a5089555b2905ae1c4bdfae1fee7f76053e308d6e2a6db7188dcc0b80680ec8",
+      "reproducibility_sha256": "056f2b50bf8ac33608c50cf8f6781fe537bed955ba4e52de8e7e8c8f8045029a",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.3113999923225492
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -556,7 +557,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "1d9338a261e0a8925840d1bda6750487cf00f05da58b3f3278e3ab300e811811",
+      "reproducibility_sha256": "a3a5e41c624360896236746b5569046961eb03bd100714f33395da1f8f0353ef",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
@@ -565,7 +566,7 @@
       "violations": [
         "coverage:3"
       ],
-      "wall_time_ms": 0.03309999010525644
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -614,7 +615,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.2680999827571213,
+          "elapsed_ms": 0.0,
           "objective": 132.0
         }
       ],
@@ -628,14 +629,14 @@
       "notes": [],
       "objective": 132.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "6da6369600517623f311fff8f04932a086a4ee96d0daa29d5e0d020cc28e919b",
+      "reproducibility_sha256": "ad99d2e1b3376c21d950a7c1fa4bbe1822a49ef51d960eb6206b277a7644c403",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.267399977426976
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -684,7 +685,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.4107999925035983,
+          "elapsed_ms": 0.0,
           "objective": 146.0
         }
       ],
@@ -698,14 +699,14 @@
       "notes": [],
       "objective": 146.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "3896bb0357e9b821d56d5215391c75a747851a4e6aeb361716b48aecd9ade1f1",
+      "reproducibility_sha256": "4078bbb1a4200b8b9bf6a79fe4a06cd250a3570ab82b4f0668a0bd92505c6ffb",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.409799984889105
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -754,7 +755,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.03369999467395246,
+          "elapsed_ms": 0.0,
           "objective": 150.0
         }
       ],
@@ -768,14 +769,14 @@
       "notes": [],
       "objective": 150.0,
       "oracle_gap": 0.0273972602739726,
-      "reproducibility_sha256": "3ca1d9a8cc6d804326b1c4fa26340550df70c56142eacdad0d5b01a7337712a7",
+      "reproducibility_sha256": "03d3b48b9f92a1d0aea5e5fcd367f403882d77830556395db464dcd5b8ed6146",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.03339999238960445
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -824,7 +825,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.915199991548434,
+          "elapsed_ms": 0.0,
           "objective": 146.0
         }
       ],
@@ -838,14 +839,14 @@
       "notes": [],
       "objective": 146.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "7759aade60e526f6e1912477e729348f945cb9202ca446121762fee25ba3bb8a",
+      "reproducibility_sha256": "108ed3b4044a0f37aaf083c7829a056d59d11c8434ec36acd53d9cb2c8ab7c42",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.913799980888143
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -860,7 +861,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "7aa1adfce3341412f394fa90e4cf6c5908e439e6e0740a84a002a8e801622eff",
+      "reproducibility_sha256": "5d0d17b1dc767305338b3266ba763da7f421ade1002c2943b87b23d9cffd8fab",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
@@ -869,7 +870,7 @@
       "violations": [
         "proven_or_budgeted_infeasible"
       ],
-      "wall_time_ms": 0.7257999968715012
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -884,7 +885,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "c9b4ad2490c3fcf54d4d6d16103242d18a6954e88eb96889904b143096ba79df",
+      "reproducibility_sha256": "eaa0aed784255cba99c37ab389ab90c9d1e7f0464925bb79f83604c790b21d7a",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
@@ -893,7 +894,7 @@
       "violations": [
         "coverage:3"
       ],
-      "wall_time_ms": 0.03279998782090843
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -908,7 +909,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "f8703c3851683c6f3696da1d7b64b18fd8b50d1ebf6ffc5bdaaaf45dba4f7372",
+      "reproducibility_sha256": "99397b59d2161e374e43593d2cef990fbf0ea5e0a71408603a042b5c2641ba6f",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
@@ -917,7 +918,7 @@
       "violations": [
         "proven_or_budgeted_infeasible"
       ],
-      "wall_time_ms": 0.548599986359477
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -966,7 +967,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.033899974776432,
+          "elapsed_ms": 0.0,
           "objective": 138.0
         }
       ],
@@ -980,14 +981,14 @@
       "notes": [],
       "objective": 138.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "e422de2285b18936d199a001acf85f4d42d975281a206de7608223c81ad80166",
+      "reproducibility_sha256": "35ab6690ecea2f6a9facc2b49474fe765ba54810b12e1c81ee10b3114c580f86",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.033199998550117
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1036,7 +1037,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.029699993319809437,
+          "elapsed_ms": 0.0,
           "objective": 138.0
         }
       ],
@@ -1050,14 +1051,14 @@
       "notes": [],
       "objective": 138.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "ea928fe1b939861fb4386fd38541e3bd75e2f2ea9203671fbb4f392e30aa075d",
+      "reproducibility_sha256": "86fd9aa3e2599c0cbac013e38e4114ca24351620532e7afdc653f90eda8e5c08",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.029399991035461426
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1106,7 +1107,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.972600002773106,
+          "elapsed_ms": 0.0,
           "objective": 138.0
         }
       ],
@@ -1120,14 +1121,14 @@
       "notes": [],
       "objective": 138.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "6da9c13e014f1e98a2d51b34acfb40f62b0d607f8c708ffd028937af713f45af",
+      "reproducibility_sha256": "73dff69aced4f19b47d4df93632decb5c97f3464583b2426d371fd37ac050ec5",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.9718999974429607
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1176,7 +1177,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.1843999857082963,
+          "elapsed_ms": 0.0,
           "objective": 144.0
         }
       ],
@@ -1190,14 +1191,14 @@
       "notes": [],
       "objective": 144.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "64d94f786a0fb9ace27be4b7f7d6c8a6ab3ded340d14ca877e3646b84a75ff94",
+      "reproducibility_sha256": "ef8875015562b8b3ffb387ff238e1e158b53f8f4973c5fecfcb855c8d12c6e70",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.183699980378151
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -1212,7 +1213,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "2db4e8102c8f314bc9a26f0c2e6c5f6b6334381e8ad91b6f2b82b1f963568246",
+      "reproducibility_sha256": "7e06be601968211447ebaf54928ba5575f8a8f7b72a63d400a68b0cbb4c9c849",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
@@ -1221,7 +1222,7 @@
       "violations": [
         "coverage:3"
       ],
-      "wall_time_ms": 0.028300011763349175
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1270,7 +1271,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.206000004662201,
+          "elapsed_ms": 0.0,
           "objective": 144.0
         }
       ],
@@ -1284,14 +1285,14 @@
       "notes": [],
       "objective": 144.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "d435fd4d9965eb6cc705ce42c570b05d695f924264d3f6248f4fefd8fc188d87",
+      "reproducibility_sha256": "5db936b5e52b9016640cc2b8b03ece0a3c79ef45a5ad5f41ff09e10df0cac4a0",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.205199998570606
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1340,7 +1341,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.6771999837365,
+          "elapsed_ms": 0.0,
           "objective": 144.0
         }
       ],
@@ -1354,14 +1355,14 @@
       "notes": [],
       "objective": 144.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "0feae39a80c5219663820571e4974db8cb82132872c6e5e66c4ed53a849ceeb2",
+      "reproducibility_sha256": "ed4750fb67f0e0b1569a867a2f3e8f338b699516f8b18a2d977cbc53733429ac",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.6761999761220068
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1410,7 +1411,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.029399991035461426,
+          "elapsed_ms": 0.0,
           "objective": 144.0
         }
       ],
@@ -1424,14 +1425,14 @@
       "notes": [],
       "objective": 144.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "4098d949855e3fcdca8c5f8b4c87b359442b659c09b15e67f6d3039d7356f614",
+      "reproducibility_sha256": "6ff8037d5e1683c4065029f35ac305fe8a18885a9704d55fa79dbebce58effe1",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.029099988751113415
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1480,7 +1481,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.6406999968457967,
+          "elapsed_ms": 0.0,
           "objective": 144.0
         }
       ],
@@ -1494,14 +1495,14 @@
       "notes": [],
       "objective": 144.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "1cc4ec662a2e0adbaf93a36ce0328fdfa96f8a85a5fdec4a799170b141722232",
+      "reproducibility_sha256": "225952c695fb50aa3b123b10b44b126df59ff705780e4d0efdf4525e71a36b35",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.639899990754202
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1550,7 +1551,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 4.096600023331121,
+          "elapsed_ms": 0.0,
           "objective": 136.0
         }
       ],
@@ -1564,14 +1565,14 @@
       "notes": [],
       "objective": 136.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "eaa95e7f3b96e27b33db57d7fae6c57caed29465195ea48069073c88be6fef4f",
+      "reproducibility_sha256": "0c5700c215b0280d502e20abb289b88c53ebaff7a91778345d674c8c3f821e57",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 4.095400014193729
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -1586,7 +1587,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "115b41842c43fce6f4d68b92aafd8fd9d3b48886ec1520a943f2a6b2932f2e7a",
+      "reproducibility_sha256": "8a16c11922ca982d827d2734279d69f6f9569cc7640caac3f0638b86061987f2",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
@@ -1595,7 +1596,7 @@
       "violations": [
         "coverage:3"
       ],
-      "wall_time_ms": 0.03470000228844583
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1644,7 +1645,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.617000020109117,
+          "elapsed_ms": 0.0,
           "objective": 136.0
         }
       ],
@@ -1658,14 +1659,14 @@
       "notes": [],
       "objective": 136.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "19ff42f3a46d6ebe656955a5f0fa80f7d5f718907f621dd04096feac97a99230",
+      "reproducibility_sha256": "3e314805dcbe2fee02d3512cc5c191402a5b76eda7cb36104d650fbd613a69f6",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.6157000102102757
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -1680,7 +1681,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "39b0ff26b7bd9bc61d500f488645c8776b0869bb15b527d394c58ab6f8178964",
+      "reproducibility_sha256": "b606a2b2832d54749ad1c61163e452f92593cf79dff1a749d0050f212ea88b6a",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
@@ -1689,7 +1690,7 @@
       "violations": [
         "proven_or_budgeted_infeasible"
       ],
-      "wall_time_ms": 0.6843000010121614
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -1704,7 +1705,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "c926ee3294bcc3ac1e3a577122983d11e973408e400c25587b253a26363ca8df",
+      "reproducibility_sha256": "1258978f4020cdfa6b4b00062bba0deb1b46feca2a9bd2e6987c37b86e9f479e",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
@@ -1714,7 +1715,7 @@
         "coverage:2",
         "coverage:3"
       ],
-      "wall_time_ms": 0.03470000228844583
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -1729,7 +1730,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "13e4ac2ceb32f9a33d799f4306ffc826d32a60b99cb1277a80b2478045e83651",
+      "reproducibility_sha256": "e9edd9cc08138cdf5f2d19d651c3a8ec6cd8674a65db17b36174f16356aca8e1",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
@@ -1738,7 +1739,7 @@
       "violations": [
         "proven_or_budgeted_infeasible"
       ],
-      "wall_time_ms": 0.6790999905206263
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1815,7 +1816,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 4.641100007575005,
+          "elapsed_ms": 0.0,
           "objective": 214.0
         }
       ],
@@ -1829,14 +1830,14 @@
       "notes": [],
       "objective": 214.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "46f23336913e81ce439063ee996c5b58ab5f671bd14c914168645fbc2028a80a",
+      "reproducibility_sha256": "67c502b9524707a15e1e5e5758128848379c5b0107cd1dfd4f6b150fab6d0e32",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 4.639999999199063
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -1913,7 +1914,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.06770002073608339,
+          "elapsed_ms": 0.0,
           "objective": 222.0
         }
       ],
@@ -1927,14 +1928,14 @@
       "notes": [],
       "objective": 222.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "be3eaa8de339076c13772e06f03128f30480e5271a96104353acca912b2d943c",
+      "reproducibility_sha256": "c2dcb198e9519ec52bf75eab577bb54dde501233397819e7333e56e006036825",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.06740001845173538
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -2015,7 +2016,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 3.9019999967422336,
+          "elapsed_ms": 0.0,
           "objective": 232.0
         }
       ],
@@ -2029,14 +2030,14 @@
       "notes": [],
       "objective": 232.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "2e5579469c9da92b60beaa6f7a7c3328bdca2213f3a6a67f3808f28cca6ba397",
+      "reproducibility_sha256": "fde564869971b6a96ff2f7feb283af8341bd4905d7250dee71a9cb3023f1dc7a",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 3.9012999914120883
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -2117,7 +2118,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.05050000618211925,
+          "elapsed_ms": 0.0,
           "objective": 234.0
         }
       ],
@@ -2131,14 +2132,14 @@
       "notes": [],
       "objective": 234.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "98241c358549d692daa75f4966bd9ff2126eb3de35216064a90fef1473be9b44",
+      "reproducibility_sha256": "d5cd2c3f522b798cea25627c8014e9e7e5837cb90feb06112c7d76a9cd8d9444",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.05020000389777124
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -2215,7 +2216,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 4.891400021733716,
+          "elapsed_ms": 0.0,
           "objective": 218.0
         }
       ],
@@ -2229,14 +2230,14 @@
       "notes": [],
       "objective": 218.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "038b77b58c504e9667f93be92195b0ae23740408dc79644ff643d565ed6f5f13",
+      "reproducibility_sha256": "38a6bc4c79afe7e795a0ba6d84bd77dfe54f7e8bec00e74d95f23a91ed27c793",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 4.890300013357773
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -2313,7 +2314,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.05390000296756625,
+          "elapsed_ms": 0.0,
           "objective": 227.0
         }
       ],
@@ -2327,14 +2328,14 @@
       "notes": [],
       "objective": 227.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "b76d828d8ede0ae0a8470b9bba45cf9342055a5d3d56e59e9966d716d31f911a",
+      "reproducibility_sha256": "fe35fe4b6458a66dadb565f3cf8287cb916cef97164727682a8e90669522a3c7",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.05360000068321824
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -2415,7 +2416,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 4.358299978775904,
+          "elapsed_ms": 0.0,
           "objective": 234.0
         }
       ],
@@ -2429,14 +2430,14 @@
       "notes": [],
       "objective": 234.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "a2c8be7ff7bda35a9f8f83fdbd2f79ee4cff8c0a7751cba2e0ef609f9fffe7d6",
+      "reproducibility_sha256": "c7174fa4b17454c6e2c26a9aff30ddc5920fb28f1c08ef62489727a57c048fdf",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 4.357199999503791
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -2517,7 +2518,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.05400000372901559,
+          "elapsed_ms": 0.0,
           "objective": 242.0
         }
       ],
@@ -2531,14 +2532,14 @@
       "notes": [],
       "objective": 242.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "d203c505664081c1f2437a2748a5f65719e132ab7ced833932a98c71bf6da24b",
+      "reproducibility_sha256": "4986783bea12736bd91f8eaeb7f60a120c980028cefc99b8201f82c20748831d",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.053800002206116915
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -2553,7 +2554,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "8a1aae83da7cb023bd62c4f9c3c69dd72d67a0eb88e56bf0af2815c16896694a",
+      "reproducibility_sha256": "127cae31c6a5240a4ab840f0238882fba2ce1aeb259b3949d3eabd943535e439",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
@@ -2562,7 +2563,7 @@
       "violations": [
         "proven_or_budgeted_infeasible"
       ],
-      "wall_time_ms": 1.4035999774932861
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -2577,7 +2578,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "9086a737b3a3a82c2332b38e20a1444a025a6b2eda407515fdc82aa45f60a9dc",
+      "reproducibility_sha256": "c10725561e2bf793eccac1501b66c0d971de52bf6ca877cf17d3f11a7f712828",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
@@ -2586,7 +2587,7 @@
       "violations": [
         "coverage:6"
       ],
-      "wall_time_ms": 0.057199998991563916
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -2667,7 +2668,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 3.885400015860796,
+          "elapsed_ms": 0.0,
           "objective": 223.0
         }
       ],
@@ -2681,14 +2682,14 @@
       "notes": [],
       "objective": 223.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "fc3e0bb3d80777bc8796303b79a7944f467b3afbe903552329387c5f19b71577",
+      "reproducibility_sha256": "aeea847f0a5eca042e7922950b6c4a632b999e7ac896630344293e298ab37e3a",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 3.8843000074848533
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -2769,7 +2770,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.0509000092279166,
+          "elapsed_ms": 0.0,
           "objective": 231.0
         }
       ],
@@ -2783,14 +2784,14 @@
       "notes": [],
       "objective": 231.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "e0eb926cecc1b994268b73606c4684b2bba28a8b4e122eef138a97414a611268",
+      "reproducibility_sha256": "80dd149cb0b363348a640bc7dbd5717c9ebb2048e25ebd91b996e8829beba31f",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.05050000618211925
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -2867,7 +2868,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 3.922799980500713,
+          "elapsed_ms": 0.0,
           "objective": 212.0
         }
       ],
@@ -2881,14 +2882,14 @@
       "notes": [],
       "objective": 212.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "83f53f58c4ef87eb42812537565d6223bcea95ccf30b53e774c7f66e571e5d6c",
+      "reproducibility_sha256": "e6a26f4a9e6ead42713986baf5602a563242da2c195e32d8b0a0073ae6bd2944",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 3.9219000027514994
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -2965,7 +2966,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.05199998850002885,
+          "elapsed_ms": 0.0,
           "objective": 217.0
         }
       ],
@@ -2979,14 +2980,14 @@
       "notes": [],
       "objective": 217.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "3d7b2c2a614452b92f2c935532d1e670bb6b577c0766fd33ad3ca4fa4f7a7b4b",
+      "reproducibility_sha256": "0672a21027b1eba5479bfa639ee06d6b8327e5c2b5b470df439903d35ff6f1c7",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.0515999854542315
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -3067,7 +3068,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 3.8053999887779355,
+          "elapsed_ms": 0.0,
           "objective": 231.0
         }
       ],
@@ -3081,14 +3082,14 @@
       "notes": [],
       "objective": 231.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "909e5026770a16aef853af761c2f97f3bcac08973642d2f831af702c541b99de",
+      "reproducibility_sha256": "395b6ccedd2292549332b208ebfeff9b7ff4302cfa6009493843eed3c213dd3d",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 3.804500011028722
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -3169,7 +3170,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.050000002374872565,
+          "elapsed_ms": 0.0,
           "objective": 237.0
         }
       ],
@@ -3183,14 +3184,14 @@
       "notes": [],
       "objective": 237.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "39edbc313b86e59aaa4a6a786d6259914dc1800df3e8fd4c8beb1947d398fc03",
+      "reproducibility_sha256": "a94dc1f526a92276c3ceae6fcab3ee67f640c7d0bb6bbd0fe812a8df2ee1d1d8",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.049700000090524554
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -3267,7 +3268,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 3.7179000210016966,
+          "elapsed_ms": 0.0,
           "objective": 218.0
         }
       ],
@@ -3281,14 +3282,14 @@
       "notes": [],
       "objective": 218.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "7e34a3dcab575d9612fe329dcf4505201cfaf4b05170a7cd8dc799c58844339c",
+      "reproducibility_sha256": "12d57694d5274a8ef2e9c82bbdea40c0728ef57a393913a4383337a9c7c47dcb",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 3.716600011102855
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -3365,7 +3366,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.05089998012408614,
+          "elapsed_ms": 0.0,
           "objective": 226.0
         }
       ],
@@ -3379,14 +3380,14 @@
       "notes": [],
       "objective": 226.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "e23814cf3a0ae3a96f905ac2dda25974fc2b9c5b4987a1069b02cd2a299573b5",
+      "reproducibility_sha256": "bdba2577547aedcf4614e67dad1868130dec48bfea45adbdc732d95aa2816bb7",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.05060000694356859
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -3401,7 +3402,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "b1d95fb89488866e94d0053bb91dda3a9d67f38d071ab3e567961f5f8d0c7644",
+      "reproducibility_sha256": "619e05f0939a29bb50cc426bd0620e86be073c84f5c5f2182e5bc9ae97543ab3",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
@@ -3410,7 +3411,7 @@
       "violations": [
         "proven_or_budgeted_infeasible"
       ],
-      "wall_time_ms": 1.2372999917715788
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -3425,7 +3426,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "40dcfd8b57d3a664b70487a3cc319f409d2795604e3f800e6ad4cb3c1cc361e9",
+      "reproducibility_sha256": "42f10e610f1096cc34709ede5e23aed6336b0cb9af8ca6a503da457410a0fc8e",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
@@ -3434,7 +3435,7 @@
       "violations": [
         "coverage:6"
       ],
-      "wall_time_ms": 0.049700000090524554
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -3543,7 +3544,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 8.085499983280897,
+          "elapsed_ms": 0.0,
           "objective": 313.0
         }
       ],
@@ -3557,14 +3558,14 @@
       "notes": [],
       "objective": 313.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "520483aa0df171109343329434ef9fbd8cc72527dc6d9afccf083001fe69e08e",
+      "reproducibility_sha256": "81c184466531414c9fdfdab8b8d881f916b5c7eba024a10c28f1222b2fde3793",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 8.084400004008785
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -3673,7 +3674,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.14119999832473695,
+          "elapsed_ms": 0.0,
           "objective": 323.0
         }
       ],
@@ -3687,14 +3688,14 @@
       "notes": [],
       "objective": 323.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "132c1e95c693a3c9db2778476e5879c9a45f4ea375582398148c1cb8d49c7dcb",
+      "reproducibility_sha256": "288a5a3d81dc4f3c479593359dbed1e18843d3436fabf1897f02361717c39a61",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.1404999929945916
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -3803,7 +3804,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 10.413000010885298,
+          "elapsed_ms": 0.0,
           "objective": 312.0
         }
       ],
@@ -3817,14 +3818,14 @@
       "notes": [],
       "objective": 312.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "059191456ebdc12730ff8980bd4597a8ec8e62411ab80215d81185d34229403d",
+      "reproducibility_sha256": "d0d722d74a694da1858069646c3255b71ffa8646228c2ddffc1cc53be30becb7",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 10.411499999463558
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -3933,7 +3934,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.08659999002702534,
+          "elapsed_ms": 0.0,
           "objective": 320.0
         }
       ],
@@ -3947,14 +3948,14 @@
       "notes": [],
       "objective": 320.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "f3d6e46a8c7eddc3984aee7a84bb40b666e93e3bf00f2ef3f041e3a84cda0f09",
+      "reproducibility_sha256": "8df74a6905563548b0c96619019ef5895cbced5c816a309a8ade38fdb6cd4ba1",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.086199986981228
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -4063,7 +4064,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 7.697799999732524,
+          "elapsed_ms": 0.0,
           "objective": 302.0
         }
       ],
@@ -4077,14 +4078,14 @@
       "notes": [],
       "objective": 302.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "bf39d9c3ac6a75805aa0078b08ff44c4a94aeeb136e035bfdb8bbcf68f9669f2",
+      "reproducibility_sha256": "7af3678a08f46bc5f10f299852aad8dead95107ca118bc5233b42980c01ac5cb",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 7.696399989072233
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -4193,7 +4194,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.0847000046633184,
+          "elapsed_ms": 0.0,
           "objective": 316.0
         }
       ],
@@ -4207,14 +4208,14 @@
       "notes": [],
       "objective": 316.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "041096889e0d2afe8fcbdbc93d0fb891ff7e3730352012b55ac30b1313be162e",
+      "reproducibility_sha256": "87e875dfeb022383b89bd662be63d07cdbd7a9deecf4d8dc4b92c18033b2be39",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.08440000237897038
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -4323,7 +4324,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 7.6197000162210315,
+          "elapsed_ms": 0.0,
           "objective": 298.0
         }
       ],
@@ -4337,14 +4338,14 @@
       "notes": [],
       "objective": 298.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "ac96e248cff8b8ccfd28839342a86bbbd200fecc9047fab3c738fa2bfcdc0839",
+      "reproducibility_sha256": "00d961b8e4389291be9596466a9a2024102b1b93b70cdbd977f1a67a0228fd8f",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 7.6182000047992915
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -4453,7 +4454,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.08290002006106079,
+          "elapsed_ms": 0.0,
           "objective": 307.0
         }
       ],
@@ -4467,14 +4468,14 @@
       "notes": [],
       "objective": 307.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "4d0e275dd9789aab3593ab5b6d3b294a5216c4bb834276af29b8741cbeb98d13",
+      "reproducibility_sha256": "91dabe6bee55de743ff55a6c68eb23a3132461b195b610a96db9ee642284b57c",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.0824000162538141
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -4489,7 +4490,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "e5132b3876428933e421c0a0b9ca077357db83afff46145fbbf1a2427ec5fdfd",
+      "reproducibility_sha256": "0a95d8bc53a44ded2af2c12dd2afa4cae995b7e54eda81be74576d20e191e905",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
@@ -4498,7 +4499,7 @@
       "violations": [
         "proven_or_budgeted_infeasible"
       ],
-      "wall_time_ms": 2.358600002480671
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -4513,7 +4514,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "985b16c89c4504b728e4829d3cf125613669ef77c4aa61dc175b9cc65975b5f6",
+      "reproducibility_sha256": "27003e61355ab07d7b631a9b27296f06e8448dac18e75b91b32bc6949bcbbfe5",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
@@ -4522,7 +4523,7 @@
       "violations": [
         "coverage:9"
       ],
-      "wall_time_ms": 0.08349999552592635
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -4631,7 +4632,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 7.148599979700521,
+          "elapsed_ms": 0.0,
           "objective": 310.0
         }
       ],
@@ -4645,14 +4646,14 @@
       "notes": [],
       "objective": 310.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "ce60a250fd3be0c089275e137e063e0d6df3117a6f7e921d57dca9fb702e7e18",
+      "reproducibility_sha256": "482aa239535e66c92d6225a42696dab74c5f65c4ac90a6512156763ba418d3f3",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 7.147600001189858
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -4761,7 +4762,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.08349999552592635,
+          "elapsed_ms": 0.0,
           "objective": 314.0
         }
       ],
@@ -4775,14 +4776,14 @@
       "notes": [],
       "objective": 314.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "004cecaf1114220cbc6898ff10314b4607c4ca6e481b32d9d1f3c65a3a3640e7",
+      "reproducibility_sha256": "48f120b58811f169160a24de4aece1deb3784be7769ffdafb13767e1fea9c35b",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.08319999324157834
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -4891,7 +4892,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 8.500600000843406,
+          "elapsed_ms": 0.0,
           "objective": 303.0
         }
       ],
@@ -4905,14 +4906,14 @@
       "notes": [],
       "objective": 303.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "6c57a3859907e8000cadf409e8c7b022825fdc063f8dbf9c63d922ba0b3a090c",
+      "reproducibility_sha256": "c16e25f0864e89f3380d2cb0f2b3ac1db703eed428bcc0508874418dc402c7e4",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 8.499499992467463
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5021,7 +5022,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.08769999840296805,
+          "elapsed_ms": 0.0,
           "objective": 309.0
         }
       ],
@@ -5035,14 +5036,14 @@
       "notes": [],
       "objective": 309.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "b0a3fb1bb35d531566f75bf730827829779a996193ce9a69401c5657b34c72ae",
+      "reproducibility_sha256": "e2cca9fcd3ae1b80c4dbc18d1dfa8fda3eafbca04e01729be17a38e7d03d3b9b",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.0874000252224505
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5151,7 +5152,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 7.8363000066019595,
+          "elapsed_ms": 0.0,
           "objective": 314.0
         }
       ],
@@ -5165,14 +5166,14 @@
       "notes": [],
       "objective": 314.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "9b15580a28516e7b60d378f23e58ddff91fc10b62956ec99f12651e0798a2e50",
+      "reproducibility_sha256": "bbc6d70519d784c9f3a4c1bf1c669a8008554e22f09f597f9ec723ec874adb01",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 7.835099997464567
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5281,7 +5282,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.08200001320801675,
+          "elapsed_ms": 0.0,
           "objective": 326.0
         }
       ],
@@ -5295,14 +5296,14 @@
       "notes": [],
       "objective": 326.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "704bbebcbf6be763f2a39ab2a8fe3c058b499d333488f5ef094bbefca7ba93eb",
+      "reproducibility_sha256": "f83b0211261329ae6a4493a6264099d10368152d3f7008dcf15e5d8ce3fbb5f1",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.08170001092366874
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5411,7 +5412,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 6.937600002856925,
+          "elapsed_ms": 0.0,
           "objective": 306.0
         }
       ],
@@ -5425,14 +5426,14 @@
       "notes": [],
       "objective": 306.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "4859d8a91fc9c2f99fbc508b914e5a5c604afab597048e7615b53a966fc4dd2d",
+      "reproducibility_sha256": "fa8d8ee18d892c5b53974d65fd9d46d8bec955bba16e143c26238da4fafca74d",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 6.936299992958084
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5541,7 +5542,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.10740000288933516,
+          "elapsed_ms": 0.0,
           "objective": 315.0
         }
       ],
@@ -5555,14 +5556,14 @@
       "notes": [],
       "objective": 315.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "d77276b0c1f56d85a369d3c66bcebd8124f691206557680e03e05cbae7cc3ac2",
+      "reproducibility_sha256": "abae779bd88acf197d166a3dac09b8fbcd574f15e9a14ec9e5f857e870ff5d26",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.10710000060498714
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -5577,7 +5578,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "09057abb82b04898ce52e6807d83eea7d56f8955027688238e3af82aa9a66a50",
+      "reproducibility_sha256": "72b717dbc26b2ee6931b4d9ae1ad8669f9e7474708e07e5c2408ed42d1162f7c",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
@@ -5586,7 +5587,7 @@
       "violations": [
         "proven_or_budgeted_infeasible"
       ],
-      "wall_time_ms": 2.517799992347136
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -5601,7 +5602,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "7541707d1fefb1dbefbc0f0d385c87f3743b3c3eaa05e5fc52a0f42bee056271",
+      "reproducibility_sha256": "49776c4d5a967260458977bb4ba07b39132fbd88cf6838c3a1d8500a640dcbf3",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
@@ -5610,7 +5611,7 @@
       "violations": [
         "coverage:9"
       ],
-      "wall_time_ms": 0.10170001769438386
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5631,7 +5632,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 85.99999998114072,
+          "elapsed_ms": 0.0,
           "objective": 70.0
         }
       ],
@@ -5645,14 +5646,14 @@
       "notes": [],
       "objective": 70.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "bd4a357335f56736b44227f4eca1364eb04a63db07361900e112c75a17e47594",
+      "reproducibility_sha256": "1880b8f713a78753e466dc3d1012d38aeaf51200e6087575a4962be7d0364d14",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 85.99900000263005
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5673,7 +5674,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.04749998333863914,
+          "elapsed_ms": 0.0,
           "objective": 74.0
         }
       ],
@@ -5687,14 +5688,14 @@
       "notes": [],
       "objective": 74.0,
       "oracle_gap": 0.05714285714285714,
-      "reproducibility_sha256": "4521e7871fb92be38c5de32d6cc4f2c7de8581efe34d6f142a238d07ce70bc96",
+      "reproducibility_sha256": "85b05cf3f82b32de118bb8e9629111f05c01b2561726d9b2b497ac48320301e9",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.04709998029284179
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5715,7 +5716,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 251.0939000057988,
+          "elapsed_ms": 0.0,
           "objective": 70.0
         }
       ],
@@ -5729,14 +5730,14 @@
       "notes": [],
       "objective": 70.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "200c92c9d3d3240afced6b1d542dd44a3351c6a762eabc414d694fca7cbad1a0",
+      "reproducibility_sha256": "c28905554f2f796ced7e6622fae7c59308d665088575d07e9386c6a8c673f212",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 251.0928999981843
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5757,7 +5758,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.17150000180118,
+          "elapsed_ms": 0.0,
           "objective": 50.0
         }
       ],
@@ -5771,14 +5772,14 @@
       "notes": [],
       "objective": 50.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "7317721247ca79b39ba59ef613caa8621ef69a7ce50826ef89b3783c146c8a9f",
+      "reproducibility_sha256": "fabda43f62fcf8df44249253a14a9e328ce7ccd27de7246c42219818ed86b168",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.17059999494813
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5799,7 +5800,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.039300008211284876,
+          "elapsed_ms": 0.0,
           "objective": 54.0
         }
       ],
@@ -5813,14 +5814,14 @@
       "notes": [],
       "objective": 54.0,
       "oracle_gap": 0.08,
-      "reproducibility_sha256": "fbd55e6c2100659970167b8ae7af930de8680d4f2e456708bbdd4342c896d17a",
+      "reproducibility_sha256": "da871268c0e65aa291621a9b74238078a1d6e7544403efe72ef48996352a3def",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.038700003642588854
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5841,7 +5842,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 250.9208999981638,
+          "elapsed_ms": 0.0,
           "objective": 50.0
         }
       ],
@@ -5855,14 +5856,14 @@
       "notes": [],
       "objective": 50.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "5062351517c30fb8fa233c2a2796019dcb03c233a6e94c4739aaacc7733f4bc4",
+      "reproducibility_sha256": "60c59a4e79f6b12ffb5442e4951e2d9d521c4a0a16780b0b6c6aca2bb8886c61",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 250.91970001813024
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5883,7 +5884,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.84969998546876,
+          "elapsed_ms": 0.0,
           "objective": 46.0
         }
       ],
@@ -5897,14 +5898,14 @@
       "notes": [],
       "objective": 46.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "901a88189b741b96094ebe3adda148004469a03a4e0e9508103e705eceaa1205",
+      "reproducibility_sha256": "784864234918323be4189b5b418d3d7763b3b8faf20e3e629e7409e0bec0c73a",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.84800000162795
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5925,7 +5926,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.03610001294873655,
+          "elapsed_ms": 0.0,
           "objective": 62.0
         }
       ],
@@ -5939,14 +5940,14 @@
       "notes": [],
       "objective": 62.0,
       "oracle_gap": 0.34782608695652173,
-      "reproducibility_sha256": "3afe4567713749abfd097c964e694224f6a08e5f5d37fcf9543e5ff2f4d66555",
+      "reproducibility_sha256": "15d2a44a10ae2285206af5c532f648a892bfa7715ede951bae783b81a5f214d0",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.03560000914148986
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -5967,7 +5968,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 251.06310000410303,
+          "elapsed_ms": 0.0,
           "objective": 46.0
         }
       ],
@@ -5981,14 +5982,14 @@
       "notes": [],
       "objective": 46.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "637cea1a4be63d3601d497f2506f17160211160430a8b532b326ff16e1d88b4e",
+      "reproducibility_sha256": "02f49794b164a91dae621ee4e07f1d16099ad8c3b45d4e22392f02848b3f0e61",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 251.06190002406947
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6009,7 +6010,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.21999999275431,
+          "elapsed_ms": 0.0,
           "objective": 64.0
         }
       ],
@@ -6023,14 +6024,14 @@
       "notes": [],
       "objective": 64.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "05f1650407abb8469e995aec0dc354559919e49c904cca8b4a1e1dd22987cf53",
+      "reproducibility_sha256": "521e0d29135f68f41e735bd02332f8144b6017cfd9780b0537a5eab3cb245000",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.2185000104364
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6051,7 +6052,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.046600005589425564,
+          "elapsed_ms": 0.0,
           "objective": 72.0
         }
       ],
@@ -6065,14 +6066,14 @@
       "notes": [],
       "objective": 72.0,
       "oracle_gap": 0.125,
-      "reproducibility_sha256": "48961e8f922283ce7287d148c805ba671dc4045dbf11da0a2422c998ae629303",
+      "reproducibility_sha256": "d6585cecac36486480f366a7c89c6b9fde19eea15ffa03de1467dd8a126d9f44",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.045900000259280205
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6093,7 +6094,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 251.1118000256829,
+          "elapsed_ms": 0.0,
           "objective": 64.0
         }
       ],
@@ -6107,14 +6108,14 @@
       "notes": [],
       "objective": 64.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "5cc6253bb11c3552c4b248840e76b1537b43be3d7a7c0680974200dfc674eaa5",
+      "reproducibility_sha256": "f3b38cf9f3251020b6c12aa70a968b7f90b0602c971891579ae97c147430601b",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 251.1104000150226
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -6129,7 +6130,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "42f984fcd89a6fc8031d28b61594c15ae363ae108c2b29b6733549c9b05cd35f",
+      "reproducibility_sha256": "0bc26ec461e9905cfe83240abc731ac7fe3e54041e707a650875ba2e83ae4660",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
@@ -6138,7 +6139,7 @@
       "violations": [
         "aggregate_capacity"
       ],
-      "wall_time_ms": 0.0034999975468963385
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -6153,7 +6154,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "c623e0c41fa9cf183f2d416af6a95e51e1e64b40a70927a704e0adc8f8ee5d33",
+      "reproducibility_sha256": "a8d9e956faa336b0b88f0b2469e80764bb3133082ecec9a13e94aa5997f05bd6",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
@@ -6162,7 +6163,7 @@
       "violations": [
         "customer_coverage"
       ],
-      "wall_time_ms": 0.030800001695752144
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -6177,7 +6178,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "ed13a26021592afda11d1b42a7ce60860e57d12d4a27aac9c27425ba92f04bdf",
+      "reproducibility_sha256": "1f4939ffb6da5343e8525951f433f55036899639ce2edafe5b754a9fbee5ac8c",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
@@ -6186,7 +6187,7 @@
       "violations": [
         "aggregate_capacity"
       ],
-      "wall_time_ms": 0.001500011421740055
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6207,7 +6208,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.2926999933552,
+          "elapsed_ms": 0.0,
           "objective": 64.0
         }
       ],
@@ -6221,14 +6222,14 @@
       "notes": [],
       "objective": 64.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "e7e4b7d357b6b375c6db21c60feff80ec36b6e02acd284e1f3b67e5da050091f",
+      "reproducibility_sha256": "e0d8a60b63fdce76e4c80b27855c1cd2f1073a9693bd4c333ac178aed940f1a3",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.29139998345636
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6249,7 +6250,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.04499999340623617,
+          "elapsed_ms": 0.0,
           "objective": 64.0
         }
       ],
@@ -6263,14 +6264,14 @@
       "notes": [],
       "objective": 64.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "3e53f66ce640f6191e3bf69cf88d9256594935e54d58f7f429ed6bb43ce6ef5e",
+      "reproducibility_sha256": "94267f6648fcfa920cb07a8295970964d818e49b0489c648fb46741f77e08969",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.04439998883754015
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6291,7 +6292,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 251.2398000108078,
+          "elapsed_ms": 0.0,
           "objective": 64.0
         }
       ],
@@ -6305,14 +6306,14 @@
       "notes": [],
       "objective": 64.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "43de75116aff7732c503482c789f5018ad57c786c02c97cfd328a0c46084fc3d",
+      "reproducibility_sha256": "0508f25c1305da56a85917580621898234d9c6b85dde1b2fc886eae99f617fe3",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 251.23829999938607
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6333,7 +6334,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.3763000187464,
+          "elapsed_ms": 0.0,
           "objective": 58.0
         }
       ],
@@ -6347,14 +6348,14 @@
       "notes": [],
       "objective": 58.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "794a2f7eba86ecd383d303449bb16c1cc6ddf03b3812178b431560fa7fcc2d64",
+      "reproducibility_sha256": "3c713a8d0ccdee3afd95486c1d5e6df6282170fb39944a4dacf138396a9367b7",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.37530001113191
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6375,7 +6376,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.044899992644786835,
+          "elapsed_ms": 0.0,
           "objective": 66.0
         }
       ],
@@ -6389,14 +6390,14 @@
       "notes": [],
       "objective": 66.0,
       "oracle_gap": 0.13793103448275862,
-      "reproducibility_sha256": "2b277f56ddfda5cd59c73d0093691a9ab28f3def0c45dd5a3368abd928f3bc82",
+      "reproducibility_sha256": "f147572605063dd8ff59a6aaf59bd9607443c8c790780e1d0aed95fb26fa0383",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.04409998655319214
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6417,7 +6418,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 251.05409999378026,
+          "elapsed_ms": 0.0,
           "objective": 58.0
         }
       ],
@@ -6431,14 +6432,14 @@
       "notes": [],
       "objective": 58.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "f7d91b74007bd5963e87d65f5f34c62ae665e54a3bf81d4bee388d5d7ce7ba04",
+      "reproducibility_sha256": "063290c343197b792b1d0009b36e06de27f50467eab75a6987810a8271a0b345",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 251.05260001146235
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6459,7 +6460,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.67970000067726,
+          "elapsed_ms": 0.0,
           "objective": 40.0
         }
       ],
@@ -6473,14 +6474,14 @@
       "notes": [],
       "objective": 40.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "34d27a5e1cc109012b6869e5371199b8ca8c27b2c8c2e211aa70ba45ad24d98e",
+      "reproducibility_sha256": "86f6a331b08b10e7dce4afcd0ef65697c63b985d1f4f541a369e28660230436f",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.67820001835935
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6501,7 +6502,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.061400001868605614,
+          "elapsed_ms": 0.0,
           "objective": 56.0
         }
       ],
@@ -6515,14 +6516,14 @@
       "notes": [],
       "objective": 56.0,
       "oracle_gap": 0.4,
-      "reproducibility_sha256": "1886a83d4d4c0adc7617bf4205b3d8fd78c0c75c647e334c7117384d384e3cf3",
+      "reproducibility_sha256": "be0ad59e57f296525df600c5a0da66fc47a0d1bda59c0db82471957a632a1ccc",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.060399994254112244
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6543,7 +6544,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 251.13410002086312,
+          "elapsed_ms": 0.0,
           "objective": 40.0
         }
       ],
@@ -6557,14 +6558,14 @@
       "notes": [],
       "objective": 40.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "83cdd30867cde9cceee86dc87d88ee27940e2963cc779b26110761b2be849a1d",
+      "reproducibility_sha256": "abcbd2b82c5985ef6001e09ecf63eaf462070f78f74453482783bef013e2c8d3",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 251.13280001096427
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6585,7 +6586,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 82.1056000131648,
+          "elapsed_ms": 0.0,
           "objective": 62.0
         }
       ],
@@ -6599,14 +6600,14 @@
       "notes": [],
       "objective": 62.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "279b65bea502554bbe9fa133ba323a6855791cc16a1be9175633e1c8e9aa8c8c",
+      "reproducibility_sha256": "beb249439dc798173c3ae63308dfa382339037c79041bf4847d3117b13cb2fef",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 82.10450000478886
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6627,7 +6628,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.04879999323748052,
+          "elapsed_ms": 0.0,
           "objective": 64.0
         }
       ],
@@ -6641,14 +6642,14 @@
       "notes": [],
       "objective": 64.0,
       "oracle_gap": 0.03225806451612903,
-      "reproducibility_sha256": "69e2f4b39c38200222f0be48f65ec46702f371183a706c210d489b28fc4280ce",
+      "reproducibility_sha256": "83f518366975de1e91d22290454fec415a15c1708c3f194960b09879d26f4740",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.047999987145885825
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6669,7 +6670,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 251.4857999922242,
+          "elapsed_ms": 0.0,
           "objective": 62.0
         }
       ],
@@ -6683,14 +6684,14 @@
       "notes": [],
       "objective": 62.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "8785655d147300e3748b25e41da92cb8bd30093b9a4ae4b8578d87a5ce37c89f",
+      "reproducibility_sha256": "027ec33428cf8c214600e7bfbbad4022e8ee10d7e9c0f3973d43eca1592802ba",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 251.4843999815639
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -6705,7 +6706,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "0bdfa091072fa35fa28d0adb55d2b21ffd40f467f83a2a34d80a7358905fe83d",
+      "reproducibility_sha256": "67fdb6cebbc9e039e54be73dbc13ad6e97f4ca6f8113cc179c9d0a511e426c82",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
@@ -6714,7 +6715,7 @@
       "violations": [
         "aggregate_capacity"
       ],
-      "wall_time_ms": 0.005400012014433742
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -6729,7 +6730,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "e26e6483e691db76ec6c670c1c373df07403be60775a7b0f78d3f4ff03af3ecd",
+      "reproducibility_sha256": "660cecb7eafd9f96f459ae89e887cf28c7038735e90944a02490f3ea914d26f7",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
@@ -6738,7 +6739,7 @@
       "violations": [
         "customer_coverage"
       ],
-      "wall_time_ms": 0.04779998562298715
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -6753,7 +6754,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "7c5e0159740f87583f457ccdc9d9028e2baaef7e573f859f133287b0bc8ec1ce",
+      "reproducibility_sha256": "2b008ec0f31c1465706d220870233f26b149755f6adf10e6cb789a8d8e51f250",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
@@ -6762,7 +6763,7 @@
       "violations": [
         "aggregate_capacity"
       ],
-      "wall_time_ms": 0.0023999891709536314
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6790,7 +6791,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.82619998115115,
+          "elapsed_ms": 0.0,
           "objective": 68.0
         }
       ],
@@ -6804,14 +6805,14 @@
       "notes": [],
       "objective": 68.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "4d322f12d83c3e894690fb8862018c5be8a1b100111a3ead8ac0a3fa7a953f7c",
+      "reproducibility_sha256": "e27a88b94985df71f4e39b204969fed6e6898daf14716cb938cfca8e93c1a925",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.82479999959469
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6839,7 +6840,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.07280000136233866,
+          "elapsed_ms": 0.0,
           "objective": 94.0
         }
       ],
@@ -6853,14 +6854,14 @@
       "notes": [],
       "objective": 94.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "fab6c905f1e4b2517cf563b670fb3b738580d47bc8eaa86834a17cb4d23ba740",
+      "reproducibility_sha256": "6c9c40e25f85f06d84ed638aea72c2c2798aed634323038ad7713dba576912b6",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.07199999527074397
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6888,7 +6889,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 80.91429999331012,
+          "elapsed_ms": 0.0,
           "objective": 74.0
         }
       ],
@@ -6902,14 +6903,14 @@
       "notes": [],
       "objective": 74.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "d6bffd051cee0d36a1724bbb9e5279e1750b2fe5791cbefd430ea110790025aa",
+      "reproducibility_sha256": "80176abdfc4cb0b4a52a73402a62f86a0d38016bf24dfebb7ad64e0cfb2e5345",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 80.91299998341128
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6937,7 +6938,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.06469999789260328,
+          "elapsed_ms": 0.0,
           "objective": 94.0
         }
       ],
@@ -6951,14 +6952,14 @@
       "notes": [],
       "objective": 94.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "4dbac50156e0775008c7bc056195806de5c0dca42356eb5331508e3b26caf268",
+      "reproducibility_sha256": "41da73bda1edecf5115d87082a87558c931efdc75a7ff48f26fa2dd3c6e2ffb9",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.06389999180100858
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -6986,7 +6987,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.54539999668486,
+          "elapsed_ms": 0.0,
           "objective": 74.0
         }
       ],
@@ -7000,14 +7001,14 @@
       "notes": [],
       "objective": 74.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "5ef74d0ad9ce378ba6e59867e2c89baa2b26d7f4753d5a664441c8a4dd27c03d",
+      "reproducibility_sha256": "0435301c8f86c4681eac615c580f4961efb2fe44cac4269a1bdd6773ad230d00",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.5442000166513
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7035,7 +7036,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.06669998401775956,
+          "elapsed_ms": 0.0,
           "objective": 102.0
         }
       ],
@@ -7049,14 +7050,14 @@
       "notes": [],
       "objective": 102.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "196f39c1265b46cb36dc2135042af0959c091c316ab5b2bece02093c83e43e2c",
+      "reproducibility_sha256": "f1df17e0f37f233e4df3f7e4082c063a14048c7db090e88e769b94afeef7fd79",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.06579997716471553
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7084,7 +7085,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.98029999039136,
+          "elapsed_ms": 0.0,
           "objective": 82.0
         }
       ],
@@ -7098,14 +7099,14 @@
       "notes": [],
       "objective": 82.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "c02ab79cf35b6c5b933c0d350aa38a043c07aabd3beef7964c525abd8cd2add4",
+      "reproducibility_sha256": "e34e4947f644430974446e1f45b8119656d388e33c8e889cc2cd2b5f9703ee80",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.97899998049252
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7133,7 +7134,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.07790001109242439,
+          "elapsed_ms": 0.0,
           "objective": 104.0
         }
       ],
@@ -7147,14 +7148,14 @@
       "notes": [],
       "objective": 104.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "b3f888ba3a1f44198d8040c28d5b26aaf83628a0e7622a8f87103fb8ebe9794c",
+      "reproducibility_sha256": "7912f51c7b88b28086fdc2442802db16bebd9bb9b0b26f9ca1f602c3cb8f1c45",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.07720000576227903
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -7169,7 +7170,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "abf6e0857385ded3668df49e767f505f9ce9f74412c9e35907fae94eedef9235",
+      "reproducibility_sha256": "d3b11df41da6ce22347a44d5d7eb38e4c84a288133ee347aa652b68066844408",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
@@ -7178,7 +7179,7 @@
       "violations": [
         "aggregate_capacity"
       ],
-      "wall_time_ms": 0.004199973773211241
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -7193,7 +7194,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "8a0c540376a5ee9c0f64bcf67b8d7dd9fb9ccfdad4bfaecb969026ed15e408ad",
+      "reproducibility_sha256": "b07b58e9f021de991d6cbc11b0ccb1ec322ef2c70a25e54caae5ba6541a5899b",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
@@ -7202,7 +7203,7 @@
       "violations": [
         "customer_coverage"
       ],
-      "wall_time_ms": 0.04680000711232424
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7230,7 +7231,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.63240001886152,
+          "elapsed_ms": 0.0,
           "objective": 76.0
         }
       ],
@@ -7244,14 +7245,14 @@
       "notes": [],
       "objective": 76.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "c27451b82d24025ffb93ce377c2ca9bdaba10dd981637f995700011b6b3bf579",
+      "reproducibility_sha256": "97c6e006467e049a97b02495e13b9a191bf7dea7810ab0a622682b92fd4f8de6",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.63100000820123
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7279,7 +7280,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.06349998875521123,
+          "elapsed_ms": 0.0,
           "objective": 108.0
         }
       ],
@@ -7293,14 +7294,14 @@
       "notes": [],
       "objective": 108.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "64b3a30ce5882909e9f38ec29adf9dcf3508d0cfd5de5c6de5747fb8a3c3ec5e",
+      "reproducibility_sha256": "39314a9a01bab01658fa57e2435d8ad9c1ea62bb2aa9e985e5ccc6e8cdfc135f",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.06279998342506588
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7328,7 +7329,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.01279998663813,
+          "elapsed_ms": 0.0,
           "objective": 82.0
         }
       ],
@@ -7342,14 +7343,14 @@
       "notes": [],
       "objective": 82.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "072f10832eca25ad850374968ae72cd2e92bfe5a25aadf61b74836ac716e4987",
+      "reproducibility_sha256": "4a9c0b4a44a77322ae9b10538de12ed3cd7b51e57ebde76a9392449012701dbe",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.01080000051297
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7377,7 +7378,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.09220000356435776,
+          "elapsed_ms": 0.0,
           "objective": 106.0
         }
       ],
@@ -7391,14 +7392,14 @@
       "notes": [],
       "objective": 106.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "258c2c9a58c21ac97535846f5549ece83d2cb2afc0200e7e93d0372b05790e53",
+      "reproducibility_sha256": "d067e7b4c4c4dccb217d251bd592d7aa4552ba038341f3a93c00bd77eb041672",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.09120002505369484
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7426,7 +7427,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.80949999950826,
+          "elapsed_ms": 0.0,
           "objective": 92.0
         }
       ],
@@ -7440,14 +7441,14 @@
       "notes": [],
       "objective": 92.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "c210e3565eb7e8d5cfbb3e6dae29c44f0bfd474c093e8961da8f29593b19e95a",
+      "reproducibility_sha256": "01fb6ba0ffa15edcf0ebceca8f9fc631c32f5b305e967977acc0bee55c264cc6",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.8075000133831
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7475,7 +7476,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.06680001388303936,
+          "elapsed_ms": 0.0,
           "objective": 102.0
         }
       ],
@@ -7489,14 +7490,14 @@
       "notes": [],
       "objective": 102.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "247309d107b94bb729d57a7bb2e7f7e266a3b2a931f935eb544b9cc7500e7a67",
+      "reproducibility_sha256": "34f27e3af9de86d3a05b09626c042f1adc666ba693b96cb5abd87dfbc75731b5",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.066100008552894
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7524,7 +7525,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.96849998785183,
+          "elapsed_ms": 0.0,
           "objective": 68.0
         }
       ],
@@ -7538,14 +7539,14 @@
       "notes": [],
       "objective": 68.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "ab4c119a4cc12460815728ddde6dda2f8db018360d6665905018c64b4ff9503f",
+      "reproducibility_sha256": "58230f89e9593c933b13016511c0cba57cf311faacd8ae4f4304b2b4d0dab5e3",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.96690000477247
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7573,7 +7574,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.09110002429224551,
+          "elapsed_ms": 0.0,
           "objective": 88.0
         }
       ],
@@ -7587,14 +7588,14 @@
       "notes": [],
       "objective": 88.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "e361ed4b52ae08eb6397fc8ffdc6f30523e7bebb923b12bb0af9e42b43a8e1ad",
+      "reproducibility_sha256": "4bc0027abc4e99be41f74fa72676f19ede91da95410fe438304b4609cf888077",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.08980001439340413
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -7609,7 +7610,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "6b4e68fc78774c84511b750fb304ba5dae0067cb2a8e496bb1488e991993d0e1",
+      "reproducibility_sha256": "cba52e13519d630aae981f0bc8a5419ea993063f489f44f96be6971abd15a109",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
@@ -7618,7 +7619,7 @@
       "violations": [
         "aggregate_capacity"
       ],
-      "wall_time_ms": 0.006799993570894003
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -7633,7 +7634,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "0e27e485e5c7d5738181562d3e5be97f76312ad4dd7733b2d097987f86a89391",
+      "reproducibility_sha256": "b8c7dea4d62549c2f7937579af85febca26380554ef275c3393a3ce509b40877",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
@@ -7642,7 +7643,7 @@
       "violations": [
         "customer_coverage"
       ],
-      "wall_time_ms": 0.06809999467805028
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7677,7 +7678,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.09320001676679,
+          "elapsed_ms": 0.0,
           "objective": 100.0
         }
       ],
@@ -7691,14 +7692,14 @@
       "notes": [],
       "objective": 100.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "c80e396f9bfb0b112cf900f0bc80231d05873a669748547445311a3fb60621f8",
+      "reproducibility_sha256": "f525dbfffb8f53ee50a7d213fa23b19a72b523f47c46c036490df9e0edb15a89",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.09150000382215
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7733,7 +7734,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.10599999222904444,
+          "elapsed_ms": 0.0,
           "objective": 160.0
         }
       ],
@@ -7747,14 +7748,14 @@
       "notes": [],
       "objective": 160.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "28a91d37cbff40121c9eefde5aa9f197cb80e2954298ba21978ab967c7e84a8b",
+      "reproducibility_sha256": "66984f4739a59cc739bb0389fdbd8eebed8fffc0d925451e41214804a754cea7",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.10470001143403351
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7789,7 +7790,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.32240001577884,
+          "elapsed_ms": 0.0,
           "objective": 96.0
         }
       ],
@@ -7803,14 +7804,14 @@
       "notes": [],
       "objective": 96.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "97724acb08fbd1e857d8b3385ab835a3c5d80d058f527f200ebcd216b6b90ac4",
+      "reproducibility_sha256": "14f9b27fa7233063b73b6cc13af8fabfaed00f99a4e1d74d854e2391e473d454",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.32040000054985
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7845,7 +7846,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.08440000237897038,
+          "elapsed_ms": 0.0,
           "objective": 140.0
         }
       ],
@@ -7859,14 +7860,14 @@
       "notes": [],
       "objective": 140.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "bdf64aefba4e84f7289bee7f3adf4727a80907c75b71b807b438f873f8b313de",
+      "reproducibility_sha256": "a994cdb3a22c095abf05687b1317fc988e590f5fcef0051290c7c0eec1300989",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.08360002539120615
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7901,7 +7902,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 82.04290000139736,
+          "elapsed_ms": 0.0,
           "objective": 104.0
         }
       ],
@@ -7915,14 +7916,14 @@
       "notes": [],
       "objective": 104.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "31fe677c15f22e01f2ea0d5899353a0c490fc1b538f36973e314c814333c9a68",
+      "reproducibility_sha256": "93f0c50f24c5052b5172e4e8b33d2e471c74638d18d40e7652f03d9a9f192019",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 82.04139998997562
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -7957,7 +7958,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.08229998638853431,
+          "elapsed_ms": 0.0,
           "objective": 144.0
         }
       ],
@@ -7971,14 +7972,14 @@
       "notes": [],
       "objective": 144.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "aa86d7f974b37c23b46e9d3e660e24362153c83b1f43837710389bb01aaa93a6",
+      "reproducibility_sha256": "8b511ac4d426fa387a6b89b7d2f0da8d2b940996fffb1444d627cbd9d223216a",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.08149998029693961
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8013,7 +8014,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.40450000064448,
+          "elapsed_ms": 0.0,
           "objective": 100.0
         }
       ],
@@ -8027,14 +8028,14 @@
       "notes": [],
       "objective": 100.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "05fd6427d554e3455015ed5b39b92dc073b683bf7818166bd0b7c7499b514733",
+      "reproducibility_sha256": "3d66dba2cc99c4ed2de0478d25dc2e689103786e94375f2fab7dcdc795af5b8d",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.40330002061091
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8069,7 +8070,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.08219998562708497,
+          "elapsed_ms": 0.0,
           "objective": 152.0
         }
       ],
@@ -8083,14 +8084,14 @@
       "notes": [],
       "objective": 152.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "2f2b64e76f11339c4d559ef4008dc998c753820a37572bf480e57f9b22bf0b92",
+      "reproducibility_sha256": "7fa876d668040acacc3ad5e432434eedda805412357c4d6b031bc601c72b1e13",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.0813000078778714
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -8105,7 +8106,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "7824221b9806155eac1a81d6bf070503eaa2d91ec10c15b369636de0057c3e8c",
+      "reproducibility_sha256": "b1eb4244648a250bae7183c7d45acea0db752e2bc5b7cc6a968b6850e29e4fa5",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
@@ -8114,7 +8115,7 @@
       "violations": [
         "aggregate_capacity"
       ],
-      "wall_time_ms": 0.0043000036384910345
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -8129,7 +8130,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "b8832dc385ec85e2523e8aafcfb3732753ce916f3f743cb343e4b0f3123a2722",
+      "reproducibility_sha256": "d5b22e8d7d9daebd89eb4750f08baf437d03bece7eee5c0ff785faf933d5781a",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
@@ -8138,7 +8139,7 @@
       "violations": [
         "customer_coverage"
       ],
-      "wall_time_ms": 0.057199998991563916
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8173,7 +8174,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 82.04169999225996,
+          "elapsed_ms": 0.0,
           "objective": 94.0
         }
       ],
@@ -8187,14 +8188,14 @@
       "notes": [],
       "objective": 94.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "7ed7f9e36df4fd5a9cbdd90ef6a73e05ced7be3925e0f67dfe61c303ae037cac",
+      "reproducibility_sha256": "24301491eef29042703aa1ac3fb0083558d651f35e592dde01784351b2c94025",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 82.03980000689626
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8229,7 +8230,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.1044000091496855,
+          "elapsed_ms": 0.0,
           "objective": 130.0
         }
       ],
@@ -8243,14 +8244,14 @@
       "notes": [],
       "objective": 130.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "7a8da684023bcb813d14e73bc78f8a8fe1ab0acde21f92c58d83b072e48183d3",
+      "reproducibility_sha256": "adec857158452d9f071410dfbad5e66689512ace78cb2a9bd1f588261ec73ab1",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.10289999772794545
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8285,7 +8286,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 81.14239998394623,
+          "elapsed_ms": 0.0,
           "objective": 100.0
         }
       ],
@@ -8299,14 +8300,14 @@
       "notes": [],
       "objective": 100.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "5b63b4bf9fec99f8777e16206d2c77803e381e5a80b6afc3973b1446af157d11",
+      "reproducibility_sha256": "56e023af83ace8ff4a0e4b1427d0d88c8d08f001bb66bb65374d651e2c601add",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 81.14099997328594
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8341,7 +8342,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.09019998833537102,
+          "elapsed_ms": 0.0,
           "objective": 130.0
         }
       ],
@@ -8355,14 +8356,14 @@
       "notes": [],
       "objective": 130.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "70344ccfacf324ce7806cdc5d051f67e1f186f33546aab1dad6296a71d08aa0a",
+      "reproducibility_sha256": "ce9996b79a4e4755efa46d9761feb6ddf4c2937955b19054f95db1f342807ad9",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.08929998148232698
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8397,7 +8398,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 82.0714000146836,
+          "elapsed_ms": 0.0,
           "objective": 92.0
         }
       ],
@@ -8411,14 +8412,14 @@
       "notes": [],
       "objective": 92.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "566d6b15f79cb3b1a5e5ef188fc54ca28f3d5bb8722c7da43939a8632b730e11",
+      "reproducibility_sha256": "34aecaef029b3dd063ea39b60cb6b560973d588976b9a310a31965b5ea85f7f5",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 82.06970000173897
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8453,7 +8454,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.22089999401941895,
+          "elapsed_ms": 0.0,
           "objective": 134.0
         }
       ],
@@ -8467,14 +8468,14 @@
       "notes": [],
       "objective": 134.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "10cd12c44d1c63c6ca888ebe5077ae8c265b51e3953c40b1e20822a3df1fedf7",
+      "reproducibility_sha256": "15759f7b215d86cdff18d5145875305a78b27c65a5156893d5ede0f70a55b800",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.21970001398585737
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8509,7 +8510,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 80.74450001004152,
+          "elapsed_ms": 0.0,
           "objective": 100.0
         }
       ],
@@ -8523,14 +8524,14 @@
       "notes": [],
       "objective": 100.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "afbebc5ffd322bc2a796f32e3ff7bc943a901a78c796766b8588b637929c3bf5",
+      "reproducibility_sha256": "6c20e04bd4dd9a2c4b40d910dfb60e04f01c4570f276a0b1a215c28002125d72",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 80.74289999785833
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8565,7 +8566,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.11260001338087022,
+          "elapsed_ms": 0.0,
           "objective": 132.0
         }
       ],
@@ -8579,14 +8580,14 @@
       "notes": [],
       "objective": 132.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "641f08f73f26263ffd59a14147e3d2ad22b25f79ce0aa8f8d02140c4874f6751",
+      "reproducibility_sha256": "4b79a01984904281c9f556eb2e5e271d0428582800979b60d30f04e03a15c294",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.11140000424347818
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -8601,7 +8602,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "290ff820c9d9373bb1262c2226cf74d7230e3e6b58ffd5193a255bae9102fda6",
+      "reproducibility_sha256": "f3eb1597f5783103ec9ee4b6b3ae7ef8fd2c04535f226a9e93b991f0a56545d0",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
@@ -8610,7 +8611,7 @@
       "violations": [
         "aggregate_capacity"
       ],
-      "wall_time_ms": 0.005400012014433742
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -8625,7 +8626,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "aaa9d1956fe6ec978b98f17ffa3be9bf52bf873e2e2ee29c99aca03d6c42893e",
+      "reproducibility_sha256": "50f6c8c45e44b54cc461b33991823747f6ee3832ca847547720f3de69cf5e7bc",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
@@ -8634,7 +8635,7 @@
       "violations": [
         "customer_coverage"
       ],
-      "wall_time_ms": 0.09710001177154481
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8646,7 +8647,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.1720000077039003,
+          "elapsed_ms": 0.0,
           "objective": -51.0
         }
       ],
@@ -8662,14 +8663,14 @@
       ],
       "objective": -51.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "f044cdb688b4c1794245faf1637d1ac38ae7616a476ca9befd776beecb750673",
+      "reproducibility_sha256": "6d6029693e607fc418b1c3bd127893e95fa60e3ae2ef726e3850ebbab6ced7f8",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.1704000246245414
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8681,7 +8682,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.04379998426884413,
+          "elapsed_ms": 0.0,
           "objective": -51.0
         }
       ],
@@ -8695,14 +8696,14 @@
       "notes": [],
       "objective": -51.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "bd9bc393649896656b62b1c954d8f68f9f397455578a4cf5710e6cf72e6b7d4b",
+      "reproducibility_sha256": "b457e338a44579c9430fe0f75167e94ae0d93bb64d9ca090f07ed80c9df7e7e3",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.04300000728107989
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8714,7 +8715,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.077799988910556,
+          "elapsed_ms": 0.0,
           "objective": -51.0
         }
       ],
@@ -8730,14 +8731,14 @@
       ],
       "objective": -51.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "33da12a3b208e134de71dc5b04c0383fe41072489574e736965b12a475a7037a",
+      "reproducibility_sha256": "8d5ea7b79f487b3dea8471871d31a9910e1dc3b2e84215161530387eb624b77d",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.0764000073540956
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8749,7 +8750,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.1369000130798668,
+          "elapsed_ms": 0.0,
           "objective": -54.0
         }
       ],
@@ -8765,14 +8766,14 @@
       ],
       "objective": -54.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "620a5c4986a5d7bb0013691e0e5eab3710422f5af86938cff7815cf2345f042c",
+      "reproducibility_sha256": "4dc19bf7d2a2ae74f5a0e3bc2865f4ade17c194f4d0d4beb1d59243957d8701f",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.1359000054653734
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8784,7 +8785,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.024899985874071717,
+          "elapsed_ms": 0.0,
           "objective": -54.0
         }
       ],
@@ -8798,14 +8799,14 @@
       "notes": [],
       "objective": -54.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "783ec2c449d4ca0e3e8e269153a6976c93626333895dba6e62095d146a5b0bd7",
+      "reproducibility_sha256": "a23c64ec28896cf437bdc32d563f5eec24283b91a9fe5741b67025f1428c7b0a",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.02440001117065549
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8817,7 +8818,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.195799995912239,
+          "elapsed_ms": 0.0,
           "objective": -54.0
         }
       ],
@@ -8833,14 +8834,14 @@
       ],
       "objective": -54.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "98b5d17b4076dc4c685845c27384633a6d30cecfd77a585fe906b7c16d94d95a",
+      "reproducibility_sha256": "c1bc239a10294516abcad2310e463c1c5d6f2ed271f5acfcd59f7156e3cdbf5b",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.194800017401576
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8852,7 +8853,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.3201999827288091,
+          "elapsed_ms": 0.0,
           "objective": -54.0
         }
       ],
@@ -8868,14 +8869,14 @@
       ],
       "objective": -54.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "df948eec9743327f848783933d6f915bcdc85c10ee65bf0646ad15a2af994ea9",
+      "reproducibility_sha256": "93bc857651fcab4d4309807cfc4382b94b175d5a22f5f7573ea46b21acfcfbd9",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.3189000019337982
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8887,7 +8888,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.025599991204217076,
+          "elapsed_ms": 0.0,
           "objective": -54.0
         }
       ],
@@ -8901,14 +8902,14 @@
       "notes": [],
       "objective": -54.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "83ef6c5baf063b1394cf3dc59d3b012047d2fc0eb6625708fe6d17395802c794",
+      "reproducibility_sha256": "4501eeff5b18e17c04770a4600bae56ab51a171db282dc27c26c41949ef76ef0",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.02479998511262238
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8920,7 +8921,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.4137999969534576,
+          "elapsed_ms": 0.0,
           "objective": -54.0
         }
       ],
@@ -8936,14 +8937,14 @@
       ],
       "objective": -54.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "7e8a354a689515c713e0195a75dbe6f32f730ce48483d62fd6347da8deee2bea",
+      "reproducibility_sha256": "5137d070182b5c246fbb01beb0c0bdd418d8e9e45910fb05421e68e76869777b",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.4126999885775149
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8955,7 +8956,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.286299986531958,
+          "elapsed_ms": 0.0,
           "objective": -57.0
         }
       ],
@@ -8971,14 +8972,14 @@
       ],
       "objective": -57.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "29fc5a744796405db456c2e8f2b3d6293ca762e22fb7f56cdd133fa01e34135e",
+      "reproducibility_sha256": "bdbd3e04abcdfca01324b20df4e7e09cf8bf13551ec47a6c1fd5f2977d4c3341",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.2854000087827444
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -8990,7 +8991,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.022199994418770075,
+          "elapsed_ms": 0.0,
           "objective": -57.0
         }
       ],
@@ -9004,14 +9005,14 @@
       "notes": [],
       "objective": -57.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "346a84802934430c96abd4da9593b46c845c9c0464cea53347e656ceba9dec78",
+      "reproducibility_sha256": "7b8cb6ef4fe12474e7ab28d5730125b27bba590f35e498758250d721e7a6bcc3",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.021599989850074053
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9023,7 +9024,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.1956999951507896,
+          "elapsed_ms": 0.0,
           "objective": -57.0
         }
       ],
@@ -9039,14 +9040,14 @@
       ],
       "objective": -57.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "e4be1209b50c2f244daa71c98348780f77bbd9a834a8e0dd452bb8213f94fcb3",
+      "reproducibility_sha256": "2542d4f297bd55c30576c8e1311bbfad0bf5ce9b2b6e1afbfafd8ad0d9ddf1bc",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.1946999875362962
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -9061,7 +9062,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "66d95be6a042053b7235eed66515f33bfa8f738af115bd182c07c61446635e5f",
+      "reproducibility_sha256": "f3768ca0634012dcf0a5526c83c35b76af57dbcc0394a737b2c2957eb62be928",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
@@ -9070,7 +9071,7 @@
       "violations": [
         "return_or_exposure_infeasible"
       ],
-      "wall_time_ms": 0.7140999950934201
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -9085,7 +9086,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "08923d672cd99e6d445088ce5e27eb6feb143c63f8b21fffdec258f211c74b20",
+      "reproducibility_sha256": "527a0e9575088b530bba65ce4d88820c7ffc7a64bc518a8f733c21ccf1bab741",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
@@ -9094,7 +9095,7 @@
       "violations": [
         "minimum_return"
       ],
-      "wall_time_ms": 0.026999972760677338
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -9109,7 +9110,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "8416a15204f19557898f22236cbc635a566489fc57e8ff8f1cc2061a39e07c7f",
+      "reproducibility_sha256": "b83ce4f4168b40779f4db691533c443b41ba814de52dde25a98f0842bcb29a44",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
@@ -9118,7 +9119,7 @@
       "violations": [
         "return_or_exposure_infeasible"
       ],
-      "wall_time_ms": 0.732100015738979
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9130,7 +9131,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.2811000051442534,
+          "elapsed_ms": 0.0,
           "objective": -48.0
         }
       ],
@@ -9146,14 +9147,14 @@
       ],
       "objective": -48.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "7dbcdab6dc80f485fd0877b3b8e076150b6521fddad90b5bec4041ae64774f69",
+      "reproducibility_sha256": "ef822b6c18a3ff7f57c3316123ccd97ab0c6f4b47bcb8bfa4ca0c74e3a6e0e08",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.2801999982912093
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9165,7 +9166,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.022499996703118086,
+          "elapsed_ms": 0.0,
           "objective": -48.0
         }
       ],
@@ -9179,14 +9180,14 @@
       "notes": [],
       "objective": -48.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "bd5d542fcac8b0cd8adb8cff0d7ba09e7da3a0d5f678a2416d50ecc12a511c8a",
+      "reproducibility_sha256": "26f12a34d59b7c335623b9eb24e0835ffbacd062075806c6ea2f66ac4c7f9824",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.021899992134422064
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9198,7 +9199,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.2605999945662916,
+          "elapsed_ms": 0.0,
           "objective": -48.0
         }
       ],
@@ -9214,14 +9215,14 @@
       ],
       "objective": -48.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "64567120813357a451cc27c0beaccd6fe2827540ad58f037528ad8f77d8bb867",
+      "reproducibility_sha256": "68dae4d302915b9c723297ffe88fa401e0d0f4d32ba0e1eb137ef35c1b000a5e",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.2595999869517982
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9233,7 +9234,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.1403000098653138,
+          "elapsed_ms": 0.0,
           "objective": -60.0
         }
       ],
@@ -9249,14 +9250,14 @@
       ],
       "objective": -60.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "ed7c23d195f660ff59ddad4e748029e25247e96a840b9620c9ef270658acde8f",
+      "reproducibility_sha256": "cd993d749c78d0b4de37f1570f452f75c03f1f40a71f6f32a26a994fa5e0b3c8",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.1394000030122697
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9268,7 +9269,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.019400002202019095,
+          "elapsed_ms": 0.0,
           "objective": -60.0
         }
       ],
@@ -9282,14 +9283,14 @@
       "notes": [],
       "objective": -60.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "4201b80c53f561996b40259d7725775cb0b080971c5b4d77a4d6118fbfc2ab6d",
+      "reproducibility_sha256": "6c1290ee9094c8afad1012bc568cb4ec36d637e07684144f7401cd1447312941",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.01889999839477241
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9301,7 +9302,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.9600000048521906,
+          "elapsed_ms": 0.0,
           "objective": -60.0
         }
       ],
@@ -9317,14 +9318,14 @@
       ],
       "objective": -60.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "6f21307a542f05aa2d2010104e9956ae544f8cd939deac9097f788992f6cacd4",
+      "reproducibility_sha256": "b3535812df0ee9731c75aaed19d0068097b31b28a08c31c05dc809dca7c03961",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.9591999987605959
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9336,7 +9337,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.9880999859888107,
+          "elapsed_ms": 0.0,
           "objective": -51.0
         }
       ],
@@ -9352,14 +9353,14 @@
       ],
       "objective": -51.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "a813f816a831e23273f9b701f6f03ac3a0b91debad730029dbf4cb09bba04344",
+      "reproducibility_sha256": "c57ea0f5612b3f588d142b45cf463debde8bd2fd23a06912a976287c70f23e26",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.9873999806586653
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9371,7 +9372,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.01829999382607639,
+          "elapsed_ms": 0.0,
           "objective": -51.0
         }
       ],
@@ -9385,14 +9386,14 @@
       "notes": [],
       "objective": -51.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "f6e8d279b5d2aaee64ab1f3c53d83a82b77ba0b8bdd1d44cc2a0f3e8bb8f99c6",
+      "reproducibility_sha256": "92ba0813c8f4db62fc8454a1d185223745dc4d01416afb22448c8fe204ce4993",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.017900019884109497
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9404,7 +9405,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.9582999919075519,
+          "elapsed_ms": 0.0,
           "objective": -51.0
         }
       ],
@@ -9420,14 +9421,14 @@
       ],
       "objective": -51.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "b2aad71cb62b33b90b2521269a562c9db113a1d3b670b88bed769ac6c28b43b8",
+      "reproducibility_sha256": "6b74d8b5953547f687cc5cc45adfc200cc040c1a0ec39751d6cb08d3d0af70ee",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.9573999850545079
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9439,7 +9440,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.354899985017255,
+          "elapsed_ms": 0.0,
           "objective": -54.0
         }
       ],
@@ -9455,14 +9456,14 @@
       ],
       "objective": -54.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "bfbda7ae1d11e784cc9c5edf1782b59d9c23902931bf0514329a046ecdf8f444",
+      "reproducibility_sha256": "2c9ae0d7eda2b4a1fa279bd1712c7ae4c93388e991bcd5b5be38e8a3734902bf",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.353600004222244
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9474,7 +9475,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.03160000778734684,
+          "elapsed_ms": 0.0,
           "objective": -54.0
         }
       ],
@@ -9488,14 +9489,14 @@
       "notes": [],
       "objective": -54.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "bf70231d16767524c4b8f06e3d7e0c04e33ef22ac6b3c801a81e483368c6b58d",
+      "reproducibility_sha256": "32f59dac31fa42354f2278e86805112bc2f56078f78f2222d4c3f66ad69929fc",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.030800001695752144
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9507,7 +9508,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.3747999910265207,
+          "elapsed_ms": 0.0,
           "objective": -54.0
         }
       ],
@@ -9523,14 +9524,14 @@
       ],
       "objective": -54.0,
       "oracle_gap": 0.0,
-      "reproducibility_sha256": "abec23982e13c63690a01e15f19bdd977c7913d2c3d97d33bd3adbbcfb4dfff4",
+      "reproducibility_sha256": "be7da01279017c782f95eaef86ce8fe4c253c6d3ba994711ab670f445f72c28e",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.3739000132773072
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -9545,7 +9546,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "95808f8b8d3ab3402a1834324d6dc30753950b071a574b7d800301c15aa2eb9e",
+      "reproducibility_sha256": "7c22be087b6883f530ce0c3c505a62b91dc1e52b27d4814cd42ce89ff298f19e",
       "seed": null,
       "size": "small",
       "solver": "classical_strong",
@@ -9554,7 +9555,7 @@
       "violations": [
         "return_or_exposure_infeasible"
       ],
-      "wall_time_ms": 0.6594000151380897
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -9569,7 +9570,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "da8c77db0b0a853f3d3ee9571d02819d4824858555444c94c4cbfbaf53fa6907",
+      "reproducibility_sha256": "d2cef4004a8ae474697284564e93b34194f713170662f003806ce61d0fc9d25d",
       "seed": null,
       "size": "small",
       "solver": "domain_heuristic",
@@ -9578,7 +9579,7 @@
       "violations": [
         "minimum_return"
       ],
-      "wall_time_ms": 0.023100001271814108
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -9593,7 +9594,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "2bb00822ec36caef167482f0417058c3e7749852a13e5582dd9503128c81c7da",
+      "reproducibility_sha256": "640f581182546971d828973a54cd2bcfbf8372662dba9f2383a69800aa8ed60c",
       "seed": null,
       "size": "small",
       "solver": "exact_oracle",
@@ -9602,7 +9603,7 @@
       "violations": [
         "return_or_exposure_infeasible"
       ],
-      "wall_time_ms": 0.6518999871332198
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9615,7 +9616,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.6480999765917659,
+          "elapsed_ms": 0.0,
           "objective": -88.0
         }
       ],
@@ -9631,14 +9632,14 @@
       ],
       "objective": -88.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "09e9216df0a2afb72b2f27a64501df32fd635d54d0352e68bce0dbc95dbec810",
+      "reproducibility_sha256": "be614f32b6e016260804e338da002afe1e1f4b141a9bb64eff9a869cdd5ca24a",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.6469999973196536
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9651,7 +9652,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.02500001573935151,
+          "elapsed_ms": 0.0,
           "objective": -88.0
         }
       ],
@@ -9665,14 +9666,14 @@
       "notes": [],
       "objective": -88.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "6789e2b75e87dde538a3b3a3103c2f0344d4393e796992ec0d11acecaea2457c",
+      "reproducibility_sha256": "424aece2d3ef5deb547b600b682439e749d4b098f674f158570af96d01ee803e",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.02440001117065549
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9685,7 +9686,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.052800002275035,
+          "elapsed_ms": 0.0,
           "objective": -80.0
         }
       ],
@@ -9701,14 +9702,14 @@
       ],
       "objective": -80.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "eabddcaedd36efdb7a13b3069b7e1ee13bbfc8d69fd1f0b5c7e5be92401c718f",
+      "reproducibility_sha256": "f84f6d9da258b21f89ae59b84c0a013b007a81eab98fd64a6e76f87c8019810e",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.0511000184342265
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9721,7 +9722,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.039000005926936865,
+          "elapsed_ms": 0.0,
           "objective": -80.0
         }
       ],
@@ -9735,14 +9736,14 @@
       "notes": [],
       "objective": -80.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "0602ea5c61153f357087fb5846fecb4cbd9c47406619797b5aaa340296e63899",
+      "reproducibility_sha256": "484be98286824d0a987c160d8b4c586ecd86df0be8748e5a17f9ebac15f49dfd",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.03809999907389283
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9755,7 +9756,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.8116999892517924,
+          "elapsed_ms": 0.0,
           "objective": -75.0
         }
       ],
@@ -9771,14 +9772,14 @@
       ],
       "objective": -75.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "4a15f844ba06e58d93dcfc91c47a1f5d1c7acb6406be2e21cbcc737dbedb820d",
+      "reproducibility_sha256": "3a2ef0ccb987b9ddeacc3c9a2ef7da36c0d59b5325690098be95b3d2c6b06dab",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.7746999985538423
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9791,7 +9792,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.04220000118948519,
+          "elapsed_ms": 0.0,
           "objective": -75.0
         }
       ],
@@ -9805,14 +9806,14 @@
       "notes": [],
       "objective": -75.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "7b5b442c7380748c6061be90e61faef989c733d160fd806df67afd6abb0b1a52",
+      "reproducibility_sha256": "accc6ae0ff02eec232c44d951cbe65a7be9d35a87ab2e5517b8f8ed5bf313c9c",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.041099992813542485
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9825,7 +9826,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.616400015540421,
+          "elapsed_ms": 0.0,
           "objective": -82.0
         }
       ],
@@ -9841,14 +9842,14 @@
       ],
       "objective": -82.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "246d3c3c84cdd0cb13302b41c56dfef2a2eabff3797a298860d2c6a40141d013",
+      "reproducibility_sha256": "e9ddec1095b475a3c9a0ee3eeadcf1090a1d15b3032f44e148750af14cfa450a",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.6145000010728836
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9861,7 +9862,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.03779999678954482,
+          "elapsed_ms": 0.0,
           "objective": -82.0
         }
       ],
@@ -9875,14 +9876,14 @@
       "notes": [],
       "objective": -82.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "d1f44014dc361fe73e6e6fb290a5bf2f40ecdb1a7eeb8fdac08568fb1b88345d",
+      "reproducibility_sha256": "880095c767012963d0f0d7c548a6943b75c81bdb11e3e81b629ed110006ea81e",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.03689998993650079
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -9897,7 +9898,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "a0f3fd3ad8ba21b3bcc089e0bb6668ba244d82b272f6a0d0de4aa806fc2a0888",
+      "reproducibility_sha256": "5475d97541bed703bbe3ebf8598f6a3b0e04f4b7a7f33509cfb997d75cb0a731",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
@@ -9906,7 +9907,7 @@
       "violations": [
         "return_or_exposure_infeasible"
       ],
-      "wall_time_ms": 1.5463999880012125
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -9921,7 +9922,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "7ff4325f1d776baef707753ce0b87a78a56dfb05e54c82513f3f5f203605b4fc",
+      "reproducibility_sha256": "055f994f9aedb82b5f6e8cbbd0225045d873cfb3a45d884dbf97809efc3d977b",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
@@ -9930,7 +9931,7 @@
       "violations": [
         "minimum_return"
       ],
-      "wall_time_ms": 0.04080001963302493
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9943,7 +9944,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 4.732599976705387,
+          "elapsed_ms": 0.0,
           "objective": -78.0
         }
       ],
@@ -9959,14 +9960,14 @@
       ],
       "objective": -78.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "4b9ca0ead376937a7c98b16e2ab96ba708d33dc0baec46994e814a74e836da04",
+      "reproducibility_sha256": "5c21efd3b6013979ce6a4218f452e6e462bd27b89737cf01317a894dc3c091ab",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 4.73079999210313
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -9979,7 +9980,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.03359999391250312,
+          "elapsed_ms": 0.0,
           "objective": -78.0
         }
       ],
@@ -9993,14 +9994,14 @@
       "notes": [],
       "objective": -78.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "ccab6a19cccf043e4c7c54177d0f6eb3abe857378daaa5a5ad5d64a4d4a45a76",
+      "reproducibility_sha256": "f63ebca170024cce0ff1ecd5c809556e3049e753eb841f291b3da429a68bf9d5",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.032899988582357764
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10013,7 +10014,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.9061000095680356,
+          "elapsed_ms": 0.0,
           "objective": -70.0
         }
       ],
@@ -10029,14 +10030,14 @@
       ],
       "objective": -70.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "a458b297ead834bbe0d479d8341a67bbb3346b8b4edaca69f55d5006fac6bee4",
+      "reproducibility_sha256": "ada90a9a0e69dcefe92cbe9960eb4861b4bb96c15fc9046f19b8e09c3ebd0858",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.904799999669194
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10049,7 +10050,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.02859998494386673,
+          "elapsed_ms": 0.0,
           "objective": -70.0
         }
       ],
@@ -10063,14 +10064,14 @@
       "notes": [],
       "objective": -70.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "46b86350338f6606987ee0a535b829995aa9b09ed442bf23a36f8c7e052128b9",
+      "reproducibility_sha256": "2126572d4a5f28bba2d7cc34876136e74be8cb74fbbaffd04ccc557796e3641b",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.0281000102404505
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10083,7 +10084,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.9580999796744436,
+          "elapsed_ms": 0.0,
           "objective": -74.0
         }
       ],
@@ -10099,14 +10100,14 @@
       ],
       "objective": -74.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "b3cad9a736dda37794d611dbfed854d2a82c0003c800533387fb96b96ab344b2",
+      "reproducibility_sha256": "958932b823dea7cdde7f4c2cf5e09b070d946480bc9a0ef016e4932c65bcab26",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.956299995072186
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10119,7 +10120,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.03890000516548753,
+          "elapsed_ms": 0.0,
           "objective": -74.0
         }
       ],
@@ -10133,14 +10134,14 @@
       "notes": [],
       "objective": -74.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "af1340ef2a41357a6a8ca9bae0a1c490b4d04a9e449d1bce745d2c74961414de",
+      "reproducibility_sha256": "9448737a58fa3bcf3939522c2582f5e5c3c5345923d66b50f71500209c4c16d7",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.03809999907389283
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10153,7 +10154,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.6862000047694892,
+          "elapsed_ms": 0.0,
           "objective": -72.0
         }
       ],
@@ -10169,14 +10170,14 @@
       ],
       "objective": -72.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "c581e999f1b5ac7879bf001d86628cac6254c3bcaf7a5aea67e7d94daafb3976",
+      "reproducibility_sha256": "c0333ef756e70f6a2978324fb235b12dfb6ad733dcc9435a8b77af498e0a3492",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.6845999925862998
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10189,7 +10190,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.022599997464567423,
+          "elapsed_ms": 0.0,
           "objective": -72.0
         }
       ],
@@ -10203,14 +10204,14 @@
       "notes": [],
       "objective": -72.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "488796a8f4cd1edeb0b6aa171f17336287475afd66e957c603d7ef8c4ea62942",
+      "reproducibility_sha256": "4caf8fcfd3ac3f5c038059ea58f179f38825cdc565418efb07dc08ac34db0e53",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.0219999928958714
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -10225,7 +10226,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "9473fd8935c53e48a18abd26f27581f4ec65b99ead71479b4aa1e93426a6d727",
+      "reproducibility_sha256": "8a3ebe311da3c4afcddc447c7809a32b4a1174c34727bac46bc37dda270687d3",
       "seed": null,
       "size": "medium",
       "solver": "classical_strong",
@@ -10234,7 +10235,7 @@
       "violations": [
         "return_or_exposure_infeasible"
       ],
-      "wall_time_ms": 1.0266000172123313
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -10249,7 +10250,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "ae0137d0eb9dfa6d1d3391715d5502540287830b80e45fe0059f39ee87cb50a9",
+      "reproducibility_sha256": "51e95364bd105306d614cfd385d417c4d6aaa4b43406a41818193a59cac58893",
       "seed": null,
       "size": "medium",
       "solver": "domain_heuristic",
@@ -10258,7 +10259,7 @@
       "violations": [
         "minimum_return"
       ],
-      "wall_time_ms": 0.024500011932104826
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10272,7 +10273,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.7552000063005835,
+          "elapsed_ms": 0.0,
           "objective": -106.0
         }
       ],
@@ -10288,14 +10289,14 @@
       ],
       "objective": -106.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "b51e92a19fa3c531f1b0ee4a88582d4efa5393f90f61b70040c1e649273ad683",
+      "reproducibility_sha256": "667506b93835da33e6ada0045fcbcbc2e7a4f8db8108da5b0711131a13787e0a",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.7541999986860901
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10309,7 +10310,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.023300002794712782,
+          "elapsed_ms": 0.0,
           "objective": -106.0
         }
       ],
@@ -10323,14 +10324,14 @@
       "notes": [],
       "objective": -106.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "75ad889ab61bcee9f53ee43eed76cc61576ba9c1c7490ee04c2ca07b0793f9a6",
+      "reproducibility_sha256": "9d84d1428566a9b7750cdb97a7aec7171123e04e313ad3e25a42f7f7efb9d306",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.022899999748915434
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10344,7 +10345,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.0824999955948442,
+          "elapsed_ms": 0.0,
           "objective": -102.0
         }
       ],
@@ -10360,14 +10361,14 @@
       ],
       "objective": -102.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "7b6a867c11e3cc50ccfdb02b30eec850e63e03d288ab5b749eab52ca04bea11a",
+      "reproducibility_sha256": "63bbb54f350abce91e2eb8bfa50eaefc3a6dd285b5bc11b5f48666b3a6479314",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.081299986457452
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10381,7 +10382,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.03099997411482036,
+          "elapsed_ms": 0.0,
           "objective": -102.0
         }
       ],
@@ -10395,14 +10396,14 @@
       "notes": [],
       "objective": -102.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "842326acb0033ad28e494eb883e9eecc20c0e777950903c96efaf0d306d5947b",
+      "reproducibility_sha256": "c73a9be0d6859a6180b1f20b3fcf2b6c13efaa0cab9c6888ee9e2b6b4fcfbd66",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.030399998649954796
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10416,7 +10417,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.014700003201142,
+          "elapsed_ms": 0.0,
           "objective": -101.0
         }
       ],
@@ -10432,14 +10433,14 @@
       ],
       "objective": -101.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "3b4be9278f072af340c2b5d6fc80649c14209af5ada04fd4af1a75ab54696665",
+      "reproducibility_sha256": "235f6247ee9875d0a3eb2ad2c1e7e5e0136e73ede2e65737e42972c23054fdd6",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.01349999406375
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10453,7 +10454,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.02549999044276774,
+          "elapsed_ms": 0.0,
           "objective": -101.0
         }
       ],
@@ -10467,14 +10468,14 @@
       "notes": [],
       "objective": -101.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "80df38c79a43d485bdf37c91f1c4d1d5d4db34d4f7168732feb43784396bcb28",
+      "reproducibility_sha256": "bb8110f3e04ba9775654b904b24cdc7744f67e046bf97fbf9e43c82bd20dbfaa",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.024899985874071717
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10488,7 +10489,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.7059000092558563,
+          "elapsed_ms": 0.0,
           "objective": -106.0
         }
       ],
@@ -10504,14 +10505,14 @@
       ],
       "objective": -106.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "853214bb1304cc55ec9ce496f5fc93ca16dd76a04baa8e7f37229b0c2a247f03",
+      "reproducibility_sha256": "9e0c198c1646296c5e36cdc0df167e224042d74bf9e82d992824f882509841f6",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.704900001641363
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10525,7 +10526,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.026399997295811772,
+          "elapsed_ms": 0.0,
           "objective": -106.0
         }
       ],
@@ -10539,14 +10540,14 @@
       "notes": [],
       "objective": -106.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "40c37fc316f3fc5da233f3f37fe5853eb9983bc958ad3b34c1451f5dff40e003",
+      "reproducibility_sha256": "cc8549abde9e0df7cc092837bd2e5ea3d7d7b9bcdd7bb96e73d6abe3d4c00337",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.025899993488565087
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -10561,7 +10562,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "d60d3d4f679e408be43c5a6ba51f191167e6dbde5c7efc6c4d4c0095129eb405",
+      "reproducibility_sha256": "69e9fa01da26ea5fa2374dae1b2a78bce5c813d38d3617f51cd3e0d4428c698e",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
@@ -10570,7 +10571,7 @@
       "violations": [
         "return_or_exposure_infeasible"
       ],
-      "wall_time_ms": 1.664000010350719
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -10585,7 +10586,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "f2b62af85cd0af3de921f4ecb0cab1765d9aaf87b4f2af7c3a5022874d5fceb7",
+      "reproducibility_sha256": "837433aa3f1e959d299d7c11154e014dfdf1ef5c6900083a5691781c72d8a4f2",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
@@ -10594,7 +10595,7 @@
       "violations": [
         "minimum_return"
       ],
-      "wall_time_ms": 0.0315000070258975
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10608,7 +10609,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 2.169799990952015,
+          "elapsed_ms": 0.0,
           "objective": -95.0
         }
       ],
@@ -10624,14 +10625,14 @@
       ],
       "objective": -95.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "424d2306456b391e4951b59feab86d5f79f5756dd675c403c5aca44308b02251",
+      "reproducibility_sha256": "cc9c56bb494f906f3e064c6d0895685cf681b9a6f618ba5877919562fca05cf8",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 2.168800012441352
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10645,7 +10646,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.025899993488565087,
+          "elapsed_ms": 0.0,
           "objective": -95.0
         }
       ],
@@ -10659,14 +10660,14 @@
       "notes": [],
       "objective": -95.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "8e38b9bfdee16aff6b9a2b77b8ef4c52c706b80451c1010fa55e1e267153d9b5",
+      "reproducibility_sha256": "0dbd222c450b28c162dc276dfae1c310e57ce199b367444088a859397d8fe331",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.025299988919869065
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10680,7 +10681,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.9878000020980835,
+          "elapsed_ms": 0.0,
           "objective": -100.0
         }
       ],
@@ -10696,14 +10697,14 @@
       ],
       "objective": -100.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "e50e4d56f7e9efcd8e44ce94c9a9635b4e10476dbe441d9e53a5524c56f1c2a1",
+      "reproducibility_sha256": "430716f8d0f7e971e77b22bd241ea50ae07391d6185625c3d02ebc252cfa173c",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.9867999944835901
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10717,7 +10718,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.0261999957729131,
+          "elapsed_ms": 0.0,
           "objective": -100.0
         }
       ],
@@ -10731,14 +10732,14 @@
       "notes": [],
       "objective": -100.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "7d9116f829f1326601c0d0a877435a738d532438b00083eab1f3b806be0e87ff",
+      "reproducibility_sha256": "c2953d89ccef1e3f4ab063bf27e3022b2300e884a1fbfde8d3f48510c712a6ce",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.025699991965666413
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10752,7 +10753,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.753599994117394,
+          "elapsed_ms": 0.0,
           "objective": -99.0
         }
       ],
@@ -10768,14 +10769,14 @@
       ],
       "objective": -99.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "1c980216d1321a64c9070c93d426545e288a0d2b9e8007cd161d9edeb4642ce3",
+      "reproducibility_sha256": "be91d5354e7e00d1babbc04023d398d3661e9c06dfdda085355e2eb9321fb3e3",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.7525999865029007
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10789,7 +10790,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.027600006433203816,
+          "elapsed_ms": 0.0,
           "objective": -99.0
         }
       ],
@@ -10803,14 +10804,14 @@
       "notes": [],
       "objective": -99.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "00f4b1939aa6935b80973e39417ff29d60bdf6e15fd41da770bf566e73b97a44",
+      "reproducibility_sha256": "aa3681beee87ee715988c828776183a4f96dbad03749aeadcfb8b0de8d94aee1",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "test",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.02710000262595713
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10824,7 +10825,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 1.8705999827943742,
+          "elapsed_ms": 0.0,
           "objective": -92.0
         }
       ],
@@ -10840,14 +10841,14 @@
       ],
       "objective": -92.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "a94cedfd5816b5a5938995fc4a310fd60f52a4261819ddf6821593a0c513fcb8",
+      "reproducibility_sha256": "345a3eed4a00d511a7ea8720c929f2a955358b6aba42930ff9f7b02cfdd9d1bb",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 1.869200001237914
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {
@@ -10861,7 +10862,7 @@
       },
       "best_so_far": [
         {
-          "elapsed_ms": 0.036900019040331244,
+          "elapsed_ms": 0.0,
           "objective": -92.0
         }
       ],
@@ -10875,14 +10876,14 @@
       "notes": [],
       "objective": -92.0,
       "oracle_gap": null,
-      "reproducibility_sha256": "8427267557976b005d3699843914e77af0720a890253fa896b72f1b83cade007",
+      "reproducibility_sha256": "45d30fcd2ed30c7f27cda548c1ad08d806376b722de81ea34f1607ebae32a4f7",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
       "split": "development",
       "status": "FEASIBLE",
       "violations": [],
-      "wall_time_ms": 0.036200013710185885
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -10897,7 +10898,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "06302ee7fe80c7960da4fd7369619228498c5b8e882e939945c5d5d9abecbb32",
+      "reproducibility_sha256": "2541ad65fb564572b3d3878422cb75b62534349afc7cbe43175c79125636aa69",
       "seed": null,
       "size": "large",
       "solver": "classical_strong",
@@ -10906,7 +10907,7 @@
       "violations": [
         "return_or_exposure_infeasible"
       ],
-      "wall_time_ms": 1.3550999865401536
+      "wall_time_ms": 0.0
     },
     {
       "assignments": {},
@@ -10921,7 +10922,7 @@
       "notes": [],
       "objective": null,
       "oracle_gap": null,
-      "reproducibility_sha256": "15194e655da964cd3f5db68dbb47ee59aeb418621f699cafa330abe5cf04ad57",
+      "reproducibility_sha256": "9c5e594a661c198d078a84f9ae2b0f1f4f1e5c2fa92847c434856716774793b1",
       "seed": null,
       "size": "large",
       "solver": "domain_heuristic",
@@ -10930,7 +10931,7 @@
       "violations": [
         "minimum_return"
       ],
-      "wall_time_ms": 0.04080001963302493
+      "wall_time_ms": 0.0
     }
   ],
   "schema_version": "optimization.benchmark.v1",

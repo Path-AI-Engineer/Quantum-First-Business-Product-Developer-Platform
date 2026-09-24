@@ -19,7 +19,7 @@
     "docs/economics/COMMERCIAL_MODEL.md": "d00e9c56a49ae5c008dabac1ae0022aec17623aaadb212cecb92d098728e4f79",
     "docs/pilot/PILOT_AND_SOW.md": "d9279489ae81c3e5cd5d98ade78ba0eef974b7fb1980353cb6b398907f2a22d5",
     "docs/service/SERVICE_CHARTER.md": "03f5e9e79c901a0dc3dcb2e201b094f16e9616bd2bc451324049a145b8ad4347",
-    "reports/week-229/final-benchmark.v1.json": "f4124acde0387e3c0c04db1119f0d715a0c1dd728b010964a674b592e89acff8",
+    "reports/week-229/final-benchmark.v1.json": "1d800116022dd7b11bb6cc3323bdd3c58e1cde6722590a8a4c300f84776c4224",
     "reports/week-229/robustness.v1.json": "2fd564fca141f83cad30b911dc5cf19a592cbed9007c447e2efdd9d938646e34"
   },
   "limitations": [
@@ -49,7 +49,7 @@
     "scripts/build_final_bundle.py": "5916897c9fa4f0e15fb35f4f1707f01d537fb0976cba67b771004f1cc19a7f15",
     "scripts/complete-project.ps1": "2cbc8e0a842d06a67d1bae41732448e29f2294bca421ecade6daa0c8d786c68e",
     "scripts/container-smoke.ps1": "6f8aae647fd9f7f8ecb9477faf4d759eeda7c3dd67ac55cc01f3a9c054b43c5c",
-    "scripts/materialize_evidence.py": "8b75d62cfeb452dd525acdd74a6f4b0c6e118ff850eea80e53f8cc1f5f7a495f",
+    "scripts/materialize_evidence.py": "1efe2b14ac0004f60c06aab83fd74fe0a9cff5529df9c5801375b8100431e468",
     "scripts/quality-gate.ps1": "0a9926017e84751d6a9d9c20742b89efd59583fcbad237ef5dfc65abf021a840",
     "scripts/scan_sensitive.py": "41cd5eb0d5e5994db6a344d0c816cdc5bd81b6e758eb834449f4425a728770f8",
     "scripts/setup.ps1": "a780b81ace30bf62558e5291f867f13e29461be77096a396cd639dfab4c4c8e5",
@@ -57,7 +57,7 @@
     "src/optimization_lab/__init__.py": "ea469c2d565ecc69fc0304b7ee2852da90300812c899acbcfde231d14f214f74",
     "src/optimization_lab/__pycache__/__init__.cpython-313.pyc": "8c673602ecccdfeff757140ce36cf30102769d42d6564303617b5e6c8689478b",
     "src/optimization_lab/__pycache__/api.cpython-313.pyc": "24771923bf5ed923e0015051c2b33fdbd3b6f172406064cd985243f4b9d86bb9",
-    "src/optimization_lab/__pycache__/benchmark.cpython-313.pyc": "b6e4d361851a1737312491f87598eebd9ef2f809b75e11d9602e24236b81804c",
+    "src/optimization_lab/__pycache__/benchmark.cpython-313.pyc": "1f0b8aa54a3b3df44718c2b8492a9e2087bae8dd6a2fbec539cbf448759cf978",
     "src/optimization_lab/__pycache__/corpus.cpython-313.pyc": "f04e850b915a9249e82668b4636b056aa17ea66c07d0950ca2270da709c6f4e4",
     "src/optimization_lab/__pycache__/eligibility.cpython-313.pyc": "646a003dcb73f89b55321ebb8b2df6657dc87ec775739c3760d679a782ce65c3",
     "src/optimization_lab/__pycache__/models.cpython-313.pyc": "67de573614c1b1e4af369dd9a96b28858603a0749357e5ef52f5d914bc9cf085",
@@ -66,7 +66,7 @@
     "src/optimization_lab/__pycache__/solvers.cpython-313.pyc": "a614bac3793ad8552b313f80a6bebedc1999f92012d2b31de64ca6ef82725298",
     "src/optimization_lab/__pycache__/value.cpython-313.pyc": "93414faf4a1512371d289e0e4a0f3f13b0ebda4bb87708c6faeace5a66ed6bf5",
     "src/optimization_lab/api.py": "72354d1a09962bad93171bb376d849361d5ba8c9bfccb8ecf54ad63d74da36a2",
-    "src/optimization_lab/benchmark.py": "92f868d1e210aa999db1df14549b0c452a78d44c4052d20532dfd92cf1c6e0be",
+    "src/optimization_lab/benchmark.py": "fbc73e366da9bfec67bf841271b836699d6ff37e5f4af9c66a84d19a4fd1b368",
     "src/optimization_lab/corpus.py": "9f630b9a91c336b1a38a0ee98f27fe1fe68fd2c6c87d7e8ebd66920a5009d9ae",
     "src/optimization_lab/eligibility.py": "82816bbaa4d2baa00ce4a6ead79c412e2e26fac6b37e929fd5f1eb3cd5257f34",
     "src/optimization_lab/models.py": "69a47a582dbd7759a51e6d17b8a5ad2c49401e0bf88e00ce909ac50912f6c0cb",
@@ -79,13 +79,13 @@
     "tests/__pycache__/test_corpus.cpython-313-pytest-8.4.1.pyc": "9de20fded6296e708070c7abecd7cae75cd1ccb9f76319448e207b7a1c245c90",
     "tests/__pycache__/test_eligibility.cpython-313-pytest-8.4.1.pyc": "a803c2013ba6a1734a6ea56525eb9c207456928bdee8237199f469d66996f863",
     "tests/__pycache__/test_qaoa_value.cpython-313-pytest-8.4.1.pyc": "f68c4eee48b12e4036058533714403d438320f50fb8d48ad8ea4efc308270f77",
-    "tests/__pycache__/test_solvers.cpython-313-pytest-8.4.1.pyc": "57e81ddd5c7615c2356df47814acb5f6bf118fc2173576e2f0a19b3979006df3",
+    "tests/__pycache__/test_solvers.cpython-313-pytest-8.4.1.pyc": "b658e395ec41c9973320b9c2e56185fc39cdbc970a3d02b8fcb6d3a233d18c54",
     "tests/test_api_service.py": "51acdadfe38c4ba19c2f8cf83271540e61663983abb47d337ef6687a6f7de90a",
     "tests/test_contracts.py": "0a319f56f041c51a02a3fc49cff237b38d33a93ef954b823eb30bf6f6ece0b74",
     "tests/test_corpus.py": "7869f26211c96c2ae100c141b17a23d3e50925cfe5bada6a5ea1854c1af47c7b",
     "tests/test_eligibility.py": "89b9c20af0c2b7baa2ba0513dd38c29b42a36761f40b776906b94748cddef8e3",
     "tests/test_qaoa_value.py": "4060f0512aedb13e888b87d642dc11a59b08a187d922526333facfe3f9c10b34",
-    "tests/test_solvers.py": "e780eea8206d80b27e7cf0fa6f9c12ff3198cee21cbbff5b5c1a25f8f4feb07a"
+    "tests/test_solvers.py": "1100c378d3f148461654059b3204f0649b247f5d587efbf6598b55fa401c02b5"
   },
   "status": "technical_candidate_unapproved",
   "synthetic_data_only": true

@@ -11,7 +11,7 @@ from optimization_lab.qaoa import run_qaoa_candidate
 from optimization_lab.solvers import objective_gap, solve_heuristic, solve_strong
 
 
-def run_benchmark(*, include_locked_test: bool = True) -> dict[str, Any]:
+def run_benchmark(*, include_locked_test: bool = True, normalize_timings: bool = False) -> dict[str, Any]:
     corpus = build_corpus()
     selected = [item for item in corpus if include_locked_test or item.split is Split.DEVELOPMENT]
     runs: list[dict[str, Any]] = []
@@ -31,6 +31,10 @@ def run_benchmark(*, include_locked_test: bool = True) -> dict[str, Any]:
             payload["size"] = instance.size.value
             payload["expected_feasibility"] = instance.expected_feasibility.value
             payload["oracle_gap"] = objective_gap(result, exact) if exact is not None else None
+            if normalize_timings:
+                payload["wall_time_ms"] = 0.0
+                for point in payload["best_so_far"]:
+                    point["elapsed_ms"] = 0.0
             payload["reproducibility_sha256"] = hashlib.sha256(
                 json.dumps(payload, sort_keys=True).encode("utf-8")
             ).hexdigest()
@@ -66,6 +70,7 @@ def run_benchmark(*, include_locked_test: bool = True) -> dict[str, Any]:
             "test_locked_until_final": True,
             "hardware": "local CPU",
             "cloud_jobs": False,
+            "timing_mode": "normalized" if normalize_timings else "measured",
         },
         "corpus": corpus_summary(corpus),
         "run_count": len(runs),

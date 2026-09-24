@@ -44,7 +44,7 @@ def main() -> None:
     artifacts["contracts/openapi/openapi.v1alpha1.json"] = write_json(
         ROOT / "contracts" / "openapi" / "openapi.v1alpha1.json", app.openapi()
     )
-    benchmark = run_benchmark(include_locked_test=True)
+    benchmark = run_benchmark(include_locked_test=True, normalize_timings=True)
     artifacts["reports/week-229/final-benchmark.v1.json"] = write_json(
         ROOT / "reports" / "week-229" / "final-benchmark.v1.json", benchmark
     )
