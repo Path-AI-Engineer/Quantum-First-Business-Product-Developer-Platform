@@ -1,0 +1,350 @@
+[
+  {
+    "claim_ids": [
+      "claim-cisa-1",
+      "claim-finops-2"
+    ],
+    "description": "Organization counts are illustrative planning inputs, not an observed TAM.",
+    "details": {
+      "confidence": "C0",
+      "owner": "founder",
+      "review_on": "2026-12-11",
+      "validation": "Future interviews and measured pilot"
+    },
+    "entity_type": "assumption",
+    "id": "assumption-market",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Reachable market is unknown"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-1",
+      "claim-finops-2"
+    ],
+    "description": "All price intervals need buyer and procurement validation.",
+    "details": {
+      "confidence": "C0",
+      "owner": "founder",
+      "review_on": "2026-12-11",
+      "validation": "Future interviews and measured pilot"
+    },
+    "entity_type": "assumption",
+    "id": "assumption-price",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Willingness to pay is unmeasured"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-1",
+      "claim-finops-2"
+    ],
+    "description": "Hours and unit costs need a time-tracked assisted pilot.",
+    "details": {
+      "confidence": "C0",
+      "owner": "founder",
+      "review_on": "2026-12-11",
+      "validation": "Future interviews and measured pilot"
+    },
+    "entity_type": "assumption",
+    "id": "assumption-delivery",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Delivery effort is unmeasured"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-1",
+      "claim-finops-2"
+    ],
+    "description": "Founder has not demonstrated access to a qualified buying committee.",
+    "details": {
+      "confidence": "C0",
+      "owner": "founder",
+      "review_on": "2026-12-11",
+      "validation": "Future interviews and measured pilot"
+    },
+    "entity_type": "assumption",
+    "id": "assumption-access",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Buyer access is unknown"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-1",
+      "claim-finops-2"
+    ],
+    "description": "Defensibility depends on repeat use and permissioned operational learning.",
+    "details": {
+      "confidence": "C0",
+      "owner": "founder",
+      "review_on": "2026-12-11",
+      "validation": "Future interviews and measured pilot"
+    },
+    "entity_type": "assumption",
+    "id": "assumption-moat",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Evidence workflow may differentiate"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-2"
+    ],
+    "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+    "details": {
+      "anchor": "Existing consultant or internal team",
+      "buyer": "CISO with procurement approval",
+      "delivery_hours_range": [
+        40,
+        120
+      ],
+      "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+      "hourly_cost_range_usd": [
+        40,
+        100
+      ],
+      "human_dependency": "Expert scoping, validation and change approval remain necessary",
+      "margin_target_range": [
+        0.4,
+        0.65
+      ],
+      "price_range_usd": [
+        6000,
+        18000
+      ],
+      "tooling_cost_range_usd": [
+        100,
+        1000
+      ],
+      "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+      "value_unit": "Scoped service inventory and roadmap",
+      "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+    },
+    "entity_type": "pricing",
+    "id": "pricing-assessment",
+    "related_ids": [
+      "assumption-price",
+      "assumption-delivery"
+    ],
+    "status": "hypothesis",
+    "title": "Fixed-price assessment"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-2"
+    ],
+    "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+    "details": {
+      "anchor": "Existing integrator",
+      "buyer": "CISO with procurement approval",
+      "delivery_hours_range": [
+        80,
+        240
+      ],
+      "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+      "hourly_cost_range_usd": [
+        40,
+        100
+      ],
+      "human_dependency": "Expert scoping, validation and change approval remain necessary",
+      "margin_target_range": [
+        0.4,
+        0.65
+      ],
+      "price_range_usd": [
+        12000,
+        30000
+      ],
+      "tooling_cost_range_usd": [
+        100,
+        1000
+      ],
+      "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+      "value_unit": "Two services with reviewed acceptance evidence",
+      "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+    },
+    "entity_type": "pricing",
+    "id": "pricing-pilot",
+    "related_ids": [
+      "assumption-price",
+      "assumption-delivery"
+    ],
+    "status": "hypothesis",
+    "title": "Pilot fee with acceptance criteria"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-2"
+    ],
+    "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+    "details": {
+      "anchor": "Asset management workflow",
+      "buyer": "CISO with procurement approval",
+      "delivery_hours_range": [
+        20,
+        80
+      ],
+      "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+      "hourly_cost_range_usd": [
+        40,
+        100
+      ],
+      "human_dependency": "Expert scoping, validation and change approval remain necessary",
+      "margin_target_range": [
+        0.4,
+        0.65
+      ],
+      "price_range_usd": [
+        6000,
+        24000
+      ],
+      "tooling_cost_range_usd": [
+        100,
+        1000
+      ],
+      "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+      "value_unit": "Recurring change and inventory review",
+      "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+    },
+    "entity_type": "pricing",
+    "id": "pricing-subscription",
+    "related_ids": [
+      "assumption-price",
+      "assumption-delivery"
+    ],
+    "status": "hypothesis",
+    "title": "Organization subscription / year"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-2"
+    ],
+    "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+    "details": {
+      "anchor": "Security managed service provider",
+      "buyer": "CISO with procurement approval",
+      "delivery_hours_range": [
+        200,
+        600
+      ],
+      "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+      "hourly_cost_range_usd": [
+        40,
+        100
+      ],
+      "human_dependency": "Expert scoping, validation and change approval remain necessary",
+      "margin_target_range": [
+        0.4,
+        0.65
+      ],
+      "price_range_usd": [
+        24000,
+        72000
+      ],
+      "tooling_cost_range_usd": [
+        100,
+        1000
+      ],
+      "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+      "value_unit": "Owned review cadence with agreed service levels",
+      "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+    },
+    "entity_type": "pricing",
+    "id": "pricing-managed",
+    "related_ids": [
+      "assumption-price",
+      "assumption-delivery"
+    ],
+    "status": "hypothesis",
+    "title": "Managed service / year"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-2"
+    ],
+    "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+    "details": {
+      "anchor": "Provider-native metering",
+      "buyer": "CISO with procurement approval",
+      "delivery_hours_range": [
+        0.5,
+        5
+      ],
+      "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+      "hourly_cost_range_usd": [
+        40,
+        100
+      ],
+      "human_dependency": "Expert scoping, validation and change approval remain necessary",
+      "margin_target_range": [
+        0.4,
+        0.65
+      ],
+      "price_range_usd": [
+        50,
+        500
+      ],
+      "tooling_cost_range_usd": [
+        100,
+        1000
+      ],
+      "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+      "value_unit": "Metered, bounded evidence job",
+      "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+    },
+    "entity_type": "pricing",
+    "id": "pricing-consumption",
+    "related_ids": [
+      "assumption-price",
+      "assumption-delivery"
+    ],
+    "status": "hypothesis",
+    "title": "Platform consumption / reviewed job"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-2"
+    ],
+    "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+    "details": {
+      "anchor": "Internal platform / incumbent bundle",
+      "buyer": "CISO with procurement approval",
+      "delivery_hours_range": [
+        100,
+        400
+      ],
+      "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+      "hourly_cost_range_usd": [
+        40,
+        100
+      ],
+      "human_dependency": "Expert scoping, validation and change approval remain necessary",
+      "margin_target_range": [
+        0.4,
+        0.65
+      ],
+      "price_range_usd": [
+        30000,
+        120000
+      ],
+      "tooling_cost_range_usd": [
+        100,
+        1000
+      ],
+      "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+      "value_unit": "Contracted deployment and support",
+      "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+    },
+    "entity_type": "pricing",
+    "id": "pricing-enterprise",
+    "related_ids": [
+      "assumption-price",
+      "assumption-delivery"
+    ],
+    "status": "hypothesis",
+    "title": "Enterprise license / year"
+  }
+]

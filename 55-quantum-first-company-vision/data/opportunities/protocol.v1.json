@@ -1,0 +1,163 @@
+{
+  "dimensions": [
+    {
+      "direction": "benefit",
+      "id": "severity",
+      "label": "Problem severity",
+      "weight": 10.0
+    },
+    {
+      "direction": "benefit",
+      "id": "urgency",
+      "label": "Time urgency",
+      "weight": 10.0
+    },
+    {
+      "direction": "benefit",
+      "id": "budget",
+      "label": "Accessible budget",
+      "weight": 9.0
+    },
+    {
+      "direction": "benefit",
+      "id": "frequency",
+      "label": "Frequency",
+      "weight": 5.0
+    },
+    {
+      "direction": "benefit",
+      "id": "inaction",
+      "label": "Cost of inaction",
+      "weight": 7.0
+    },
+    {
+      "direction": "benefit",
+      "id": "access",
+      "label": "Buyer access",
+      "weight": 9.0
+    },
+    {
+      "direction": "benefit",
+      "id": "classical-value",
+      "label": "Classical time-to-value",
+      "weight": 10.0
+    },
+    {
+      "direction": "benefit",
+      "id": "differentiation",
+      "label": "Defensible differentiation",
+      "weight": 7.0
+    },
+    {
+      "direction": "benefit",
+      "id": "accumulation",
+      "label": "Workflow / data accumulation",
+      "weight": 6.0
+    },
+    {
+      "direction": "benefit",
+      "id": "regulation",
+      "label": "Regulatory compatibility",
+      "weight": 6.0
+    },
+    {
+      "direction": "benefit",
+      "id": "optionality",
+      "label": "Quantum optionality",
+      "weight": 3.0
+    },
+    {
+      "direction": "cost",
+      "id": "dependency",
+      "label": "Technology dependence risk",
+      "weight": 7.0
+    },
+    {
+      "direction": "cost",
+      "id": "complexity",
+      "label": "Delivery complexity",
+      "weight": 6.0
+    },
+    {
+      "direction": "cost",
+      "id": "competition",
+      "label": "Competitive intensity",
+      "weight": 5.0
+    }
+  ],
+  "scenarios": {
+    "aggressive": 1.0,
+    "base": 0.5,
+    "conservative": 0.0
+  },
+  "status": "analyst_specification_not_buyer_validation",
+  "stress_cases": [
+    {
+      "id": "budget-freeze",
+      "multipliers": {
+        "budget": 3.0,
+        "urgency": 0.5
+      },
+      "title": "Budget becomes the constraint"
+    },
+    {
+      "id": "incumbent-bundle",
+      "multipliers": {
+        "competition": 3.0,
+        "differentiation": 2.0
+      },
+      "title": "Incumbents bundle the service"
+    },
+    {
+      "id": "buyer-access",
+      "multipliers": {
+        "access": 3.0,
+        "severity": 0.5
+      },
+      "title": "Buyer access dominates"
+    },
+    {
+      "id": "hardware-delay",
+      "multipliers": {
+        "dependency": 3.0,
+        "optionality": 0.2
+      },
+      "title": "Quantum maturity is delayed"
+    },
+    {
+      "id": "operations-pressure",
+      "multipliers": {
+        "frequency": 3.0,
+        "regulation": 0.5
+      },
+      "title": "Operational frequency dominates"
+    },
+    {
+      "id": "compliance-review",
+      "multipliers": {
+        "complexity": 2.0,
+        "regulation": 3.0
+      },
+      "title": "Regulatory fit dominates"
+    },
+    {
+      "id": "service-cost",
+      "multipliers": {
+        "classical-value": 2.0,
+        "complexity": 3.0
+      },
+      "title": "Human delivery becomes expensive"
+    },
+    {
+      "id": "quantum-progress",
+      "multipliers": {
+        "dependency": 0.5,
+        "optionality": 5.0
+      },
+      "title": "Quantum optionality gets higher weight"
+    }
+  ],
+  "tie_rule": "Sort equal scenario estimates by stable ID; any overlapping intervals make selection provisional.",
+  "unknown_rule": "Unknown stays null and contributes the full [0,5] interval; midpoint is an assumption, not evidence.",
+  "version": "decision-protocol-v1"
+}

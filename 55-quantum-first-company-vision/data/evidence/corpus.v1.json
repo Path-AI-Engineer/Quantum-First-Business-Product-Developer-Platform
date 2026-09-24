@@ -1,0 +1,4269 @@
+{
+  "approval": "pending_human_review",
+  "buyer_interviews_completed": 0,
+  "claims": [
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-nist-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Global technical standards; US federal standards are not universal legal mandates.",
+      "source_ids": [
+        "source-nist"
+      ],
+      "supporting_evidence": [
+        "evidence-nist-1"
+      ],
+      "text": "NIST published its first three principal postquantum cryptography standards in August 2024.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-nist-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Global technical standards; US federal standards are not universal legal mandates.",
+      "source_ids": [
+        "source-nist"
+      ],
+      "supporting_evidence": [
+        "evidence-nist-2"
+      ],
+      "text": "ML-KEM addresses key establishment; ML-DSA and SLH-DSA address digital signatures.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-nist-3",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Global technical standards; US federal standards are not universal legal mandates.",
+      "source_ids": [
+        "source-nist"
+      ],
+      "supporting_evidence": [
+        "evidence-nist-3"
+      ],
+      "text": "NIST recommends identifying vulnerable cryptography and beginning migration planning.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-nist-4",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Global technical standards; US federal standards are not universal legal mandates.",
+      "source_ids": [
+        "source-nist"
+      ],
+      "supporting_evidence": [
+        "evidence-nist-4"
+      ],
+      "text": "Additional algorithms remain in standardization, so compatibility planning must accommodate change.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-cisa-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "US critical infrastructure guidance dated 2023-08-21; pre-final-standard wording is historical.",
+      "source_ids": [
+        "source-cisa"
+      ],
+      "supporting_evidence": [
+        "evidence-cisa-1"
+      ],
+      "text": "The joint guidance calls for roadmaps, inventories, risk assessment and vendor engagement.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-cisa-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "US critical infrastructure guidance dated 2023-08-21; pre-final-standard wording is historical.",
+      "source_ids": [
+        "source-cisa"
+      ],
+      "supporting_evidence": [
+        "evidence-cisa-2"
+      ],
+      "text": "Discovery may miss embedded cryptography; vendor documentation is also needed.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-cisa-3",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "US critical infrastructure guidance dated 2023-08-21; pre-final-standard wording is historical.",
+      "source_ids": [
+        "source-cisa"
+      ],
+      "supporting_evidence": [
+        "evidence-cisa-3"
+      ],
+      "text": "Migration planning should account for vendor upgrade paths and associated costs.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-cisa-4",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "US critical infrastructure guidance dated 2023-08-21; pre-final-standard wording is historical.",
+      "source_ids": [
+        "source-cisa"
+      ],
+      "supporting_evidence": [
+        "evidence-cisa-4"
+      ],
+      "text": "Data with a long secrecy lifetime motivates preparation for harvest-now-decrypt-later risk.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-finops-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Technology spending governance; not a survey of willingness to pay.",
+      "source_ids": [
+        "source-finops"
+      ],
+      "supporting_evidence": [
+        "evidence-finops-1"
+      ],
+      "text": "FinOps connects engineering, finance and business around technology value and financial accountability.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-finops-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Technology spending governance; not a survey of willingness to pay.",
+      "source_ids": [
+        "source-finops"
+      ],
+      "supporting_evidence": [
+        "evidence-finops-2"
+      ],
+      "text": "The framework includes cost allocation, forecasting and unit economics capabilities.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-ai-rmf-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Voluntary AI risk guidance; no certification or legal compliance claim.",
+      "source_ids": [
+        "source-ai-rmf"
+      ],
+      "supporting_evidence": [
+        "evidence-ai-rmf-1"
+      ],
+      "text": "The AI RMF is intended for voluntary use when managing trustworthiness across the AI lifecycle.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-ai-rmf-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Voluntary AI risk guidance; no certification or legal compliance claim.",
+      "source_ids": [
+        "source-ai-rmf"
+      ],
+      "supporting_evidence": [
+        "evidence-ai-rmf-2"
+      ],
+      "text": "The framework covers design, development, use and evaluation of AI systems.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-ortools-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Published software capabilities, not measured customer savings.",
+      "source_ids": [
+        "source-ortools"
+      ],
+      "supporting_evidence": [
+        "evidence-ortools-1"
+      ],
+      "text": "OR-Tools supplies open-source classical optimization for routing, flows and constrained scheduling.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-ortools-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Published software capabilities, not measured customer savings.",
+      "source_ids": [
+        "source-ortools"
+      ],
+      "supporting_evidence": [
+        "evidence-ortools-2"
+      ],
+      "text": "OR-Tools supports integration with several commercial and open-source solvers.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-gurobi-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Vendor describes capabilities; comparative performance and ROI not independently accepted.",
+      "source_ids": [
+        "source-gurobi"
+      ],
+      "supporting_evidence": [
+        "evidence-gurobi-1"
+      ],
+      "text": "Gurobi offers mathematical optimization for linear, mixed-integer and quadratic problem classes.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-gurobi-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Vendor describes capabilities; comparative performance and ROI not independently accepted.",
+      "source_ids": [
+        "source-gurobi"
+      ],
+      "supporting_evidence": [
+        "evidence-gurobi-2"
+      ],
+      "text": "Gurobi documents sensitivity and infeasibility analysis for model inspection.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-cplex-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Vendor capabilities only; pricing and time-to-value remain unknown.",
+      "source_ids": [
+        "source-cplex"
+      ],
+      "supporting_evidence": [
+        "evidence-cplex-1"
+      ],
+      "text": "CPLEX and CP Optimizer address mathematical programming and constraint-based scheduling.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-cplex-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Vendor capabilities only; pricing and time-to-value remain unknown.",
+      "source_ids": [
+        "source-cplex"
+      ],
+      "supporting_evidence": [
+        "evidence-cplex-2"
+      ],
+      "text": "CPLEX Studio documents a model development environment with debugging and visualization.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-braket-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Cloud quantum research offering, not evidence of advantage on our workloads.",
+      "source_ids": [
+        "source-braket"
+      ],
+      "supporting_evidence": [
+        "evidence-braket-1"
+      ],
+      "text": "Braket offers a common service for simulators and different quantum hardware providers.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-braket-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Cloud quantum research offering, not evidence of advantage on our workloads.",
+      "source_ids": [
+        "source-braket"
+      ],
+      "supporting_evidence": [
+        "evidence-braket-2"
+      ],
+      "text": "AWS describes hardware noise and hybrid algorithm limitations in its introductory guide.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-azure-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Quantum cloud service documentation; our laboratory runs locally.",
+      "source_ids": [
+        "source-azure"
+      ],
+      "supporting_evidence": [
+        "evidence-azure-1"
+      ],
+      "text": "Azure Quantum supports hardware execution, simulation and resource estimation.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-azure-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Quantum cloud service documentation; our laboratory runs locally.",
+      "source_ids": [
+        "source-azure"
+      ],
+      "supporting_evidence": [
+        "evidence-azure-2"
+      ],
+      "text": "The QDK is open source and can be used without an Azure account.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-qiskit-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Vendor-published tooling description; promotional benchmark numbers excluded.",
+      "source_ids": [
+        "source-qiskit"
+      ],
+      "supporting_evidence": [
+        "evidence-qiskit-1"
+      ],
+      "text": "Qiskit provides tools for circuit construction, compilation and experiment execution.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-qiskit-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Vendor-published tooling description; promotional benchmark numbers excluded.",
+      "source_ids": [
+        "source-qiskit"
+      ],
+      "supporting_evidence": [
+        "evidence-qiskit-2"
+      ],
+      "text": "Qiskit documents plugins connecting classical and quantum execution resources.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-oqs-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Open-source research tools; production suitability needs separate assessment.",
+      "source_ids": [
+        "source-oqs"
+      ],
+      "supporting_evidence": [
+        "evidence-oqs-1"
+      ],
+      "text": "OQS provides liboqs and prototype integrations for postquantum cryptography research.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-oqs-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Open-source research tools; production suitability needs separate assessment.",
+      "source_ids": [
+        "source-oqs"
+      ],
+      "supporting_evidence": [
+        "evidence-oqs-2"
+      ],
+      "text": "OQS includes integrations with protocols and applications such as OpenSSL.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-openssl-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "OpenSSL 3.5 documentation, not a certification of arbitrary deployed applications.",
+      "source_ids": [
+        "source-openssl"
+      ],
+      "supporting_evidence": [
+        "evidence-openssl-1"
+      ],
+      "text": "OpenSSL 3.5 documents ML-KEM support through its key encapsulation interfaces.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-openssl-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "OpenSSL 3.5 documentation, not a certification of arbitrary deployed applications.",
+      "source_ids": [
+        "source-openssl"
+      ],
+      "supporting_evidence": [
+        "evidence-openssl-2"
+      ],
+      "text": "The ML-KEM interface documents parameter sets 512, 768 and 1024.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-cloudflare-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Vendor-specific TLS capability, not complete customer cryptographic coverage.",
+      "source_ids": [
+        "source-cloudflare"
+      ],
+      "supporting_evidence": [
+        "evidence-cloudflare-1"
+      ],
+      "text": "Cloudflare documents hybrid X25519MLKEM768 key agreement support.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-cloudflare-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Vendor-specific TLS capability, not complete customer cryptographic coverage.",
+      "source_ids": [
+        "source-cloudflare"
+      ],
+      "supporting_evidence": [
+        "evidence-cloudflare-2"
+      ],
+      "text": "Postquantum protection depends on support at the client or origin connection endpoint.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-dwave-1",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Vendor documentation; no generalized quantum advantage inferred.",
+      "source_ids": [
+        "source-dwave"
+      ],
+      "supporting_evidence": [
+        "evidence-dwave-1"
+      ],
+      "text": "D-Wave documents quantum-classical hybrid solvers through its Leap service.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    },
+    {
+      "accessed_on": "2026-09-12",
+      "confidence": "C3",
+      "external": true,
+      "id": "claim-dwave-2",
+      "kind": "fact",
+      "opposing_evidence": [],
+      "owner": "research-maintainer",
+      "review_on": "2026-12-11",
+      "scope": "Vendor documentation; no generalized quantum advantage inferred.",
+      "source_ids": [
+        "source-dwave"
+      ],
+      "supporting_evidence": [
+        "evidence-dwave-2"
+      ],
+      "text": "D-Wave separately documents direct QPU research access and hardware parameters.",
+      "validity": "True as a statement about the referenced document at access; not buyer validation."
+    }
+  ],
+  "entities": [
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-2"
+      ],
+      "description": "Organization counts are illustrative planning inputs, not an observed TAM.",
+      "details": {
+        "confidence": "C0",
+        "owner": "founder",
+        "review_on": "2026-12-11",
+        "validation": "Future interviews and measured pilot"
+      },
+      "entity_type": "assumption",
+      "id": "assumption-market",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Reachable market is unknown"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-2"
+      ],
+      "description": "All price intervals need buyer and procurement validation.",
+      "details": {
+        "confidence": "C0",
+        "owner": "founder",
+        "review_on": "2026-12-11",
+        "validation": "Future interviews and measured pilot"
+      },
+      "entity_type": "assumption",
+      "id": "assumption-price",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Willingness to pay is unmeasured"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-2"
+      ],
+      "description": "Hours and unit costs need a time-tracked assisted pilot.",
+      "details": {
+        "confidence": "C0",
+        "owner": "founder",
+        "review_on": "2026-12-11",
+        "validation": "Future interviews and measured pilot"
+      },
+      "entity_type": "assumption",
+      "id": "assumption-delivery",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Delivery effort is unmeasured"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-2"
+      ],
+      "description": "Founder has not demonstrated access to a qualified buying committee.",
+      "details": {
+        "confidence": "C0",
+        "owner": "founder",
+        "review_on": "2026-12-11",
+        "validation": "Future interviews and measured pilot"
+      },
+      "entity_type": "assumption",
+      "id": "assumption-access",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Buyer access is unknown"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-2"
+      ],
+      "description": "Defensibility depends on repeat use and permissioned operational learning.",
+      "details": {
+        "confidence": "C0",
+        "owner": "founder",
+        "review_on": "2026-12-11",
+        "validation": "Future interviews and measured pilot"
+      },
+      "entity_type": "assumption",
+      "id": "assumption-moat",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Evidence workflow may differentiate"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-4",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Long-lived financial records and service dependencies. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Audit / risk committee",
+        "budget": null,
+        "buyer": "CISO / cryptography lead",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Security architecture owner",
+        "vertical": "Financial services"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-finance-security",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Financial services · CISO / cryptography lead"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-4",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Long-lived financial records and service dependencies. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Service delivery teams",
+        "budget": null,
+        "buyer": "COO / operations lead",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Planner / operations analyst",
+        "vertical": "Financial services"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-finance-operations",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Financial services · COO / operations lead"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-4",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Long-lived financial records and service dependencies. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Developers / procurement",
+        "budget": null,
+        "buyer": "CTO / VP Engineering",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Platform engineer / innovation lead",
+        "vertical": "Financial services"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-finance-engineering",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Financial services · CTO / VP Engineering"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-4",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Sensitive records and research information lifecycle. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Audit / risk committee",
+        "budget": null,
+        "buyer": "CISO / cryptography lead",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Security architecture owner",
+        "vertical": "Health / life sciences"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-health-security",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Health / life sciences · CISO / cryptography lead"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-4",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Sensitive records and research information lifecycle. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Service delivery teams",
+        "budget": null,
+        "buyer": "COO / operations lead",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Planner / operations analyst",
+        "vertical": "Health / life sciences"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-health-operations",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Health / life sciences · COO / operations lead"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-4",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Sensitive records and research information lifecycle. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Developers / procurement",
+        "budget": null,
+        "buyer": "CTO / VP Engineering",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Platform engineer / innovation lead",
+        "vertical": "Health / life sciences"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-health-engineering",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Health / life sciences · CTO / VP Engineering"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Scheduling, routing and OT dependencies. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Audit / risk committee",
+        "budget": null,
+        "buyer": "CISO / cryptography lead",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Security architecture owner",
+        "vertical": "Logistics / manufacturing"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-logistics-security",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Logistics / manufacturing · CISO / cryptography lead"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Scheduling, routing and OT dependencies. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Service delivery teams",
+        "budget": null,
+        "buyer": "COO / operations lead",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Planner / operations analyst",
+        "vertical": "Logistics / manufacturing"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-logistics-operations",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Logistics / manufacturing · COO / operations lead"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Scheduling, routing and OT dependencies. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Developers / procurement",
+        "budget": null,
+        "buyer": "CTO / VP Engineering",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Platform engineer / innovation lead",
+        "vertical": "Logistics / manufacturing"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-logistics-engineering",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Logistics / manufacturing · CTO / VP Engineering"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-1",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Software supply chain and accountable platform spending. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Audit / risk committee",
+        "budget": null,
+        "buyer": "CISO / cryptography lead",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Security architecture owner",
+        "vertical": "Technology / regulated public sector"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-regulated-tech-security",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Technology / regulated public sector · CISO / cryptography lead"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-1",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Software supply chain and accountable platform spending. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Service delivery teams",
+        "budget": null,
+        "buyer": "COO / operations lead",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Planner / operations analyst",
+        "vertical": "Technology / regulated public sector"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-regulated-tech-operations",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Technology / regulated public sector · COO / operations lead"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-1",
+        "claim-cisa-1"
+      ],
+      "description": "Public-evidence-derived archetype. Proposed pain: Software supply chain and accountable platform spending. No named customer or interview.",
+      "details": {
+        "access": null,
+        "beneficiary": "Developers / procurement",
+        "budget": null,
+        "buyer": "CTO / VP Engineering",
+        "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+        "user": "Platform engineer / innovation lead",
+        "vertical": "Technology / regulated public sector"
+      },
+      "entity_type": "customer_profile",
+      "id": "icp-regulated-tech-engineering",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Technology / regulated public sector · CTO / VP Engineering"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Identify cryptographic dependencies before planning a migration",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-01",
+      "related_ids": [
+        "icp-finance-security"
+      ],
+      "status": "inference",
+      "title": "Identify cryptographic dependencies before planning a migration"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-4"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Associate long-lived records with protection requirements",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-02",
+      "related_ids": [
+        "icp-health-security"
+      ],
+      "status": "inference",
+      "title": "Associate long-lived records with protection requirements"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Request embedded-cryptography inventories from suppliers",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-03",
+      "related_ids": [
+        "icp-regulated-tech-security"
+      ],
+      "status": "inference",
+      "title": "Request embedded-cryptography inventories from suppliers"
+    },
+    {
+      "claim_ids": [
+        "claim-nist-3"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Prioritize system upgrades with owners and risk context",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-04",
+      "related_ids": [
+        "icp-finance-security"
+      ],
+      "status": "inference",
+      "title": "Prioritize system upgrades with owners and risk context"
+    },
+    {
+      "claim_ids": [
+        "claim-nist-2"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Separate key establishment from signature migration",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-05",
+      "related_ids": [
+        "icp-regulated-tech-engineering"
+      ],
+      "status": "inference",
+      "title": "Separate key establishment from signature migration"
+    },
+    {
+      "claim_ids": [
+        "claim-cloudflare-2"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Verify endpoint support before changing TLS policy",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-06",
+      "related_ids": [
+        "icp-health-engineering"
+      ],
+      "status": "inference",
+      "title": "Verify endpoint support before changing TLS policy"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Compare routes under real operational constraints",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-07",
+      "related_ids": [
+        "icp-logistics-operations"
+      ],
+      "status": "inference",
+      "title": "Compare routes under real operational constraints"
+    },
+    {
+      "claim_ids": [
+        "claim-cplex-1"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Test schedule feasibility before committing capacity",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-08",
+      "related_ids": [
+        "icp-logistics-operations"
+      ],
+      "status": "inference",
+      "title": "Test schedule feasibility before committing capacity"
+    },
+    {
+      "claim_ids": [
+        "claim-gurobi-2"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Inspect sensitivity when optimization assumptions change",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-09",
+      "related_ids": [
+        "icp-finance-operations"
+      ],
+      "status": "inference",
+      "title": "Inspect sensitivity when optimization assumptions change"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-2"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Preserve a solver baseline before testing alternatives",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-10",
+      "related_ids": [
+        "icp-health-operations"
+      ],
+      "status": "inference",
+      "title": "Preserve a solver baseline before testing alternatives"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-1"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Attribute experimental cloud spend to an owner",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-11",
+      "related_ids": [
+        "icp-regulated-tech-engineering"
+      ],
+      "status": "inference",
+      "title": "Attribute experimental cloud spend to an owner"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-2"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Compare prototype cost against a business value unit",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-12",
+      "related_ids": [
+        "icp-finance-engineering"
+      ],
+      "status": "inference",
+      "title": "Compare prototype cost against a business value unit"
+    },
+    {
+      "claim_ids": [
+        "claim-braket-1"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Select simulator or device for a bounded experiment",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-13",
+      "related_ids": [
+        "icp-health-engineering"
+      ],
+      "status": "inference",
+      "title": "Select simulator or device for a bounded experiment"
+    },
+    {
+      "claim_ids": [
+        "claim-azure-1"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Estimate resources before proposing a hardware dependency",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-14",
+      "related_ids": [
+        "icp-logistics-engineering"
+      ],
+      "status": "inference",
+      "title": "Estimate resources before proposing a hardware dependency"
+    },
+    {
+      "claim_ids": [
+        "claim-qiskit-1"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Track circuit preparation and execution provenance",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-15",
+      "related_ids": [
+        "icp-regulated-tech-engineering"
+      ],
+      "status": "inference",
+      "title": "Track circuit preparation and execution provenance"
+    },
+    {
+      "claim_ids": [
+        "claim-dwave-1"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Evaluate a hybrid solver against a classical workflow",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-16",
+      "related_ids": [
+        "icp-logistics-operations"
+      ],
+      "status": "inference",
+      "title": "Evaluate a hybrid solver against a classical workflow"
+    },
+    {
+      "claim_ids": [
+        "claim-ai-rmf-1"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Integrate trustworthy AI review in a product lifecycle",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-17",
+      "related_ids": [
+        "icp-regulated-tech-security"
+      ],
+      "status": "inference",
+      "title": "Integrate trustworthy AI review in a product lifecycle"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3"
+      ],
+      "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+      "details": {
+        "desired_outcome": "Plan supplier contract changes for migration",
+        "frequency": null,
+        "validation": "Future discovery interview"
+      },
+      "entity_type": "job_to_be_done",
+      "id": "job-18",
+      "related_ids": [
+        "icp-finance-security"
+      ],
+      "status": "inference",
+      "title": "Plan supplier contract changes for migration"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1"
+      ],
+      "description": "Classical routing and constrained optimization",
+      "details": {
+        "comparison_kind": "vendor-documented capability",
+        "control": "Published capability; deployment fit untested",
+        "lock_in": "Contract/API/data portability review required",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "competitor",
+      "id": "alternative-01",
+      "related_ids": [],
+      "status": "documented",
+      "title": "OR-Tools"
+    },
+    {
+      "claim_ids": [
+        "claim-gurobi-1"
+      ],
+      "description": "Classical commercial solver and modeling support",
+      "details": {
+        "comparison_kind": "vendor-documented capability",
+        "control": "Published capability; deployment fit untested",
+        "lock_in": "Contract/API/data portability review required",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "competitor",
+      "id": "alternative-02",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Gurobi"
+    },
+    {
+      "claim_ids": [
+        "claim-cplex-1"
+      ],
+      "description": "Classical planning and scheduling tools",
+      "details": {
+        "comparison_kind": "vendor-documented capability",
+        "control": "Published capability; deployment fit untested",
+        "lock_in": "Contract/API/data portability review required",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "competitor",
+      "id": "alternative-03",
+      "related_ids": [],
+      "status": "documented",
+      "title": "CPLEX"
+    },
+    {
+      "claim_ids": [
+        "claim-braket-1"
+      ],
+      "description": "Managed quantum experimentation",
+      "details": {
+        "comparison_kind": "vendor-documented capability",
+        "control": "Published capability; deployment fit untested",
+        "lock_in": "Contract/API/data portability review required",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "competitor",
+      "id": "alternative-04",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Amazon Braket"
+    },
+    {
+      "claim_ids": [
+        "claim-azure-1"
+      ],
+      "description": "Hardware, simulation and estimation service",
+      "details": {
+        "comparison_kind": "vendor-documented capability",
+        "control": "Published capability; deployment fit untested",
+        "lock_in": "Contract/API/data portability review required",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "competitor",
+      "id": "alternative-05",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Azure Quantum"
+    },
+    {
+      "claim_ids": [
+        "claim-qiskit-1"
+      ],
+      "description": "Open tooling and orchestration ecosystem",
+      "details": {
+        "comparison_kind": "vendor-documented capability",
+        "control": "Published capability; deployment fit untested",
+        "lock_in": "Contract/API/data portability review required",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "competitor",
+      "id": "alternative-06",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Qiskit"
+    },
+    {
+      "claim_ids": [
+        "claim-oqs-1"
+      ],
+      "description": "Open PQC research library and prototypes",
+      "details": {
+        "comparison_kind": "vendor-documented capability",
+        "control": "Published capability; deployment fit untested",
+        "lock_in": "Contract/API/data portability review required",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "competitor",
+      "id": "alternative-07",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Open Quantum Safe"
+    },
+    {
+      "claim_ids": [
+        "claim-openssl-1"
+      ],
+      "description": "Integrate documented PQC primitives in existing libraries",
+      "details": {
+        "comparison_kind": "vendor-documented capability",
+        "control": "Published capability; deployment fit untested",
+        "lock_in": "Contract/API/data portability review required",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "competitor",
+      "id": "alternative-08",
+      "related_ids": [],
+      "status": "documented",
+      "title": "OpenSSL"
+    },
+    {
+      "claim_ids": [
+        "claim-cloudflare-1"
+      ],
+      "description": "Adopt provider TLS migration capabilities",
+      "details": {
+        "comparison_kind": "vendor-documented capability",
+        "control": "Published capability; deployment fit untested",
+        "lock_in": "Contract/API/data portability review required",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "competitor",
+      "id": "alternative-09",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Cloudflare"
+    },
+    {
+      "claim_ids": [
+        "claim-dwave-1"
+      ],
+      "description": "Evaluate vendor hybrid optimization service",
+      "details": {
+        "comparison_kind": "vendor-documented capability",
+        "control": "Published capability; deployment fit untested",
+        "lock_in": "Contract/API/data portability review required",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "competitor",
+      "id": "alternative-10",
+      "related_ids": [],
+      "status": "documented",
+      "title": "D-Wave Leap"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Candidate substitute to test in discovery; not a claim that surveyed buyers use it.",
+      "details": {
+        "control": "Buyer-dependent",
+        "gap": "Measure decision effort and accountability",
+        "lock_in": "Unknown",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "alternative",
+      "id": "alternative-11",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Internal spreadsheet and asset inventory"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Candidate substitute to test in discovery; not a claim that surveyed buyers use it.",
+      "details": {
+        "control": "Buyer-dependent",
+        "gap": "Measure decision effort and accountability",
+        "lock_in": "Unknown",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "alternative",
+      "id": "alternative-12",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Existing security consultancy"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Candidate substitute to test in discovery; not a claim that surveyed buyers use it.",
+      "details": {
+        "control": "Buyer-dependent",
+        "gap": "Measure decision effort and accountability",
+        "lock_in": "Unknown",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "alternative",
+      "id": "alternative-13",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Internal operations research team"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Candidate substitute to test in discovery; not a claim that surveyed buyers use it.",
+      "details": {
+        "control": "Buyer-dependent",
+        "gap": "Measure decision effort and accountability",
+        "lock_in": "Unknown",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "alternative",
+      "id": "alternative-14",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Vendor-led upgrade program"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Candidate substitute to test in discovery; not a claim that surveyed buyers use it.",
+      "details": {
+        "control": "Buyer-dependent",
+        "gap": "Measure decision effort and accountability",
+        "lock_in": "Unknown",
+        "price": null,
+        "time_to_value": null
+      },
+      "entity_type": "alternative",
+      "id": "alternative-15",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Defer purchase and accept risk"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Buying/risk hypothesis for discovery, not an observed buyer pattern.",
+      "details": {
+        "test": "Ask for the last comparable purchase and its decision record."
+      },
+      "entity_type": "buying_pattern",
+      "id": "buying-01",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Who owns the budget?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Buying/risk hypothesis for discovery, not an observed buyer pattern.",
+      "details": {
+        "test": "Ask for the last comparable purchase and its decision record."
+      },
+      "entity_type": "buying_pattern",
+      "id": "buying-02",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Security review before data export"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Buying/risk hypothesis for discovery, not an observed buyer pattern.",
+      "details": {
+        "test": "Ask for the last comparable purchase and its decision record."
+      },
+      "entity_type": "buying_pattern",
+      "id": "buying-03",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Procurement requires bounded deliverables"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Buying/risk hypothesis for discovery, not an observed buyer pattern.",
+      "details": {
+        "test": "Ask for the last comparable purchase and its decision record."
+      },
+      "entity_type": "buying_pattern",
+      "id": "buying-04",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Vendor upgrade schedules constrain delivery"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Buying/risk hypothesis for discovery, not an observed buyer pattern.",
+      "details": {
+        "test": "Ask for the last comparable purchase and its decision record."
+      },
+      "entity_type": "buying_pattern",
+      "id": "buying-05",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Legal review of discovery data"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Buying/risk hypothesis for discovery, not an observed buyer pattern.",
+      "details": {
+        "test": "Ask for the last comparable purchase and its decision record."
+      },
+      "entity_type": "buying_pattern",
+      "id": "buying-06",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Buyer and operator differ"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Buying/risk hypothesis for discovery, not an observed buyer pattern.",
+      "details": {
+        "test": "Ask for the last comparable purchase and its decision record."
+      },
+      "entity_type": "buying_pattern",
+      "id": "buying-07",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "A pilot needs acceptance criteria"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Buying/risk hypothesis for discovery, not an observed buyer pattern.",
+      "details": {
+        "test": "Ask for the last comparable purchase and its decision record."
+      },
+      "entity_type": "buying_pattern",
+      "id": "buying-08",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Renewal requires recurring value"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Buying/risk hypothesis for discovery, not an observed buyer pattern.",
+      "details": {
+        "test": "Ask for the last comparable purchase and its decision record."
+      },
+      "entity_type": "buying_pattern",
+      "id": "buying-09",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Incumbent bundling can erase price"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-finops-1"
+      ],
+      "description": "Buying/risk hypothesis for discovery, not an observed buyer pattern.",
+      "details": {
+        "test": "Ask for the last comparable purchase and its decision record."
+      },
+      "entity_type": "buying_pattern",
+      "id": "buying-10",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Operational change windows constrain migration"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1"
+      ],
+      "description": "Proposed current-state map inferred from public guidance; confirm with operators.",
+      "details": {
+        "owner": "future workflow interview",
+        "steps": [
+          "Scope assets",
+          "Inventory",
+          "Ask vendors",
+          "Prioritize",
+          "Approve changes"
+        ]
+      },
+      "entity_type": "workflow",
+      "id": "workflow-pqc",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Migration readiness"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1"
+      ],
+      "description": "Unclear dependencies, acceptance criteria or accountability may increase rework. Magnitude unknown.",
+      "details": {
+        "frequency": null,
+        "trigger": "Scope assets"
+      },
+      "entity_type": "pain",
+      "id": "pain-pqc",
+      "related_ids": [
+        "workflow-pqc"
+      ],
+      "status": "hypothesis",
+      "title": "Decision friction: Migration readiness"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1"
+      ],
+      "description": "Parametric map only. No observed cost, probability or loss estimate is available.",
+      "details": {
+        "events_per_year": null,
+        "expected_rework": null,
+        "formula": "events_per_year * hours_per_event * hourly_cost + expected_rework",
+        "hourly_cost": null,
+        "hours_per_event": null,
+        "nonmonetary_cost": "Unresolved dependencies and decisions"
+      },
+      "entity_type": "inaction",
+      "id": "inaction-pqc",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Cost of inaction: Migration readiness"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1"
+      ],
+      "description": "Proposed current-state map inferred from public guidance; confirm with operators.",
+      "details": {
+        "owner": "future workflow interview",
+        "steps": [
+          "Capture constraints",
+          "Model baseline",
+          "Validate feasibility",
+          "Compare cost",
+          "Pilot"
+        ]
+      },
+      "entity_type": "workflow",
+      "id": "workflow-optimization",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Operational optimization"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1"
+      ],
+      "description": "Unclear dependencies, acceptance criteria or accountability may increase rework. Magnitude unknown.",
+      "details": {
+        "frequency": null,
+        "trigger": "Capture constraints"
+      },
+      "entity_type": "pain",
+      "id": "pain-optimization",
+      "related_ids": [
+        "workflow-optimization"
+      ],
+      "status": "hypothesis",
+      "title": "Decision friction: Operational optimization"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1"
+      ],
+      "description": "Parametric map only. No observed cost, probability or loss estimate is available.",
+      "details": {
+        "events_per_year": null,
+        "expected_rework": null,
+        "formula": "events_per_year * hours_per_event * hourly_cost + expected_rework",
+        "hourly_cost": null,
+        "hours_per_event": null,
+        "nonmonetary_cost": "Unresolved dependencies and decisions"
+      },
+      "entity_type": "inaction",
+      "id": "inaction-optimization",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Cost of inaction: Operational optimization"
+    },
+    {
+      "claim_ids": [
+        "claim-braket-1"
+      ],
+      "description": "Proposed current-state map inferred from public guidance; confirm with operators.",
+      "details": {
+        "owner": "future workflow interview",
+        "steps": [
+          "Define question",
+          "Choose baseline",
+          "Budget",
+          "Execute experiment",
+          "Review evidence"
+        ]
+      },
+      "entity_type": "workflow",
+      "id": "workflow-platform",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Hybrid experimentation"
+    },
+    {
+      "claim_ids": [
+        "claim-braket-1"
+      ],
+      "description": "Unclear dependencies, acceptance criteria or accountability may increase rework. Magnitude unknown.",
+      "details": {
+        "frequency": null,
+        "trigger": "Define question"
+      },
+      "entity_type": "pain",
+      "id": "pain-platform",
+      "related_ids": [
+        "workflow-platform"
+      ],
+      "status": "hypothesis",
+      "title": "Decision friction: Hybrid experimentation"
+    },
+    {
+      "claim_ids": [
+        "claim-braket-1"
+      ],
+      "description": "Parametric map only. No observed cost, probability or loss estimate is available.",
+      "details": {
+        "events_per_year": null,
+        "expected_rework": null,
+        "formula": "events_per_year * hours_per_event * hourly_cost + expected_rework",
+        "hourly_cost": null,
+        "hours_per_event": null,
+        "nonmonetary_cost": "Unresolved dependencies and decisions"
+      },
+      "entity_type": "inaction",
+      "id": "inaction-platform",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Cost of inaction: Hybrid experimentation"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-01",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Tell me about the last cryptographic change your team handled."
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-02",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What triggered that change?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-03",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Who participated in deciding what to do?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-04",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What information was missing at that point?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-05",
+      "related_ids": [],
+      "status": "planned",
+      "title": "How did you find where the cryptography was used?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-06",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What could your existing tools not tell you?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-07",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What happened after you asked suppliers for information?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-08",
+      "related_ids": [],
+      "status": "planned",
+      "title": "How did you decide which assets came first?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-09",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What approvals did the work need?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-10",
+      "related_ids": [],
+      "status": "planned",
+      "title": "How long did each approval take?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-11",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Which budget paid for the work, if any?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-12",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What alternatives did you consider?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-13",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Why did you choose that alternative?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-14",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What did the team do manually?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-15",
+      "related_ids": [],
+      "status": "planned",
+      "title": "How did you know the work was complete?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-16",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What was left unresolved?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-17",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Tell me about a time a proposed security purchase was rejected."
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-18",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What caused that rejection?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-19",
+      "related_ids": [],
+      "status": "planned",
+      "title": "How do you compare a service proposal with doing the work internally?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-20",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What can an external team access today?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-21",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What evidence would your risk team need to approve a pilot?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-22",
+      "related_ids": [],
+      "status": "planned",
+      "title": "What would make you stop such a pilot?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-23",
+      "related_ids": [],
+      "status": "planned",
+      "title": "How do you evaluate recurring work after the first assessment?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Open, non-leading future interview prompt.",
+      "details": {},
+      "entity_type": "discovery_question",
+      "id": "question-24",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Who else sees this process differently?"
+    },
+    {
+      "claim_ids": [],
+      "description": "Recruit through opt-in professional introductions; no outreach has been sent.",
+      "details": {
+        "analysis": "Code triggers, alternatives, budget owner and dissent; count disconfirming cases.",
+        "completed": 0,
+        "consent": "Ask before recording; anonymize notes; permit withdrawal.",
+        "recruitment": "Seek recent migration or comparable security-change experience; no convenience-only validation.",
+        "sampling": {
+          "operators": 3,
+          "primary_security": 6,
+          "procurement_risk_legal": 3,
+          "secondary_tech": 3
+        },
+        "target": 15
+      },
+      "entity_type": "interview_plan",
+      "id": "interview-plan",
+      "related_ids": [],
+      "status": "planned",
+      "title": "15 real interviews, not yet conducted"
+    },
+    {
+      "claim_ids": [
+        "claim-nist-3"
+      ],
+      "description": "Capability classification is an analyst assessment.",
+      "details": {
+        "classical_baseline": "Classical inventory and vendor coordination",
+        "kill_gate": "Pause if inventory cannot be obtained with consent",
+        "maturity": "available-now",
+        "maturity_gate": "Approved scope, tested compatibility, cryptographic expert review",
+        "trl": null,
+        "trl_note": "No formal TRL assessment performed",
+        "vendor_risk": "Recheck support and interoperability before any adoption"
+      },
+      "entity_type": "capability",
+      "id": "capability-pqc",
+      "related_ids": [],
+      "status": "inference",
+      "title": "PQC inventory and migration planning"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1"
+      ],
+      "description": "Capability classification is an analyst assessment.",
+      "details": {
+        "classical_baseline": "OR-Tools / commercial solver baseline",
+        "kill_gate": "Do not sell quantum uplift when classical baseline wins",
+        "maturity": "available-now",
+        "maturity_gate": "Repeated feasible improvement after equal-budget comparison",
+        "trl": null,
+        "trl_note": "No formal TRL assessment performed",
+        "vendor_risk": "Recheck support and interoperability before any adoption"
+      },
+      "entity_type": "capability",
+      "id": "capability-optimization",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Quantum-ready optimization assessment"
+    },
+    {
+      "claim_ids": [
+        "claim-braket-1"
+      ],
+      "description": "Capability classification is an analyst assessment.",
+      "details": {
+        "classical_baseline": "Classical jobs and provider-native tools",
+        "kill_gate": "Stop if native tools cover the entire job at lower cost",
+        "maturity": "experimental",
+        "maturity_gate": "Paid repeat workflow and portable contracts",
+        "trl": null,
+        "trl_note": "No formal TRL assessment performed",
+        "vendor_risk": "Recheck support and interoperability before any adoption"
+      },
+      "entity_type": "capability",
+      "id": "capability-platform",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Hybrid execution abstraction"
+    },
+    {
+      "claim_ids": [
+        "claim-braket-2"
+      ],
+      "description": "Capability classification is an analyst assessment.",
+      "details": {
+        "classical_baseline": "Use best available classical implementation",
+        "kill_gate": "No roadmap date or revenue dependency before evidence",
+        "maturity": "speculative",
+        "maturity_gate": "Independent reproducible advantage at total workload cost",
+        "trl": null,
+        "trl_note": "No formal TRL assessment performed",
+        "vendor_risk": "Recheck support and interoperability before any adoption"
+      },
+      "entity_type": "capability",
+      "id": "capability-advantage",
+      "related_ids": [],
+      "status": "inference",
+      "title": "Broad fault-tolerant quantum advantage"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-2"
+      ],
+      "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+      "details": {
+        "anchor": "Existing consultant or internal team",
+        "buyer": "CISO with procurement approval",
+        "delivery_hours_range": [
+          40,
+          120
+        ],
+        "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+        "hourly_cost_range_usd": [
+          40,
+          100
+        ],
+        "human_dependency": "Expert scoping, validation and change approval remain necessary",
+        "margin_target_range": [
+          0.4,
+          0.65
+        ],
+        "price_range_usd": [
+          6000,
+          18000
+        ],
+        "tooling_cost_range_usd": [
+          100,
+          1000
+        ],
+        "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+        "value_unit": "Scoped service inventory and roadmap",
+        "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+      },
+      "entity_type": "pricing",
+      "id": "pricing-assessment",
+      "related_ids": [
+        "assumption-price",
+        "assumption-delivery"
+      ],
+      "status": "hypothesis",
+      "title": "Fixed-price assessment"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-2"
+      ],
+      "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+      "details": {
+        "anchor": "Existing integrator",
+        "buyer": "CISO with procurement approval",
+        "delivery_hours_range": [
+          80,
+          240
+        ],
+        "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+        "hourly_cost_range_usd": [
+          40,
+          100
+        ],
+        "human_dependency": "Expert scoping, validation and change approval remain necessary",
+        "margin_target_range": [
+          0.4,
+          0.65
+        ],
+        "price_range_usd": [
+          12000,
+          30000
+        ],
+        "tooling_cost_range_usd": [
+          100,
+          1000
+        ],
+        "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+        "value_unit": "Two services with reviewed acceptance evidence",
+        "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+      },
+      "entity_type": "pricing",
+      "id": "pricing-pilot",
+      "related_ids": [
+        "assumption-price",
+        "assumption-delivery"
+      ],
+      "status": "hypothesis",
+      "title": "Pilot fee with acceptance criteria"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-2"
+      ],
+      "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+      "details": {
+        "anchor": "Asset management workflow",
+        "buyer": "CISO with procurement approval",
+        "delivery_hours_range": [
+          20,
+          80
+        ],
+        "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+        "hourly_cost_range_usd": [
+          40,
+          100
+        ],
+        "human_dependency": "Expert scoping, validation and change approval remain necessary",
+        "margin_target_range": [
+          0.4,
+          0.65
+        ],
+        "price_range_usd": [
+          6000,
+          24000
+        ],
+        "tooling_cost_range_usd": [
+          100,
+          1000
+        ],
+        "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+        "value_unit": "Recurring change and inventory review",
+        "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+      },
+      "entity_type": "pricing",
+      "id": "pricing-subscription",
+      "related_ids": [
+        "assumption-price",
+        "assumption-delivery"
+      ],
+      "status": "hypothesis",
+      "title": "Organization subscription / year"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-2"
+      ],
+      "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+      "details": {
+        "anchor": "Security managed service provider",
+        "buyer": "CISO with procurement approval",
+        "delivery_hours_range": [
+          200,
+          600
+        ],
+        "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+        "hourly_cost_range_usd": [
+          40,
+          100
+        ],
+        "human_dependency": "Expert scoping, validation and change approval remain necessary",
+        "margin_target_range": [
+          0.4,
+          0.65
+        ],
+        "price_range_usd": [
+          24000,
+          72000
+        ],
+        "tooling_cost_range_usd": [
+          100,
+          1000
+        ],
+        "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+        "value_unit": "Owned review cadence with agreed service levels",
+        "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+      },
+      "entity_type": "pricing",
+      "id": "pricing-managed",
+      "related_ids": [
+        "assumption-price",
+        "assumption-delivery"
+      ],
+      "status": "hypothesis",
+      "title": "Managed service / year"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-2"
+      ],
+      "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+      "details": {
+        "anchor": "Provider-native metering",
+        "buyer": "CISO with procurement approval",
+        "delivery_hours_range": [
+          0.5,
+          5
+        ],
+        "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+        "hourly_cost_range_usd": [
+          40,
+          100
+        ],
+        "human_dependency": "Expert scoping, validation and change approval remain necessary",
+        "margin_target_range": [
+          0.4,
+          0.65
+        ],
+        "price_range_usd": [
+          50,
+          500
+        ],
+        "tooling_cost_range_usd": [
+          100,
+          1000
+        ],
+        "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+        "value_unit": "Metered, bounded evidence job",
+        "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+      },
+      "entity_type": "pricing",
+      "id": "pricing-consumption",
+      "related_ids": [
+        "assumption-price",
+        "assumption-delivery"
+      ],
+      "status": "hypothesis",
+      "title": "Platform consumption / reviewed job"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-2"
+      ],
+      "description": "Illustrative USD hypothesis, not a quote, revenue or validated willingness to pay.",
+      "details": {
+        "anchor": "Internal platform / incumbent bundle",
+        "buyer": "CISO with procurement approval",
+        "delivery_hours_range": [
+          100,
+          400
+        ],
+        "formula": "margin = (price - hours * hourly_cost - tooling) / price",
+        "hourly_cost_range_usd": [
+          40,
+          100
+        ],
+        "human_dependency": "Expert scoping, validation and change approval remain necessary",
+        "margin_target_range": [
+          0.4,
+          0.65
+        ],
+        "price_range_usd": [
+          30000,
+          120000
+        ],
+        "tooling_cost_range_usd": [
+          100,
+          1000
+        ],
+        "validation": "Obtain opt-in pilot procurement feedback and time-track delivery",
+        "value_unit": "Contracted deployment and support",
+        "volume_sensitivity": "Delivery hours and capacity must be remeasured before volume discounts"
+      },
+      "entity_type": "pricing",
+      "id": "pricing-enterprise",
+      "related_ids": [
+        "assumption-price",
+        "assumption-delivery"
+      ],
+      "status": "hypothesis",
+      "title": "Enterprise license / year"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-1"
+      ],
+      "description": "Planned future validation; acceptance thresholds are analyst hypotheses.",
+      "details": {
+        "acceptance": "15 opt-in interviews; at least 5 identify a recent concrete trigger",
+        "kill_gate": "Pivot if no recurring trigger after 15 qualified interviews",
+        "order": 1,
+        "owner": "founder",
+        "results": null,
+        "review_on": "2026-12-11"
+      },
+      "entity_type": "experiment",
+      "id": "experiment-discovery",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Interview buying committees"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-cloudflare-1"
+      ],
+      "description": "Unresolved risk; no evidence of mitigation completion.",
+      "details": {
+        "kill_gate": "Pivot if no recurring trigger after 15 qualified interviews",
+        "owner": "founder",
+        "response": "Pivot scope, pause spend or stop thesis; record dissent",
+        "trigger": "15 opt-in interviews; at least 5 identify a recent concrete trigger"
+      },
+      "entity_type": "risk",
+      "id": "risk-discovery",
+      "related_ids": [
+        "experiment-discovery"
+      ],
+      "status": "hypothesis",
+      "title": "Risk: interview buying committees"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-1"
+      ],
+      "description": "Planned future validation; acceptance thresholds are analyst hypotheses.",
+      "details": {
+        "acceptance": "10 tailored opt-in introduction requests; at least 3 qualified conversations",
+        "kill_gate": "Change ICP/channel if no access after two channels",
+        "order": 2,
+        "owner": "founder",
+        "results": null,
+        "review_on": "2026-12-11"
+      },
+      "entity_type": "experiment",
+      "id": "experiment-access",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Test buyer access"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-cloudflare-1"
+      ],
+      "description": "Unresolved risk; no evidence of mitigation completion.",
+      "details": {
+        "kill_gate": "Change ICP/channel if no access after two channels",
+        "owner": "founder",
+        "response": "Pivot scope, pause spend or stop thesis; record dissent",
+        "trigger": "10 tailored opt-in introduction requests; at least 3 qualified conversations"
+      },
+      "entity_type": "risk",
+      "id": "risk-access",
+      "related_ids": [
+        "experiment-access"
+      ],
+      "status": "hypothesis",
+      "title": "Risk: test buyer access"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-1"
+      ],
+      "description": "Planned future validation; acceptance thresholds are analyst hypotheses.",
+      "details": {
+        "acceptance": "3 qualified proposals reviewed by budget owners",
+        "kill_gate": "Pause after 3 explicit no-budget decisions; do not count polite interest",
+        "order": 3,
+        "owner": "founder",
+        "results": null,
+        "review_on": "2026-12-11"
+      },
+      "entity_type": "experiment",
+      "id": "experiment-price",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Test paid assessment proposal"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-cloudflare-1"
+      ],
+      "description": "Unresolved risk; no evidence of mitigation completion.",
+      "details": {
+        "kill_gate": "Pause after 3 explicit no-budget decisions; do not count polite interest",
+        "owner": "founder",
+        "response": "Pivot scope, pause spend or stop thesis; record dissent",
+        "trigger": "3 qualified proposals reviewed by budget owners"
+      },
+      "entity_type": "risk",
+      "id": "risk-price",
+      "related_ids": [
+        "experiment-price"
+      ],
+      "status": "hypothesis",
+      "title": "Risk: test paid assessment proposal"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-1"
+      ],
+      "description": "Planned future validation; acceptance thresholds are analyst hypotheses.",
+      "details": {
+        "acceptance": "One consented pilot; at most 120 delivery hours for 2 scoped services",
+        "kill_gate": "Rescope if effort exceeds 120h or data access is denied",
+        "order": 4,
+        "owner": "founder",
+        "results": null,
+        "review_on": "2026-12-11"
+      },
+      "entity_type": "experiment",
+      "id": "experiment-delivery",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Measure assisted delivery"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-cloudflare-1"
+      ],
+      "description": "Unresolved risk; no evidence of mitigation completion.",
+      "details": {
+        "kill_gate": "Rescope if effort exceeds 120h or data access is denied",
+        "owner": "founder",
+        "response": "Pivot scope, pause spend or stop thesis; record dissent",
+        "trigger": "One consented pilot; at most 120 delivery hours for 2 scoped services"
+      },
+      "entity_type": "risk",
+      "id": "risk-delivery",
+      "related_ids": [
+        "experiment-delivery"
+      ],
+      "status": "hypothesis",
+      "title": "Risk: measure assisted delivery"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-1"
+      ],
+      "description": "Planned future validation; acceptance thresholds are analyst hypotheses.",
+      "details": {
+        "acceptance": "Blind compare evidence completeness and operator time on same scope",
+        "kill_gate": "Kill differentiation claim if incumbent meets the job at lower total cost",
+        "order": 5,
+        "owner": "founder",
+        "results": null,
+        "review_on": "2026-12-11"
+      },
+      "entity_type": "experiment",
+      "id": "experiment-incumbent",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Compare incumbent outcome"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-cloudflare-1"
+      ],
+      "description": "Unresolved risk; no evidence of mitigation completion.",
+      "details": {
+        "kill_gate": "Kill differentiation claim if incumbent meets the job at lower total cost",
+        "owner": "founder",
+        "response": "Pivot scope, pause spend or stop thesis; record dissent",
+        "trigger": "Blind compare evidence completeness and operator time on same scope"
+      },
+      "entity_type": "risk",
+      "id": "risk-incumbent",
+      "related_ids": [
+        "experiment-incumbent"
+      ],
+      "status": "hypothesis",
+      "title": "Risk: compare incumbent outcome"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1",
+        "claim-finops-1"
+      ],
+      "description": "Planned future validation; acceptance thresholds are analyst hypotheses.",
+      "details": {
+        "acceptance": "Two subsequent review cycles with explicit customer continuation decision",
+        "kill_gate": "Do not launch subscription without recurring paid use",
+        "order": 6,
+        "owner": "founder",
+        "results": null,
+        "review_on": "2026-12-11"
+      },
+      "entity_type": "experiment",
+      "id": "experiment-repeat",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Test recurring need"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-cloudflare-1"
+      ],
+      "description": "Unresolved risk; no evidence of mitigation completion.",
+      "details": {
+        "kill_gate": "Do not launch subscription without recurring paid use",
+        "owner": "founder",
+        "response": "Pivot scope, pause spend or stop thesis; record dissent",
+        "trigger": "Two subsequent review cycles with explicit customer continuation decision"
+      },
+      "entity_type": "risk",
+      "id": "risk-repeat",
+      "related_ids": [
+        "experiment-repeat"
+      ],
+      "status": "hypothesis",
+      "title": "Risk: test recurring need"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-1",
+        "claim-braket-2"
+      ],
+      "description": "Conditional sequence, not a promised release date.",
+      "details": {
+        "build": "Templates and validation",
+        "buy_partner": "Existing inventory tooling",
+        "gate": "Consented paid pilot and measured scope",
+        "months": [
+          0,
+          6
+        ],
+        "quantum_gate": "Independent reproducible workload advantage and affordable total cost; classical fallback remains"
+      },
+      "entity_type": "product_stage",
+      "id": "stage-0",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Assisted evidence service"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-1",
+        "claim-braket-2"
+      ],
+      "description": "Conditional sequence, not a promised release date.",
+      "details": {
+        "build": "Change tracking and evidence workflow",
+        "buy_partner": "Maintained crypto libraries",
+        "gate": "Repeated paid delivery with sustainable margins",
+        "months": [
+          6,
+          18
+        ],
+        "quantum_gate": "Independent reproducible workload advantage and affordable total cost; classical fallback remains"
+      },
+      "entity_type": "product_stage",
+      "id": "stage-6",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Repeatable readiness product"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-1",
+        "claim-braket-2"
+      ],
+      "description": "Conditional sequence, not a promised release date.",
+      "details": {
+        "build": "Contract adapters and permissioned benchmark corpus",
+        "buy_partner": "Cloud execution only when budgeted",
+        "gate": "Multiple repeatable workflows, portability and support economics",
+        "months": [
+          18,
+          36
+        ],
+        "quantum_gate": "Independent reproducible workload advantage and affordable total cost; classical fallback remains"
+      },
+      "entity_type": "product_stage",
+      "id": "stage-18",
+      "related_ids": [],
+      "status": "planned",
+      "title": "Shared platform and suite"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-qiskit-2"
+      ],
+      "description": "Candidate accumulating asset; none is claimed defensible today.",
+      "details": {
+        "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+        "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+        "exit": "Open formats and export; no artificial lock-in"
+      },
+      "entity_type": "moat",
+      "id": "moat-01",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Permissioned migration compatibility data"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-qiskit-2"
+      ],
+      "description": "Candidate accumulating asset; none is claimed defensible today.",
+      "details": {
+        "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+        "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+        "exit": "Open formats and export; no artificial lock-in"
+      },
+      "entity_type": "moat",
+      "id": "moat-02",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Domain models and transparent benchmarks"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-qiskit-2"
+      ],
+      "description": "Candidate accumulating asset; none is claimed defensible today.",
+      "details": {
+        "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+        "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+        "exit": "Open formats and export; no artificial lock-in"
+      },
+      "entity_type": "moat",
+      "id": "moat-03",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Integration with critical review workflows"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-qiskit-2"
+      ],
+      "description": "Candidate accumulating asset; none is claimed defensible today.",
+      "details": {
+        "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+        "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+        "exit": "Open formats and export; no artificial lock-in"
+      },
+      "entity_type": "moat",
+      "id": "moat-04",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Portable provider contracts and developer experience"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-qiskit-2"
+      ],
+      "description": "Candidate accumulating asset; none is claimed defensible today.",
+      "details": {
+        "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+        "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+        "exit": "Open formats and export; no artificial lock-in"
+      },
+      "entity_type": "moat",
+      "id": "moat-05",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Audit trail with decision provenance"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-qiskit-2"
+      ],
+      "description": "Candidate accumulating asset; none is claimed defensible today.",
+      "details": {
+        "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+        "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+        "exit": "Open formats and export; no artificial lock-in"
+      },
+      "entity_type": "moat",
+      "id": "moat-06",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Trusted partner distribution"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-qiskit-2"
+      ],
+      "description": "Candidate accumulating asset; none is claimed defensible today.",
+      "details": {
+        "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+        "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+        "exit": "Open formats and export; no artificial lock-in"
+      },
+      "entity_type": "moat",
+      "id": "moat-07",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Maintained regulatory mapping"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-3",
+        "claim-qiskit-2"
+      ],
+      "description": "Candidate accumulating asset; none is claimed defensible today.",
+      "details": {
+        "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+        "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+        "exit": "Open formats and export; no artificial lock-in"
+      },
+      "entity_type": "moat",
+      "id": "moat-08",
+      "related_ids": [],
+      "status": "hypothesis",
+      "title": "Legitimate switching costs from useful workflow history"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Unproven; test workflow value beyond supplied primitives in experiment-incumbent.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-01",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Why would a buyer pay when libraries already ship PQC?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Primary candidate is icp-finance-security; not a validated customer.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-02",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Which specific buyer owns this problem?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "No verified budget exists; assumption-price remains open.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-03",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Where is the verified budget?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "No access evidence exists; experiment-access is planned.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-04",
+      "related_ids": [],
+      "status": "documented",
+      "title": "What proves access to that buyer?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Long confidentiality lifetime is a plausible signal, not vertical demand evidence; compare secondary ICP.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-05",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Why start in finance?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "No. Jurisdiction-specific legal review is required; no local compliance promise.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-06",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Are NIST recommendations local legal mandates?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Report coverage limitations and require vendor inventories; claim-cisa-2 contradicts exhaustive scanning.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-07",
+      "related_ids": [],
+      "status": "documented",
+      "title": "How will scope exclude undiscoverable embedded crypto?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Run experiment-incumbent and kill the standalone price claim if no measurable gap remains.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-08",
+      "related_ids": [],
+      "status": "documented",
+      "title": "What if the incumbent bundles the assessment?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Keep an assessment business or stop; experiment-repeat gates subscription.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-09",
+      "related_ids": [],
+      "status": "documented",
+      "title": "What if there is no recurring need?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "It initially is an assisted service; productization is conditional on repeated evidence.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-10",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Why is this not ordinary security consulting?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "No client data rights exist yet; require explicit contractual permission and export rights.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-11",
+      "related_ids": [],
+      "status": "documented",
+      "title": "What data rights permit a future moat?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Value proposition is classical inventory and migration readiness, with no hardware date dependency.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-12",
+      "related_ids": [],
+      "status": "documented",
+      "title": "What if a quantum computer useful for attacks takes decades?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Deliver the classical result and reject quantum uplift claims.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-13",
+      "related_ids": [],
+      "status": "documented",
+      "title": "What if classical optimization always wins?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Unknown; scope and liability review required before any live engagement.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-14",
+      "related_ids": [],
+      "status": "documented",
+      "title": "What is the cost of an incorrect inventory?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "The customer security/change authority; this laboratory cannot approve changes.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-15",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Who approves cryptographic changes?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "No. Scores are analyst assumptions that prioritize future validation.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-16",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Does a high score demonstrate willingness to pay?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "No. Null expands to [0,5] and lowers known-weight coverage.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-17",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Are unknown values treated as zero?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Protocol digest pins the authored method; sensitivity exposes weight-driven flips.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-18",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Can weights be changed to force a preferred answer?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Overlapping intervals make the wedge provisional even if midpoint rank is stable.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-19",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Does the ranking survive interval uncertainty?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Only illustrative parameters; observed market count is unknown.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-20",
+      "related_ids": [],
+      "status": "documented",
+      "title": "What supports the TAM numbers?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Only modeled delivery labor; acquisition, taxes and other overhead are explicitly excluded.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-21",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Are founder labor and acquisition included in margins?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Each experiment links to an explicit risk and kill gate.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-22",
+      "related_ids": [],
+      "status": "documented",
+      "title": "What evidence can make the team stop?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "Zero interviews conducted; all 15 are planned.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-23",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Has anyone actually been interviewed?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-finops-2",
+        "claim-braket-2"
+      ],
+      "description": "CLI, source notes, protocol, schemas and checksummed bundle reconstruct the calculation.",
+      "details": {
+        "result": "answered_with_explicit_limit",
+        "review_kind": "analyst_self_review_not_independent_red_team"
+      },
+      "entity_type": "challenge",
+      "id": "challenge-24",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Can another reviewer reproduce this decision?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-ai-rmf-1"
+      ],
+      "description": "Local-only workflow; agree a redacted evidence contract before pilot.",
+      "details": {},
+      "entity_type": "objection",
+      "id": "objection-01",
+      "related_ids": [],
+      "status": "documented",
+      "title": "No raw infrastructure data may leave our environment"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-ai-rmf-1"
+      ],
+      "description": "We cannot promise total discovery; specify covered services, blind spots and vendor confirmations.",
+      "details": {},
+      "entity_type": "objection",
+      "id": "objection-02",
+      "related_ids": [],
+      "status": "documented",
+      "title": "How do we verify completeness?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-ai-rmf-1"
+      ],
+      "description": "No live changes in the offer until separate legal and change approvals.",
+      "details": {},
+      "entity_type": "objection",
+      "id": "objection-03",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Who is liable for changing cryptography?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-ai-rmf-1"
+      ],
+      "description": "Versioned JSON/Markdown export with checksums and no proprietary data lock.",
+      "details": {},
+      "entity_type": "objection",
+      "id": "objection-04",
+      "related_ids": [],
+      "status": "documented",
+      "title": "How can we exit the service?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-ai-rmf-1"
+      ],
+      "description": "Nothing yet; compare timed pilot effort and current alternative with budget owner.",
+      "details": {},
+      "entity_type": "objection",
+      "id": "objection-05",
+      "related_ids": [],
+      "status": "documented",
+      "title": "What proves the price is justified?"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2",
+        "claim-ai-rmf-1"
+      ],
+      "description": "No certification, universal security or quantum advantage claim is made.",
+      "details": {},
+      "entity_type": "objection",
+      "id": "objection-06",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Are you certifying compliance or quantum safety?"
+    },
+    {
+      "claim_ids": [
+        "claim-nist-3"
+      ],
+      "description": "Automated gate verifies every reference along this path.",
+      "details": {
+        "path": [
+          "decision-wedge",
+          "claim-nist-3",
+          "evidence-nist-3",
+          "source-nist"
+        ]
+      },
+      "entity_type": "trace",
+      "id": "trace-01",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Decision-to-source path 1"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-1"
+      ],
+      "description": "Automated gate verifies every reference along this path.",
+      "details": {
+        "path": [
+          "decision-wedge",
+          "claim-cisa-1",
+          "evidence-cisa-1",
+          "source-cisa"
+        ]
+      },
+      "entity_type": "trace",
+      "id": "trace-02",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Decision-to-source path 2"
+    },
+    {
+      "claim_ids": [
+        "claim-cisa-2"
+      ],
+      "description": "Automated gate verifies every reference along this path.",
+      "details": {
+        "path": [
+          "decision-wedge",
+          "claim-cisa-2",
+          "evidence-cisa-2",
+          "source-cisa"
+        ]
+      },
+      "entity_type": "trace",
+      "id": "trace-03",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Decision-to-source path 3"
+    },
+    {
+      "claim_ids": [
+        "claim-cloudflare-1"
+      ],
+      "description": "Automated gate verifies every reference along this path.",
+      "details": {
+        "path": [
+          "decision-wedge",
+          "claim-cloudflare-1",
+          "evidence-cloudflare-1",
+          "source-cloudflare"
+        ]
+      },
+      "entity_type": "trace",
+      "id": "trace-04",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Decision-to-source path 4"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1"
+      ],
+      "description": "Automated gate verifies every reference along this path.",
+      "details": {
+        "path": [
+          "decision-wedge",
+          "claim-ortools-1",
+          "evidence-ortools-1",
+          "source-ortools"
+        ]
+      },
+      "entity_type": "trace",
+      "id": "trace-05",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Decision-to-source path 5"
+    },
+    {
+      "claim_ids": [
+        "claim-braket-1"
+      ],
+      "description": "Automated gate verifies every reference along this path.",
+      "details": {
+        "path": [
+          "decision-wedge",
+          "claim-braket-1",
+          "evidence-braket-1",
+          "source-braket"
+        ]
+      },
+      "entity_type": "trace",
+      "id": "trace-06",
+      "related_ids": [],
+      "status": "documented",
+      "title": "Decision-to-source path 6"
+    },
+    {
+      "claim_ids": [
+        "claim-nist-3",
+        "claim-cisa-1",
+        "claim-cisa-2",
+        "claim-cloudflare-1",
+        "claim-ortools-1",
+        "claim-braket-1"
+      ],
+      "description": "Proceed only to buyer discovery. No company launch, paid validation, legal approval or next project authorized by this record.",
+      "details": {
+        "alternative_decision": "Pivot to classical optimization if buyer evidence dominates; pause if access fails.",
+        "approval": "pending_human_review",
+        "dissent": "Budget/access unknown; incumbents may cover the job.",
+        "quantified_promise": "Hypothesis: within 4 weeks, deliver an owner-reviewed inventory for 2 agreed services, with unknowns and a prioritized roadmap.",
+        "recommendation": "proceed_to_discovery"
+      },
+      "entity_type": "decision",
+      "id": "decision-wedge",
+      "related_ids": [],
+      "status": "candidate",
+      "title": "Provisional wedge: postquantum readiness assessment"
+    },
+    {
+      "claim_ids": [],
+      "description": "Versioned candidate artifact only. Separate repositories, databases, credentials and execution state.",
+      "details": {
+        "approval": "pending_human_review",
+        "boundary": "No automatic import or implementation permission",
+        "next_project": "56 per supplied map; existing folder numbering differs",
+        "receiver": "Software Engineer Project 10 Sprint 1, subject to its own map"
+      },
+      "entity_type": "handoff_contract",
+      "id": "handoff-company-vision",
+      "related_ids": [],
+      "status": "candidate",
+      "title": "company-vision-v1"
+    }
+  ],
+  "evidence": [
+    {
+      "confidence": "C3",
+      "id": "evidence-nist-1",
+      "limitations": "Global technical standards; US federal standards are not universal legal mandates.",
+      "locator": "FIPS standards",
+      "paraphrase": "NIST published its first three principal postquantum cryptography standards in August 2024.",
+      "source_id": "source-nist",
+      "stance": "supports"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-nist-2",
+      "limitations": "Global technical standards; US federal standards are not universal legal mandates.",
+      "locator": "PQC Standards",
+      "paraphrase": "ML-KEM addresses key establishment; ML-DSA and SLH-DSA address digital signatures.",
+      "source_id": "source-nist",
+      "stance": "supports"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-nist-3",
+      "limitations": "Global technical standards; US federal standards are not universal legal mandates.",
+      "locator": "Migration to PQC",
+      "paraphrase": "NIST recommends identifying vulnerable cryptography and beginning migration planning.",
+      "source_id": "source-nist",
+      "stance": "supports"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-nist-4",
+      "limitations": "Global technical standards; US federal standards are not universal legal mandates.",
+      "locator": "Ongoing standardization",
+      "paraphrase": "Additional algorithms remain in standardization, so compatibility planning must accommodate change.",
+      "source_id": "source-nist",
+      "stance": "context"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-cisa-1",
+      "limitations": "US critical infrastructure guidance dated 2023-08-21; pre-final-standard wording is historical.",
+      "locator": "p1 Why prepare now",
+      "paraphrase": "The joint guidance calls for roadmaps, inventories, risk assessment and vendor engagement.",
+      "source_id": "source-cisa",
+      "stance": "supports"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-cisa-2",
+      "limitations": "US critical infrastructure guidance dated 2023-08-21; pre-final-standard wording is historical.",
+      "locator": "p2 Prepare a cryptographic inventory",
+      "paraphrase": "Discovery may miss embedded cryptography; vendor documentation is also needed.",
+      "source_id": "source-cisa",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-cisa-3",
+      "limitations": "US critical infrastructure guidance dated 2023-08-21; pre-final-standard wording is historical.",
+      "locator": "p3 Supply chain",
+      "paraphrase": "Migration planning should account for vendor upgrade paths and associated costs.",
+      "source_id": "source-cisa",
+      "stance": "supports"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-cisa-4",
+      "limitations": "US critical infrastructure guidance dated 2023-08-21; pre-final-standard wording is historical.",
+      "locator": "p1 Why prepare now",
+      "paraphrase": "Data with a long secrecy lifetime motivates preparation for harvest-now-decrypt-later risk.",
+      "source_id": "source-cisa",
+      "stance": "supports"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-finops-1",
+      "limitations": "Technology spending governance; not a survey of willingness to pay.",
+      "locator": "Definition",
+      "paraphrase": "FinOps connects engineering, finance and business around technology value and financial accountability.",
+      "source_id": "source-finops",
+      "stance": "supports"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-finops-2",
+      "limitations": "Technology spending governance; not a survey of willingness to pay.",
+      "locator": "Capabilities",
+      "paraphrase": "The framework includes cost allocation, forecasting and unit economics capabilities.",
+      "source_id": "source-finops",
+      "stance": "context"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-ai-rmf-1",
+      "limitations": "Voluntary AI risk guidance; no certification or legal compliance claim.",
+      "locator": "Overview",
+      "paraphrase": "The AI RMF is intended for voluntary use when managing trustworthiness across the AI lifecycle.",
+      "source_id": "source-ai-rmf",
+      "stance": "context"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-ai-rmf-2",
+      "limitations": "Voluntary AI risk guidance; no certification or legal compliance claim.",
+      "locator": "Overview",
+      "paraphrase": "The framework covers design, development, use and evaluation of AI systems.",
+      "source_id": "source-ai-rmf",
+      "stance": "context"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-ortools-1",
+      "limitations": "Published software capabilities, not measured customer savings.",
+      "locator": "About OR-Tools",
+      "paraphrase": "OR-Tools supplies open-source classical optimization for routing, flows and constrained scheduling.",
+      "source_id": "source-ortools",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-ortools-2",
+      "limitations": "Published software capabilities, not measured customer savings.",
+      "locator": "About OR-Tools",
+      "paraphrase": "OR-Tools supports integration with several commercial and open-source solvers.",
+      "source_id": "source-ortools",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-gurobi-1",
+      "limitations": "Vendor describes capabilities; comparative performance and ROI not independently accepted.",
+      "locator": "Problem types",
+      "paraphrase": "Gurobi offers mathematical optimization for linear, mixed-integer and quadratic problem classes.",
+      "source_id": "source-gurobi",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-gurobi-2",
+      "limitations": "Vendor describes capabilities; comparative performance and ROI not independently accepted.",
+      "locator": "Five ways optimization transforms decisions",
+      "paraphrase": "Gurobi documents sensitivity and infeasibility analysis for model inspection.",
+      "source_id": "source-gurobi",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-cplex-1",
+      "limitations": "Vendor capabilities only; pricing and time-to-value remain unknown.",
+      "locator": "Use cases",
+      "paraphrase": "CPLEX and CP Optimizer address mathematical programming and constraint-based scheduling.",
+      "source_id": "source-cplex",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-cplex-2",
+      "limitations": "Vendor capabilities only; pricing and time-to-value remain unknown.",
+      "locator": "Development environment",
+      "paraphrase": "CPLEX Studio documents a model development environment with debugging and visualization.",
+      "source_id": "source-cplex",
+      "stance": "context"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-braket-1",
+      "limitations": "Cloud quantum research offering, not evidence of advantage on our workloads.",
+      "locator": "Build, Test, Run",
+      "paraphrase": "Braket offers a common service for simulators and different quantum hardware providers.",
+      "source_id": "source-braket",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-braket-2",
+      "limitations": "Cloud quantum research offering, not evidence of advantage on our workloads.",
+      "locator": "About quantum computing",
+      "paraphrase": "AWS describes hardware noise and hybrid algorithm limitations in its introductory guide.",
+      "source_id": "source-braket",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-azure-1",
+      "limitations": "Quantum cloud service documentation; our laboratory runs locally.",
+      "locator": "Overview",
+      "paraphrase": "Azure Quantum supports hardware execution, simulation and resource estimation.",
+      "source_id": "source-azure",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-azure-2",
+      "limitations": "Quantum cloud service documentation; our laboratory runs locally.",
+      "locator": "Quantum Development Kit",
+      "paraphrase": "The QDK is open source and can be used without an Azure account.",
+      "source_id": "source-azure",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-qiskit-1",
+      "limitations": "Vendor-published tooling description; promotional benchmark numbers excluded.",
+      "locator": "Quantum information science toolkit",
+      "paraphrase": "Qiskit provides tools for circuit construction, compilation and experiment execution.",
+      "source_id": "source-qiskit",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-qiskit-2",
+      "limitations": "Vendor-published tooling description; promotional benchmark numbers excluded.",
+      "locator": "Heterogeneous orchestration",
+      "paraphrase": "Qiskit documents plugins connecting classical and quantum execution resources.",
+      "source_id": "source-qiskit",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-oqs-1",
+      "limitations": "Open-source research tools; production suitability needs separate assessment.",
+      "locator": "Project overview",
+      "paraphrase": "OQS provides liboqs and prototype integrations for postquantum cryptography research.",
+      "source_id": "source-oqs",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-oqs-2",
+      "limitations": "Open-source research tools; production suitability needs separate assessment.",
+      "locator": "Project overview",
+      "paraphrase": "OQS includes integrations with protocols and applications such as OpenSSL.",
+      "source_id": "source-oqs",
+      "stance": "context"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-openssl-1",
+      "limitations": "OpenSSL 3.5 documentation, not a certification of arbitrary deployed applications.",
+      "locator": "Description",
+      "paraphrase": "OpenSSL 3.5 documents ML-KEM support through its key encapsulation interfaces.",
+      "source_id": "source-openssl",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-openssl-2",
+      "limitations": "OpenSSL 3.5 documentation, not a certification of arbitrary deployed applications.",
+      "locator": "Algorithms",
+      "paraphrase": "The ML-KEM interface documents parameter sets 512, 768 and 1024.",
+      "source_id": "source-openssl",
+      "stance": "context"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-cloudflare-1",
+      "limitations": "Vendor-specific TLS capability, not complete customer cryptographic coverage.",
+      "locator": "Hybrid key agreement",
+      "paraphrase": "Cloudflare documents hybrid X25519MLKEM768 key agreement support.",
+      "source_id": "source-cloudflare",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-cloudflare-2",
+      "limitations": "Vendor-specific TLS capability, not complete customer cryptographic coverage.",
+      "locator": "Visitor and origin connections",
+      "paraphrase": "Postquantum protection depends on support at the client or origin connection endpoint.",
+      "source_id": "source-cloudflare",
+      "stance": "supports"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-dwave-1",
+      "limitations": "Vendor documentation; no generalized quantum advantage inferred.",
+      "locator": "Industrial Optimization",
+      "paraphrase": "D-Wave documents quantum-classical hybrid solvers through its Leap service.",
+      "source_id": "source-dwave",
+      "stance": "contradicts"
+    },
+    {
+      "confidence": "C3",
+      "id": "evidence-dwave-2",
+      "limitations": "Vendor documentation; no generalized quantum advantage inferred.",
+      "locator": "Quantum Research",
+      "paraphrase": "D-Wave separately documents direct QPU research access and hardware parameters.",
+      "source_id": "source-dwave",
+      "stance": "context"
+    }
+  ],
+  "opportunities": [
+    {
+      "claim_ids": [
+        "claim-nist-3",
+        "claim-cisa-1"
+      ],
+      "classical_alternative": "Classical inventory and vendor coordination",
+      "dimensions": {
+        "access": null,
+        "accumulation": {
+          "high": 4.0,
+          "low": 3.0
+        },
+        "budget": null,
+        "classical-value": {
+          "high": 5.0,
+          "low": 4.0
+        },
+        "competition": {
+          "high": 5.0,
+          "low": 3.0
+        },
+        "complexity": {
+          "high": 4.0,
+          "low": 2.0
+        },
+        "dependency": {
+          "high": 1.0,
+          "low": 0.0
+        },
+        "differentiation": {
+          "high": 3.0,
+          "low": 1.0
+        },
+        "frequency": {
+          "high": 4.0,
+          "low": 2.0
+        },
+        "inaction": {
+          "high": 5.0,
+          "low": 3.0
+        },
+        "optionality": {
+          "high": 3.0,
+          "low": 2.0
+        },
+        "regulation": {
+          "high": 4.0,
+          "low": 3.0
+        },
+        "severity": {
+          "high": 5.0,
+          "low": 3.5
+        },
+        "urgency": {
+          "high": 5.0,
+          "low": 3.0
+        }
+      },
+      "id": "opportunity-pqc",
+      "kill_gate": "Pause if inventory cannot be obtained with consent",
+      "maturity_condition": "Approved scope, tested compatibility, cryptographic expert review",
+      "name": "Postquantum readiness assessment",
+      "opposing_claim_ids": [
+        "claim-cisa-2",
+        "claim-cloudflare-1",
+        "claim-openssl-1"
+      ],
+      "primary_icp": "icp-finance-security",
+      "promise": "Hypothesis: within 4 weeks, deliver an owner-reviewed inventory for 2 agreed services, with unknowns and a prioritized roadmap.",
+      "rationale": {
+        "access": "Unknown: no direct buyer evidence (assumption-access / assumption-price).",
+        "accumulation": "Analyst interval: Permissioned compatibility and migration history could accumulate; none is owned yet. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "budget": "Unknown: no direct buyer evidence (assumption-access / assumption-price).",
+        "classical-value": "Analyst interval: Inventory and roadmap artifacts can be delivered without quantum hardware. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "competition": "Analyst interval: Internal teams, consultants and vendor PQC support are credible alternatives. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "complexity": "Analyst interval: Service scoping and embedded discovery blind spots require human delivery. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "dependency": "Analyst interval: An assessment does not need a fault-tolerant quantum computer. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "differentiation": "Analyst interval: Primitives alone are not a moat; buyer value must come from a scoped evidence workflow. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "frequency": "Analyst interval: Inventory and vendor changes may recur; cadence and paid frequency are unmeasured. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "inaction": "Analyst interval: Delay may increase migration work and secrecy exposure; expected financial loss is unknown. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "optionality": "Analyst interval: PQC preparation preserves adaptability without selling quantum execution. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "regulation": "Analyst interval: Auditability may fit risk review; no jurisdictional compliance conclusion is made. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "severity": "Analyst interval: Long-lived cryptographic exposure motivates assessment, but impact is buyer-specific. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1.",
+        "urgency": "Analyst interval: Readiness guidance supports preparation without a claimed local legal deadline. Context: claim-nist-3, claim-cisa-1; challenge with claim-cisa-2, claim-cloudflare-1, claim-openssl-1."
+      },
+      "secondary_icp": "icp-regulated-tech-security"
+    },
+    {
+      "claim_ids": [
+        "claim-ortools-1",
+        "claim-gurobi-1"
+      ],
+      "classical_alternative": "OR-Tools / commercial solver baseline",
+      "dimensions": {
+        "access": null,
+        "accumulation": {
+          "high": 4.0,
+          "low": 2.0
+        },
+        "budget": null,
+        "classical-value": {
+          "high": 5.0,
+          "low": 3.0
+        },
+        "competition": {
+          "high": 5.0,
+          "low": 4.0
+        },
+        "complexity": {
+          "high": 5.0,
+          "low": 3.0
+        },
+        "dependency": {
+          "high": 3.0,
+          "low": 1.0
+        },
+        "differentiation": {
+          "high": 3.0,
+          "low": 1.0
+        },
+        "frequency": {
+          "high": 5.0,
+          "low": 3.0
+        },
+        "inaction": {
+          "high": 4.0,
+          "low": 2.0
+        },
+        "optionality": {
+          "high": 5.0,
+          "low": 3.0
+        },
+        "regulation": {
+          "high": 4.0,
+          "low": 2.0
+        },
+        "severity": {
+          "high": 4.0,
+          "low": 3.0
+        },
+        "urgency": {
+          "high": 4.0,
+          "low": 2.0
+        }
+      },
+      "id": "opportunity-optimization",
+      "kill_gate": "Do not sell quantum uplift when classical baseline wins",
+      "maturity_condition": "Repeated feasible improvement after equal-budget comparison",
+      "name": "Quantum-ready optimization validation",
+      "opposing_claim_ids": [
+        "claim-ortools-2",
+        "claim-cplex-1"
+      ],
+      "primary_icp": "icp-logistics-operations",
+      "promise": "Hypothesis: within 4 weeks, establish a reproducible feasible baseline and equal-budget comparison for one workflow.",
+      "rationale": {
+        "access": "Unknown: no direct buyer evidence (assumption-access / assumption-price).",
+        "accumulation": "Analyst interval: Domain instances and benchmarks could accumulate only with explicit data rights. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "budget": "Unknown: no direct buyer evidence (assumption-access / assumption-price).",
+        "classical-value": "Analyst interval: A classical solver benchmark provides value before any quantum comparison. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "competition": "Analyst interval: Free and commercial classical solvers are established alternatives. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "complexity": "Analyst interval: Constraint modeling and fair compute budgets require domain-specific work. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "dependency": "Analyst interval: Classical delivery reduces hardware reliance, but future quantum claims remain gated. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "differentiation": "Analyst interval: Established solvers constrain claims; differentiation needs domain evidence. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "frequency": "Analyst interval: Repeated planning is the proposed job; establish its actual cadence in discovery. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "inaction": "Analyst interval: Loss from an inadequate plan must be compared against the existing classical baseline. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "optionality": "Analyst interval: Validated classical benchmarks leave an option for future workload-specific advantage. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "regulation": "Analyst interval: A reproducible decision trail may help review, subject to sector constraints. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "severity": "Analyst interval: Operational infeasibility can matter; no customer's loss has been measured. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1.",
+        "urgency": "Analyst interval: Urgency depends on a concrete planning bottleneck that has not been observed. Context: claim-ortools-1, claim-gurobi-1; challenge with claim-ortools-2, claim-cplex-1."
+      },
+      "secondary_icp": "icp-regulated-tech-engineering"
+    },
+    {
+      "claim_ids": [
+        "claim-finops-1",
+        "claim-braket-1"
+      ],
+      "classical_alternative": "Classical jobs and provider-native tools",
+      "dimensions": {
+        "access": null,
+        "accumulation": {
+          "high": 4.0,
+          "low": 2.0
+        },
+        "budget": null,
+        "classical-value": {
+          "high": 4.0,
+          "low": 2.0
+        },
+        "competition": {
+          "high": 5.0,
+          "low": 4.0
+        },
+        "complexity": {
+          "high": 5.0,
+          "low": 3.0
+        },
+        "dependency": {
+          "high": 4.0,
+          "low": 2.0
+        },
+        "differentiation": {
+          "high": 2.0,
+          "low": 1.0
+        },
+        "frequency": {
+          "high": 3.0,
+          "low": 1.0
+        },
+        "inaction": {
+          "high": 3.0,
+          "low": 1.0
+        },
+        "optionality": {
+          "high": 5.0,
+          "low": 3.0
+        },
+        "regulation": {
+          "high": 4.0,
+          "low": 2.0
+        },
+        "severity": {
+          "high": 3.0,
+          "low": 1.0
+        },
+        "urgency": {
+          "high": 3.0,
+          "low": 1.0
+        }
+      },
+      "id": "opportunity-platform",
+      "kill_gate": "Stop if native tools cover the entire job at lower cost",
+      "maturity_condition": "Paid repeat workflow and portable contracts",
+      "name": "Hybrid development and operations platform",
+      "opposing_claim_ids": [
+        "claim-qiskit-2",
+        "claim-azure-2"
+      ],
+      "primary_icp": "icp-logistics-operations",
+      "promise": "Hypothesis: within 4 weeks, reproduce one bounded workflow with cost and provenance across two adapters.",
+      "rationale": {
+        "access": "Unknown: no direct buyer evidence (assumption-access / assumption-price).",
+        "accumulation": "Analyst interval: Workflow contracts may accumulate if teams adopt them; adoption is unvalidated. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "budget": "Unknown: no direct buyer evidence (assumption-access / assumption-price).",
+        "classical-value": "Analyst interval: Cost/provenance could be classical, but integration overhead delays the first outcome. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "competition": "Analyst interval: Provider-native tooling and internal platforms already cover parts of the proposed job. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "complexity": "Analyst interval: Adapter lifecycle, cost semantics and support span several provider boundaries. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "dependency": "Analyst interval: Multiple external runtimes increase versioning and provider-change exposure. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "differentiation": "Analyst interval: Native cloud and SDK functionality limits a generic wrapper's differentiation. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "frequency": "Analyst interval: Repeated hybrid jobs are an assumption and may remain occasional research. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "inaction": "Analyst interval: Cost of duplicated workflow effort is hypothetical until timed on a real team. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "optionality": "Analyst interval: Adapters preserve provider options only if contracts remain portable. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "regulation": "Analyst interval: Cross-provider data governance adds review obligations rather than automatic compliance. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "severity": "Analyst interval: Fragmented experimentation is a proposed pain, not a validated critical incident. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2.",
+        "urgency": "Analyst interval: A platform has no verified buying trigger in this corpus. Context: claim-finops-1, claim-braket-1; challenge with claim-qiskit-2, claim-azure-2."
+      },
+      "secondary_icp": "icp-regulated-tech-engineering"
+    }
+  ],
+  "paying_customers_validated": 0,
+  "research_date": "2026-09-12",
+  "schema_version": "venture.corpus.v1",
+  "scope": "Public technical evidence; buyer archetypes and economics are unvalidated hypotheses.",
+  "sources": [
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-nist",
+      "published_on": null,
+      "publisher": "NIST",
+      "scope": "Global technical standards; US federal standards are not universal legal mandates.",
+      "title": "Post-Quantum Cryptography Project",
+      "url": "https://csrc.nist.gov/projects/post-quantum-cryptography"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. CISA landing returned 403; joint factsheet read from NSA official mirror.",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-cisa",
+      "published_on": "2023-08-21",
+      "publisher": "CISA / NSA / NIST",
+      "scope": "US critical infrastructure guidance dated 2023-08-21; pre-final-standard wording is historical.",
+      "title": "Quantum-Readiness: Migration to PQC",
+      "url": "https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-finops",
+      "published_on": null,
+      "publisher": "FinOps Foundation",
+      "scope": "Technology spending governance; not a survey of willingness to pay.",
+      "title": "FinOps Framework",
+      "url": "https://www.finops.org/framework/"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-ai-rmf",
+      "published_on": null,
+      "publisher": "NIST",
+      "scope": "Voluntary AI risk guidance; no certification or legal compliance claim.",
+      "title": "AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-ortools",
+      "published_on": null,
+      "publisher": "Google",
+      "scope": "Published software capabilities, not measured customer savings.",
+      "title": "OR-Tools",
+      "url": "https://developers.google.com/optimization"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-gurobi",
+      "published_on": null,
+      "publisher": "Gurobi",
+      "scope": "Vendor describes capabilities; comparative performance and ROI not independently accepted.",
+      "title": "Gurobi Optimizer",
+      "url": "https://www.gurobi.com/product"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-cplex",
+      "published_on": null,
+      "publisher": "IBM",
+      "scope": "Vendor capabilities only; pricing and time-to-value remain unknown.",
+      "title": "ILOG CPLEX Optimization Studio",
+      "url": "https://www.ibm.com/products/ilog-cplex-optimization-studio"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-braket",
+      "published_on": null,
+      "publisher": "AWS",
+      "scope": "Cloud quantum research offering, not evidence of advantage on our workloads.",
+      "title": "What is Amazon Braket?",
+      "url": "https://docs.aws.amazon.com/braket/latest/developerguide/what-is-braket.html"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-azure",
+      "published_on": null,
+      "publisher": "Microsoft",
+      "scope": "Quantum cloud service documentation; our laboratory runs locally.",
+      "title": "What is Azure Quantum?",
+      "url": "https://learn.microsoft.com/en-us/azure/quantum/overview-azure-quantum"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-qiskit",
+      "published_on": null,
+      "publisher": "IBM",
+      "scope": "Vendor-published tooling description; promotional benchmark numbers excluded.",
+      "title": "Qiskit",
+      "url": "https://www.ibm.com/quantum/qiskit"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-oqs",
+      "published_on": null,
+      "publisher": "Open Quantum Safe",
+      "scope": "Open-source research tools; production suitability needs separate assessment.",
+      "title": "Open Quantum Safe",
+      "url": "https://openquantumsafe.org/"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-openssl",
+      "published_on": null,
+      "publisher": "OpenSSL",
+      "scope": "OpenSSL 3.5 documentation, not a certification of arbitrary deployed applications.",
+      "title": "EVP_KEM-ML-KEM",
+      "url": "https://docs.openssl.org/3.5/man7/EVP_KEM-ML-KEM/"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-cloudflare",
+      "published_on": null,
+      "publisher": "Cloudflare",
+      "scope": "Vendor-specific TLS capability, not complete customer cryptographic coverage.",
+      "title": "Post-quantum cryptography",
+      "url": "https://developers.cloudflare.com/ssl/post-quantum-cryptography/"
+    },
+    {
+      "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+      "accessed_on": "2026-09-12",
+      "classification": "primary",
+      "id": "source-dwave",
+      "published_on": null,
+      "publisher": "D-Wave",
+      "scope": "Vendor documentation; no generalized quantum advantage inferred.",
+      "title": "D-Wave Documentation",
+      "url": "https://docs.dwavequantum.com/en/latest/"
+    }
+  ]
+}

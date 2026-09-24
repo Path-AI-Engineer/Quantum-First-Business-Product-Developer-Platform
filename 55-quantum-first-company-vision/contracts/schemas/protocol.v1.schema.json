@@ -1,0 +1,125 @@
+{
+  "$defs": {
+    "Dimension": {
+      "additionalProperties": false,
+      "properties": {
+        "direction": {
+          "enum": [
+            "benefit",
+            "cost"
+          ],
+          "title": "Direction",
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "weight": {
+          "exclusiveMinimum": 0,
+          "title": "Weight",
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "weight",
+        "direction"
+      ],
+      "title": "Dimension",
+      "type": "object"
+    },
+    "StressCase": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "multipliers": {
+          "additionalProperties": {
+            "exclusiveMinimum": 0,
+            "maximum": 5,
+            "type": "number"
+          },
+          "title": "Multipliers",
+          "type": "object"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "multipliers"
+      ],
+      "title": "StressCase",
+      "type": "object"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "dimensions": {
+      "items": {
+        "$ref": "#/$defs/Dimension"
+      },
+      "title": "Dimensions",
+      "type": "array"
+    },
+    "scenarios": {
+      "additionalProperties": {
+        "maximum": 1,
+        "minimum": 0,
+        "type": "number"
+      },
+      "title": "Scenarios",
+      "type": "object"
+    },
+    "status": {
+      "const": "analyst_specification_not_buyer_validation",
+      "title": "Status",
+      "type": "string"
+    },
+    "stress_cases": {
+      "items": {
+        "$ref": "#/$defs/StressCase"
+      },
+      "title": "Stress Cases",
+      "type": "array"
+    },
+    "tie_rule": {
+      "title": "Tie Rule",
+      "type": "string"
+    },
+    "unknown_rule": {
+      "title": "Unknown Rule",
+      "type": "string"
+    },
+    "version": {
+      "const": "decision-protocol-v1",
+      "title": "Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "version",
+    "status",
+    "dimensions",
+    "scenarios",
+    "stress_cases",
+    "unknown_rule",
+    "tie_rule"
+  ],
+  "title": "Protocol",
+  "type": "object"
+}

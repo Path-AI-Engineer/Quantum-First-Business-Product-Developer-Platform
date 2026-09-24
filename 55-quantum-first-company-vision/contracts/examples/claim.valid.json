@@ -1,0 +1,19 @@
+{
+  "accessed_on": "2026-09-12",
+  "confidence": "C3",
+  "external": true,
+  "id": "claim-nist-1",
+  "kind": "fact",
+  "opposing_evidence": [],
+  "owner": "research-maintainer",
+  "review_on": "2026-12-11",
+  "scope": "Global technical standards; US federal standards are not universal legal mandates.",
+  "source_ids": [
+    "source-nist"
+  ],
+  "supporting_evidence": [
+    "evidence-nist-1"
+  ],
+  "text": "NIST published its first three principal postquantum cryptography standards in August 2024.",
+  "validity": "True as a statement about the referenced document at access; not buyer validation."
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "accessed_on": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Accessed On"
+    },
+    "confidence": {
+      "enum": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "title": "Confidence",
+      "type": "string"
+    },
+    "external": {
+      "title": "External",
+      "type": "boolean"
+    },
+    "id": {
+      "pattern": "^[a-z][a-z0-9-]+$",
+      "title": "Id",
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "fact",
+        "inference",
+        "hypothesis"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "opposing_evidence": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9-]+$",
+        "type": "string"
+      },
+      "title": "Opposing Evidence",
+      "type": "array"
+    },
+    "owner": {
+      "title": "Owner",
+      "type": "string"
+    },
+    "review_on": {
+      "format": "date",
+      "title": "Review On",
+      "type": "string"
+    },
+    "scope": {
+      "title": "Scope",
+      "type": "string"
+    },
+    "source_ids": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9-]+$",
+        "type": "string"
+      },
+      "title": "Source Ids",
+      "type": "array"
+    },
+    "supporting_evidence": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9-]+$",
+        "type": "string"
+      },
+      "title": "Supporting Evidence",
+      "type": "array"
+    },
+    "text": {
+      "minLength": 10,
+      "title": "Text",
+      "type": "string"
+    },
+    "validity": {
+      "title": "Validity",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "text",
+    "kind",
+    "external",
+    "confidence",
+    "source_ids",
+    "supporting_evidence",
+    "opposing_evidence",
+    "accessed_on",
+    "scope",
+    "owner",
+    "review_on",
+    "validity"
+  ],
+  "title": "Claim",
+  "type": "object"
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "claim_ids": [
+      "claim-ortools-1"
+    ],
+    "description": "Classical routing and constrained optimization",
+    "details": {
+      "comparison_kind": "vendor-documented capability",
+      "control": "Published capability; deployment fit untested",
+      "lock_in": "Contract/API/data portability review required",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "competitor",
+    "id": "alternative-01",
+    "related_ids": [],
+    "status": "documented",
+    "title": "OR-Tools"
+  },
+  {
+    "claim_ids": [
+      "claim-gurobi-1"
+    ],
+    "description": "Classical commercial solver and modeling support",
+    "details": {
+      "comparison_kind": "vendor-documented capability",
+      "control": "Published capability; deployment fit untested",
+      "lock_in": "Contract/API/data portability review required",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "competitor",
+    "id": "alternative-02",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Gurobi"
+  },
+  {
+    "claim_ids": [
+      "claim-cplex-1"
+    ],
+    "description": "Classical planning and scheduling tools",
+    "details": {
+      "comparison_kind": "vendor-documented capability",
+      "control": "Published capability; deployment fit untested",
+      "lock_in": "Contract/API/data portability review required",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "competitor",
+    "id": "alternative-03",
+    "related_ids": [],
+    "status": "documented",
+    "title": "CPLEX"
+  },
+  {
+    "claim_ids": [
+      "claim-braket-1"
+    ],
+    "description": "Managed quantum experimentation",
+    "details": {
+      "comparison_kind": "vendor-documented capability",
+      "control": "Published capability; deployment fit untested",
+      "lock_in": "Contract/API/data portability review required",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "competitor",
+    "id": "alternative-04",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Amazon Braket"
+  },
+  {
+    "claim_ids": [
+      "claim-azure-1"
+    ],
+    "description": "Hardware, simulation and estimation service",
+    "details": {
+      "comparison_kind": "vendor-documented capability",
+      "control": "Published capability; deployment fit untested",
+      "lock_in": "Contract/API/data portability review required",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "competitor",
+    "id": "alternative-05",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Azure Quantum"
+  },
+  {
+    "claim_ids": [
+      "claim-qiskit-1"
+    ],
+    "description": "Open tooling and orchestration ecosystem",
+    "details": {
+      "comparison_kind": "vendor-documented capability",
+      "control": "Published capability; deployment fit untested",
+      "lock_in": "Contract/API/data portability review required",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "competitor",
+    "id": "alternative-06",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Qiskit"
+  },
+  {
+    "claim_ids": [
+      "claim-oqs-1"
+    ],
+    "description": "Open PQC research library and prototypes",
+    "details": {
+      "comparison_kind": "vendor-documented capability",
+      "control": "Published capability; deployment fit untested",
+      "lock_in": "Contract/API/data portability review required",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "competitor",
+    "id": "alternative-07",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Open Quantum Safe"
+  },
+  {
+    "claim_ids": [
+      "claim-openssl-1"
+    ],
+    "description": "Integrate documented PQC primitives in existing libraries",
+    "details": {
+      "comparison_kind": "vendor-documented capability",
+      "control": "Published capability; deployment fit untested",
+      "lock_in": "Contract/API/data portability review required",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "competitor",
+    "id": "alternative-08",
+    "related_ids": [],
+    "status": "documented",
+    "title": "OpenSSL"
+  },
+  {
+    "claim_ids": [
+      "claim-cloudflare-1"
+    ],
+    "description": "Adopt provider TLS migration capabilities",
+    "details": {
+      "comparison_kind": "vendor-documented capability",
+      "control": "Published capability; deployment fit untested",
+      "lock_in": "Contract/API/data portability review required",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "competitor",
+    "id": "alternative-09",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Cloudflare"
+  },
+  {
+    "claim_ids": [
+      "claim-dwave-1"
+    ],
+    "description": "Evaluate vendor hybrid optimization service",
+    "details": {
+      "comparison_kind": "vendor-documented capability",
+      "control": "Published capability; deployment fit untested",
+      "lock_in": "Contract/API/data portability review required",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "competitor",
+    "id": "alternative-10",
+    "related_ids": [],
+    "status": "documented",
+    "title": "D-Wave Leap"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-finops-1"
+    ],
+    "description": "Candidate substitute to test in discovery; not a claim that surveyed buyers use it.",
+    "details": {
+      "control": "Buyer-dependent",
+      "gap": "Measure decision effort and accountability",
+      "lock_in": "Unknown",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "alternative",
+    "id": "alternative-11",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Internal spreadsheet and asset inventory"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-finops-1"
+    ],
+    "description": "Candidate substitute to test in discovery; not a claim that surveyed buyers use it.",
+    "details": {
+      "control": "Buyer-dependent",
+      "gap": "Measure decision effort and accountability",
+      "lock_in": "Unknown",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "alternative",
+    "id": "alternative-12",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Existing security consultancy"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-finops-1"
+    ],
+    "description": "Candidate substitute to test in discovery; not a claim that surveyed buyers use it.",
+    "details": {
+      "control": "Buyer-dependent",
+      "gap": "Measure decision effort and accountability",
+      "lock_in": "Unknown",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "alternative",
+    "id": "alternative-13",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Internal operations research team"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-finops-1"
+    ],
+    "description": "Candidate substitute to test in discovery; not a claim that surveyed buyers use it.",
+    "details": {
+      "control": "Buyer-dependent",
+      "gap": "Measure decision effort and accountability",
+      "lock_in": "Unknown",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "alternative",
+    "id": "alternative-14",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Vendor-led upgrade program"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-finops-1"
+    ],
+    "description": "Candidate substitute to test in discovery; not a claim that surveyed buyers use it.",
+    "details": {
+      "control": "Buyer-dependent",
+      "gap": "Measure decision effort and accountability",
+      "lock_in": "Unknown",
+      "price": null,
+      "time_to_value": null
+    },
+    "entity_type": "alternative",
+    "id": "alternative-15",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Defer purchase and accept risk"
+  }
+]

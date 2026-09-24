@@ -1,0 +1,91 @@
+﻿{
+    "elapsed_seconds":  188.65,
+    "cloud_deployed":  false,
+    "human_approval":  "pending_human_review",
+    "project":  55,
+    "status":  "technical_gates_passed",
+    "completed_at":  "2026-09-24T17:05:25.6592780Z",
+    "checks":  [
+                   {
+                       "label":  "Ruff lint",
+                       "status":  "passed",
+                       "seconds":  1.21
+                   },
+                   {
+                       "label":  "Ruff format",
+                       "status":  "passed",
+                       "seconds":  0.18
+                   },
+                   {
+                       "label":  "mypy strict",
+                       "status":  "passed",
+                       "seconds":  1.19
+                   },
+                   {
+                       "label":  "Python dependency consistency",
+                       "status":  "passed",
+                       "seconds":  3
+                   },
+                   {
+                       "label":  "Evidence coverage, confidence and decision-to-source traces",
+                       "status":  "passed",
+                       "seconds":  4.69
+                   },
+                   {
+                       "label":  "Unit, property, API, CLI and tamper tests",
+                       "status":  "passed",
+                       "seconds":  12.2
+                   },
+                   {
+                       "label":  "Research documents and contract examples",
+                       "status":  "passed",
+                       "seconds":  0.46
+                   },
+                   {
+                       "label":  "Reports and JSON Schemas",
+                       "status":  "passed",
+                       "seconds":  1.28
+                   },
+                   {
+                       "label":  "Candidate handoff export",
+                       "status":  "passed",
+                       "seconds":  1.58
+                   },
+                   {
+                       "label":  "Frontend security audit",
+                       "status":  "passed",
+                       "seconds":  13.03
+                   },
+                   {
+                       "label":  "Web TypeScript",
+                       "status":  "passed",
+                       "seconds":  3.95
+                   },
+                   {
+                       "label":  "Web lint",
+                       "status":  "passed",
+                       "seconds":  76.14
+                   },
+                   {
+                       "label":  "Web production build",
+                       "status":  "passed",
+                       "seconds":  40.53
+                   },
+                   {
+                       "label":  "Playwright evidence, responsive and accessibility flows",
+                       "status":  "passed",
+                       "seconds":  27.44
+                   },
+                   {
+                       "label":  "Bundle checksums and lineage after frontend build",
+                       "status":  "passed",
+                       "seconds":  1.44
+                   },
+                   {
+                       "label":  "Project whitespace diff",
+                       "status":  "passed",
+                       "seconds":  0.1
+                   }
+               ],
+    "interviews_conducted":  0
+}

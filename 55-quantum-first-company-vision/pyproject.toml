@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling==1.32.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quantum-first-venture-evidence"
+version = "1.0.0"
+description = "Local, evidence-bounded venture decision laboratory."
+requires-python = ">=3.13,<3.14"
+dependencies = ["fastapi==0.141.1", "pydantic==2.13.1", "pandas==3.0.5", "typer==0.24.1", "jsonschema==4.26.0", "uvicorn==0.52.1"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "hypothesis==6.165.2", "httpx==0.28.1", "ruff==0.16.2", "mypy==2.3.0", "pandas-stubs==3.0.5.260730", "types-jsonschema==4.26.0.20260518"]
+
+[project.scripts]
+venture = "venture_evidence.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/venture_evidence"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+[tool.mypy]
+strict = true
+python_version = "3.13"
+files = ["src"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

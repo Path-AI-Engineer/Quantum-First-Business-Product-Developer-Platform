@@ -1,0 +1,284 @@
+[
+  {
+    "claim_ids": [
+      "claim-nist-3"
+    ],
+    "description": "Capability classification is an analyst assessment.",
+    "details": {
+      "classical_baseline": "Classical inventory and vendor coordination",
+      "kill_gate": "Pause if inventory cannot be obtained with consent",
+      "maturity": "available-now",
+      "maturity_gate": "Approved scope, tested compatibility, cryptographic expert review",
+      "trl": null,
+      "trl_note": "No formal TRL assessment performed",
+      "vendor_risk": "Recheck support and interoperability before any adoption"
+    },
+    "entity_type": "capability",
+    "id": "capability-pqc",
+    "related_ids": [],
+    "status": "inference",
+    "title": "PQC inventory and migration planning"
+  },
+  {
+    "claim_ids": [
+      "claim-ortools-1"
+    ],
+    "description": "Capability classification is an analyst assessment.",
+    "details": {
+      "classical_baseline": "OR-Tools / commercial solver baseline",
+      "kill_gate": "Do not sell quantum uplift when classical baseline wins",
+      "maturity": "available-now",
+      "maturity_gate": "Repeated feasible improvement after equal-budget comparison",
+      "trl": null,
+      "trl_note": "No formal TRL assessment performed",
+      "vendor_risk": "Recheck support and interoperability before any adoption"
+    },
+    "entity_type": "capability",
+    "id": "capability-optimization",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Quantum-ready optimization assessment"
+  },
+  {
+    "claim_ids": [
+      "claim-braket-1"
+    ],
+    "description": "Capability classification is an analyst assessment.",
+    "details": {
+      "classical_baseline": "Classical jobs and provider-native tools",
+      "kill_gate": "Stop if native tools cover the entire job at lower cost",
+      "maturity": "experimental",
+      "maturity_gate": "Paid repeat workflow and portable contracts",
+      "trl": null,
+      "trl_note": "No formal TRL assessment performed",
+      "vendor_risk": "Recheck support and interoperability before any adoption"
+    },
+    "entity_type": "capability",
+    "id": "capability-platform",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Hybrid execution abstraction"
+  },
+  {
+    "claim_ids": [
+      "claim-braket-2"
+    ],
+    "description": "Capability classification is an analyst assessment.",
+    "details": {
+      "classical_baseline": "Use best available classical implementation",
+      "kill_gate": "No roadmap date or revenue dependency before evidence",
+      "maturity": "speculative",
+      "maturity_gate": "Independent reproducible advantage at total workload cost",
+      "trl": null,
+      "trl_note": "No formal TRL assessment performed",
+      "vendor_risk": "Recheck support and interoperability before any adoption"
+    },
+    "entity_type": "capability",
+    "id": "capability-advantage",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Broad fault-tolerant quantum advantage"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-1",
+      "claim-braket-2"
+    ],
+    "description": "Conditional sequence, not a promised release date.",
+    "details": {
+      "build": "Templates and validation",
+      "buy_partner": "Existing inventory tooling",
+      "gate": "Consented paid pilot and measured scope",
+      "months": [
+        0,
+        6
+      ],
+      "quantum_gate": "Independent reproducible workload advantage and affordable total cost; classical fallback remains"
+    },
+    "entity_type": "product_stage",
+    "id": "stage-0",
+    "related_ids": [],
+    "status": "planned",
+    "title": "Assisted evidence service"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-1",
+      "claim-braket-2"
+    ],
+    "description": "Conditional sequence, not a promised release date.",
+    "details": {
+      "build": "Change tracking and evidence workflow",
+      "buy_partner": "Maintained crypto libraries",
+      "gate": "Repeated paid delivery with sustainable margins",
+      "months": [
+        6,
+        18
+      ],
+      "quantum_gate": "Independent reproducible workload advantage and affordable total cost; classical fallback remains"
+    },
+    "entity_type": "product_stage",
+    "id": "stage-6",
+    "related_ids": [],
+    "status": "planned",
+    "title": "Repeatable readiness product"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-1",
+      "claim-braket-2"
+    ],
+    "description": "Conditional sequence, not a promised release date.",
+    "details": {
+      "build": "Contract adapters and permissioned benchmark corpus",
+      "buy_partner": "Cloud execution only when budgeted",
+      "gate": "Multiple repeatable workflows, portability and support economics",
+      "months": [
+        18,
+        36
+      ],
+      "quantum_gate": "Independent reproducible workload advantage and affordable total cost; classical fallback remains"
+    },
+    "entity_type": "product_stage",
+    "id": "stage-18",
+    "related_ids": [],
+    "status": "planned",
+    "title": "Shared platform and suite"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-qiskit-2"
+    ],
+    "description": "Candidate accumulating asset; none is claimed defensible today.",
+    "details": {
+      "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+      "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+      "exit": "Open formats and export; no artificial lock-in"
+    },
+    "entity_type": "moat",
+    "id": "moat-01",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Permissioned migration compatibility data"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-qiskit-2"
+    ],
+    "description": "Candidate accumulating asset; none is claimed defensible today.",
+    "details": {
+      "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+      "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+      "exit": "Open formats and export; no artificial lock-in"
+    },
+    "entity_type": "moat",
+    "id": "moat-02",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Domain models and transparent benchmarks"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-qiskit-2"
+    ],
+    "description": "Candidate accumulating asset; none is claimed defensible today.",
+    "details": {
+      "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+      "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+      "exit": "Open formats and export; no artificial lock-in"
+    },
+    "entity_type": "moat",
+    "id": "moat-03",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Integration with critical review workflows"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-qiskit-2"
+    ],
+    "description": "Candidate accumulating asset; none is claimed defensible today.",
+    "details": {
+      "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+      "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+      "exit": "Open formats and export; no artificial lock-in"
+    },
+    "entity_type": "moat",
+    "id": "moat-04",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Portable provider contracts and developer experience"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-qiskit-2"
+    ],
+    "description": "Candidate accumulating asset; none is claimed defensible today.",
+    "details": {
+      "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+      "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+      "exit": "Open formats and export; no artificial lock-in"
+    },
+    "entity_type": "moat",
+    "id": "moat-05",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Audit trail with decision provenance"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-qiskit-2"
+    ],
+    "description": "Candidate accumulating asset; none is claimed defensible today.",
+    "details": {
+      "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+      "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+      "exit": "Open formats and export; no artificial lock-in"
+    },
+    "entity_type": "moat",
+    "id": "moat-06",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Trusted partner distribution"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-qiskit-2"
+    ],
+    "description": "Candidate accumulating asset; none is claimed defensible today.",
+    "details": {
+      "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+      "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+      "exit": "Open formats and export; no artificial lock-in"
+    },
+    "entity_type": "moat",
+    "id": "moat-07",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Maintained regulatory mapping"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3",
+      "claim-qiskit-2"
+    ],
+    "description": "Candidate accumulating asset; none is claimed defensible today.",
+    "details": {
+      "commoditization_test": "Can an incumbent reproduce the outcome within a quarter?",
+      "data_rights": "Only permissioned or public evidence; no client reuse without contract",
+      "exit": "Open formats and export; no artificial lock-in"
+    },
+    "entity_type": "moat",
+    "id": "moat-08",
+    "related_ids": [],
+    "status": "hypothesis",
+    "title": "Legitimate switching costs from useful workflow history"
+  }
+]

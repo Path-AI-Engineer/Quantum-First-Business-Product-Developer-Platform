@@ -1,0 +1,578 @@
+[
+  {
+    "claim_ids": [
+      "claim-cisa-4",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Long-lived financial records and service dependencies. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Audit / risk committee",
+      "budget": null,
+      "buyer": "CISO / cryptography lead",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Security architecture owner",
+      "vertical": "Financial services"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-finance-security",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Financial services · CISO / cryptography lead"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-4",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Long-lived financial records and service dependencies. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Service delivery teams",
+      "budget": null,
+      "buyer": "COO / operations lead",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Planner / operations analyst",
+      "vertical": "Financial services"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-finance-operations",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Financial services · COO / operations lead"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-4",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Long-lived financial records and service dependencies. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Developers / procurement",
+      "budget": null,
+      "buyer": "CTO / VP Engineering",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Platform engineer / innovation lead",
+      "vertical": "Financial services"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-finance-engineering",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Financial services · CTO / VP Engineering"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-4",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Sensitive records and research information lifecycle. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Audit / risk committee",
+      "budget": null,
+      "buyer": "CISO / cryptography lead",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Security architecture owner",
+      "vertical": "Health / life sciences"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-health-security",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Health / life sciences · CISO / cryptography lead"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-4",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Sensitive records and research information lifecycle. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Service delivery teams",
+      "budget": null,
+      "buyer": "COO / operations lead",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Planner / operations analyst",
+      "vertical": "Health / life sciences"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-health-operations",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Health / life sciences · COO / operations lead"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-4",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Sensitive records and research information lifecycle. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Developers / procurement",
+      "budget": null,
+      "buyer": "CTO / VP Engineering",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Platform engineer / innovation lead",
+      "vertical": "Health / life sciences"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-health-engineering",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Health / life sciences · CTO / VP Engineering"
+  },
+  {
+    "claim_ids": [
+      "claim-ortools-1",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Scheduling, routing and OT dependencies. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Audit / risk committee",
+      "budget": null,
+      "buyer": "CISO / cryptography lead",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Security architecture owner",
+      "vertical": "Logistics / manufacturing"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-logistics-security",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Logistics / manufacturing · CISO / cryptography lead"
+  },
+  {
+    "claim_ids": [
+      "claim-ortools-1",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Scheduling, routing and OT dependencies. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Service delivery teams",
+      "budget": null,
+      "buyer": "COO / operations lead",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Planner / operations analyst",
+      "vertical": "Logistics / manufacturing"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-logistics-operations",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Logistics / manufacturing · COO / operations lead"
+  },
+  {
+    "claim_ids": [
+      "claim-ortools-1",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Scheduling, routing and OT dependencies. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Developers / procurement",
+      "budget": null,
+      "buyer": "CTO / VP Engineering",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Platform engineer / innovation lead",
+      "vertical": "Logistics / manufacturing"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-logistics-engineering",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Logistics / manufacturing · CTO / VP Engineering"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-1",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Software supply chain and accountable platform spending. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Audit / risk committee",
+      "budget": null,
+      "buyer": "CISO / cryptography lead",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Security architecture owner",
+      "vertical": "Technology / regulated public sector"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-regulated-tech-security",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Technology / regulated public sector · CISO / cryptography lead"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-1",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Software supply chain and accountable platform spending. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Service delivery teams",
+      "budget": null,
+      "buyer": "COO / operations lead",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Planner / operations analyst",
+      "vertical": "Technology / regulated public sector"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-regulated-tech-operations",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Technology / regulated public sector · COO / operations lead"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-1",
+      "claim-cisa-1"
+    ],
+    "description": "Public-evidence-derived archetype. Proposed pain: Software supply chain and accountable platform spending. No named customer or interview.",
+    "details": {
+      "access": null,
+      "beneficiary": "Developers / procurement",
+      "budget": null,
+      "buyer": "CTO / VP Engineering",
+      "switching_barrier": "Existing vendor relationships and change approvals; hypothesis to test.",
+      "user": "Platform engineer / innovation lead",
+      "vertical": "Technology / regulated public sector"
+    },
+    "entity_type": "customer_profile",
+    "id": "icp-regulated-tech-engineering",
+    "related_ids": [],
+    "status": "inference",
+    "title": "Technology / regulated public sector · CTO / VP Engineering"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-1"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Identify cryptographic dependencies before planning a migration",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-01",
+    "related_ids": [
+      "icp-finance-security"
+    ],
+    "status": "inference",
+    "title": "Identify cryptographic dependencies before planning a migration"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-4"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Associate long-lived records with protection requirements",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-02",
+    "related_ids": [
+      "icp-health-security"
+    ],
+    "status": "inference",
+    "title": "Associate long-lived records with protection requirements"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Request embedded-cryptography inventories from suppliers",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-03",
+    "related_ids": [
+      "icp-regulated-tech-security"
+    ],
+    "status": "inference",
+    "title": "Request embedded-cryptography inventories from suppliers"
+  },
+  {
+    "claim_ids": [
+      "claim-nist-3"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Prioritize system upgrades with owners and risk context",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-04",
+    "related_ids": [
+      "icp-finance-security"
+    ],
+    "status": "inference",
+    "title": "Prioritize system upgrades with owners and risk context"
+  },
+  {
+    "claim_ids": [
+      "claim-nist-2"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Separate key establishment from signature migration",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-05",
+    "related_ids": [
+      "icp-regulated-tech-engineering"
+    ],
+    "status": "inference",
+    "title": "Separate key establishment from signature migration"
+  },
+  {
+    "claim_ids": [
+      "claim-cloudflare-2"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Verify endpoint support before changing TLS policy",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-06",
+    "related_ids": [
+      "icp-health-engineering"
+    ],
+    "status": "inference",
+    "title": "Verify endpoint support before changing TLS policy"
+  },
+  {
+    "claim_ids": [
+      "claim-ortools-1"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Compare routes under real operational constraints",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-07",
+    "related_ids": [
+      "icp-logistics-operations"
+    ],
+    "status": "inference",
+    "title": "Compare routes under real operational constraints"
+  },
+  {
+    "claim_ids": [
+      "claim-cplex-1"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Test schedule feasibility before committing capacity",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-08",
+    "related_ids": [
+      "icp-logistics-operations"
+    ],
+    "status": "inference",
+    "title": "Test schedule feasibility before committing capacity"
+  },
+  {
+    "claim_ids": [
+      "claim-gurobi-2"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Inspect sensitivity when optimization assumptions change",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-09",
+    "related_ids": [
+      "icp-finance-operations"
+    ],
+    "status": "inference",
+    "title": "Inspect sensitivity when optimization assumptions change"
+  },
+  {
+    "claim_ids": [
+      "claim-ortools-2"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Preserve a solver baseline before testing alternatives",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-10",
+    "related_ids": [
+      "icp-health-operations"
+    ],
+    "status": "inference",
+    "title": "Preserve a solver baseline before testing alternatives"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-1"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Attribute experimental cloud spend to an owner",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-11",
+    "related_ids": [
+      "icp-regulated-tech-engineering"
+    ],
+    "status": "inference",
+    "title": "Attribute experimental cloud spend to an owner"
+  },
+  {
+    "claim_ids": [
+      "claim-finops-2"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Compare prototype cost against a business value unit",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-12",
+    "related_ids": [
+      "icp-finance-engineering"
+    ],
+    "status": "inference",
+    "title": "Compare prototype cost against a business value unit"
+  },
+  {
+    "claim_ids": [
+      "claim-braket-1"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Select simulator or device for a bounded experiment",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-13",
+    "related_ids": [
+      "icp-health-engineering"
+    ],
+    "status": "inference",
+    "title": "Select simulator or device for a bounded experiment"
+  },
+  {
+    "claim_ids": [
+      "claim-azure-1"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Estimate resources before proposing a hardware dependency",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-14",
+    "related_ids": [
+      "icp-logistics-engineering"
+    ],
+    "status": "inference",
+    "title": "Estimate resources before proposing a hardware dependency"
+  },
+  {
+    "claim_ids": [
+      "claim-qiskit-1"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Track circuit preparation and execution provenance",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-15",
+    "related_ids": [
+      "icp-regulated-tech-engineering"
+    ],
+    "status": "inference",
+    "title": "Track circuit preparation and execution provenance"
+  },
+  {
+    "claim_ids": [
+      "claim-dwave-1"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Evaluate a hybrid solver against a classical workflow",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-16",
+    "related_ids": [
+      "icp-logistics-operations"
+    ],
+    "status": "inference",
+    "title": "Evaluate a hybrid solver against a classical workflow"
+  },
+  {
+    "claim_ids": [
+      "claim-ai-rmf-1"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Integrate trustworthy AI review in a product lifecycle",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-17",
+    "related_ids": [
+      "icp-regulated-tech-security"
+    ],
+    "status": "inference",
+    "title": "Integrate trustworthy AI review in a product lifecycle"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-3"
+    ],
+    "description": "Inferred job grounded in public guidance/capability; frequency and buyer priority remain unverified.",
+    "details": {
+      "desired_outcome": "Plan supplier contract changes for migration",
+      "frequency": null,
+      "validation": "Future discovery interview"
+    },
+    "entity_type": "job_to_be_done",
+    "id": "job-18",
+    "related_ids": [
+      "icp-finance-security"
+    ],
+    "status": "inference",
+    "title": "Plan supplier contract changes for migration"
+  }
+]

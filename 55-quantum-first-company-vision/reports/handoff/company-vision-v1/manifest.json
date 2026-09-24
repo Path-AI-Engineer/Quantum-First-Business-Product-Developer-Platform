@@ -1,0 +1,33 @@
+{
+  "approval": "pending_human_review",
+  "files": {
+    "assumptions-register.json": "a86a4cf86a5a4ae74af8b076c3238e36e0fdc57fdaa8e06a3d501eb7a3a589fc",
+    "company-thesis.md": "f67c60e4256c0953ed78636965e925db520ac5853cdf0681584cb534bbd7114f",
+    "evidence-index.json": "c00e5c839a340d9179ab16e3aa5aa67f7abc54288b8e6726f17488e3d0f16a04",
+    "experiment-backlog.json": "b72eb07170734d9acfc5cfb81d1749f8adda5b03af00fcd31d1820d53f4050d4",
+    "glossary.json": "d7e66ce0d5f09db52001de6f6c2607a7057f83ef2941d6aa1d2fd132d0e1aafb",
+    "icp-jtbd.json": "52c674595d81b0f0ff248ee85438db491b0a92701937f60add0d66d61de7e656",
+    "product-sequence.json": "388b3fc256ceaafe4afaf0c21b4f61164401e1557ae0dc1e1bf7f5f1e140c033",
+    "risk-kill-gates.json": "1440ca21287a20ca0722a4d74f15a2df7c739e0dbd5bd0c0fba4b403dec33c5d",
+    "schemas.json": "c87b6c4a05e758c27ed6fc6599930d63e28dc5c1bb7e60a22a9265a0fd3314c4",
+    "wedge-decision.json": "9abf97640f2a8f5b9c5f524e43723b13b634782671fc73ddca38ed31cf911445"
+  },
+  "receiver_boundary": "Artifacts only; no code, database, credentials or execution state sharing.",
+  "schema_version": "venture.handoff.v1",
+  "source_lineage": {
+    "data/evidence/corpus.v1.json": "c00e5c839a340d9179ab16e3aa5aa67f7abc54288b8e6726f17488e3d0f16a04",
+    "data/opportunities/protocol.v1.json": "e52f32da25f4d1d0098a95bb41d2bb8bae26b1a408afc9a35cae7fe222731f5a",
+    "pyproject.toml": "5585fba15e07e5c9313fc1ccf3912d47d1afa20d2da6a2260e0f0c3657227994",
+    "scripts/build_research.py": "581962a121bc85ed351582a15ca1df618a13feeaf7ba1928f2152bf983acc48b",
+    "src/venture_evidence/__init__.py": "b5f0f8301c5c80a35367386c85402981bba7e27d8c82f22c26400e5decac97ff",
+    "src/venture_evidence/api.py": "185bc1dd995739552021ce0414e9aca02101ac675f24984c268d7565fedff0a2",
+    "src/venture_evidence/cli.py": "0f3257a2d3d33414e1c3ee5a0ee8e71a3846a13503ee778161ee50e3c97253a4",
+    "src/venture_evidence/economics.py": "1baa2623f1cbac19da0eee0c50e7ced1828e97264993574dc5e1aa7f075494b5",
+    "src/venture_evidence/models.py": "68bce3529538a092f85e2bc5788174e5a0c4661e4d6c2077064b1c749be9c576",
+    "src/venture_evidence/reporting.py": "333a7c9b839682fdbd09aac70ded8925e7a07fa382e89af91e43e8829e0c2041",
+    "src/venture_evidence/repository.py": "631c9f145f9b40c642312444dfd2c54f2cc5cdc5aed79144e6973c8d3c8b45bb",
+    "src/venture_evidence/scoring.py": "1500ed6ad312188d689d5bdf3e5e1c9d204e043e356f2d1b82be7476cac07dd1",
+    "src/venture_evidence/validation.py": "01c913c475d52b76f4939937fec1474632883522130095cc3b3ae1a90d42a5e2"
+  },
+  "version": "company-vision-v1"
+}

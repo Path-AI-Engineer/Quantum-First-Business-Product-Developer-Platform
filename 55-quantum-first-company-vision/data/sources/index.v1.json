@@ -1,0 +1,156 @@
+[
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-nist",
+    "published_on": null,
+    "publisher": "NIST",
+    "scope": "Global technical standards; US federal standards are not universal legal mandates.",
+    "title": "Post-Quantum Cryptography Project",
+    "url": "https://csrc.nist.gov/projects/post-quantum-cryptography"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. CISA landing returned 403; joint factsheet read from NSA official mirror.",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-cisa",
+    "published_on": "2023-08-21",
+    "publisher": "CISA / NSA / NIST",
+    "scope": "US critical infrastructure guidance dated 2023-08-21; pre-final-standard wording is historical.",
+    "title": "Quantum-Readiness: Migration to PQC",
+    "url": "https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-finops",
+    "published_on": null,
+    "publisher": "FinOps Foundation",
+    "scope": "Technology spending governance; not a survey of willingness to pay.",
+    "title": "FinOps Framework",
+    "url": "https://www.finops.org/framework/"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-ai-rmf",
+    "published_on": null,
+    "publisher": "NIST",
+    "scope": "Voluntary AI risk guidance; no certification or legal compliance claim.",
+    "title": "AI Risk Management Framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-ortools",
+    "published_on": null,
+    "publisher": "Google",
+    "scope": "Published software capabilities, not measured customer savings.",
+    "title": "OR-Tools",
+    "url": "https://developers.google.com/optimization"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-gurobi",
+    "published_on": null,
+    "publisher": "Gurobi",
+    "scope": "Vendor describes capabilities; comparative performance and ROI not independently accepted.",
+    "title": "Gurobi Optimizer",
+    "url": "https://www.gurobi.com/product"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-cplex",
+    "published_on": null,
+    "publisher": "IBM",
+    "scope": "Vendor capabilities only; pricing and time-to-value remain unknown.",
+    "title": "ILOG CPLEX Optimization Studio",
+    "url": "https://www.ibm.com/products/ilog-cplex-optimization-studio"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-braket",
+    "published_on": null,
+    "publisher": "AWS",
+    "scope": "Cloud quantum research offering, not evidence of advantage on our workloads.",
+    "title": "What is Amazon Braket?",
+    "url": "https://docs.aws.amazon.com/braket/latest/developerguide/what-is-braket.html"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-azure",
+    "published_on": null,
+    "publisher": "Microsoft",
+    "scope": "Quantum cloud service documentation; our laboratory runs locally.",
+    "title": "What is Azure Quantum?",
+    "url": "https://learn.microsoft.com/en-us/azure/quantum/overview-azure-quantum"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-qiskit",
+    "published_on": null,
+    "publisher": "IBM",
+    "scope": "Vendor-published tooling description; promotional benchmark numbers excluded.",
+    "title": "Qiskit",
+    "url": "https://www.ibm.com/quantum/qiskit"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-oqs",
+    "published_on": null,
+    "publisher": "Open Quantum Safe",
+    "scope": "Open-source research tools; production suitability needs separate assessment.",
+    "title": "Open Quantum Safe",
+    "url": "https://openquantumsafe.org/"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-openssl",
+    "published_on": null,
+    "publisher": "OpenSSL",
+    "scope": "OpenSSL 3.5 documentation, not a certification of arbitrary deployed applications.",
+    "title": "EVP_KEM-ML-KEM",
+    "url": "https://docs.openssl.org/3.5/man7/EVP_KEM-ML-KEM/"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-cloudflare",
+    "published_on": null,
+    "publisher": "Cloudflare",
+    "scope": "Vendor-specific TLS capability, not complete customer cryptographic coverage.",
+    "title": "Post-quantum cryptography",
+    "url": "https://developers.cloudflare.com/ssl/post-quantum-cryptography/"
+  },
+  {
+    "access_note": "Official document reviewed; concise analyst paraphrases retained. ",
+    "accessed_on": "2026-09-12",
+    "classification": "primary",
+    "id": "source-dwave",
+    "published_on": null,
+    "publisher": "D-Wave",
+    "scope": "Vendor documentation; no generalized quantum advantage inferred.",
+    "title": "D-Wave Documentation",
+    "url": "https://docs.dwavequantum.com/en/latest/"
+  }
+]

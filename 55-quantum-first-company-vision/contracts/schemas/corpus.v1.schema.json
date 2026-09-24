@@ -1,0 +1,533 @@
+{
+  "$defs": {
+    "Claim": {
+      "additionalProperties": false,
+      "properties": {
+        "accessed_on": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Accessed On"
+        },
+        "confidence": {
+          "enum": [
+            "C0",
+            "C1",
+            "C2",
+            "C3",
+            "C4"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "external": {
+          "title": "External",
+          "type": "boolean"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "fact",
+            "inference",
+            "hypothesis"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "opposing_evidence": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "title": "Opposing Evidence",
+          "type": "array"
+        },
+        "owner": {
+          "title": "Owner",
+          "type": "string"
+        },
+        "review_on": {
+          "format": "date",
+          "title": "Review On",
+          "type": "string"
+        },
+        "scope": {
+          "title": "Scope",
+          "type": "string"
+        },
+        "source_ids": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "supporting_evidence": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "title": "Supporting Evidence",
+          "type": "array"
+        },
+        "text": {
+          "minLength": 10,
+          "title": "Text",
+          "type": "string"
+        },
+        "validity": {
+          "title": "Validity",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "text",
+        "kind",
+        "external",
+        "confidence",
+        "source_ids",
+        "supporting_evidence",
+        "opposing_evidence",
+        "accessed_on",
+        "scope",
+        "owner",
+        "review_on",
+        "validity"
+      ],
+      "title": "Claim",
+      "type": "object"
+    },
+    "Entity": {
+      "additionalProperties": false,
+      "properties": {
+        "claim_ids": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "title": "Claim Ids",
+          "type": "array"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "details": {
+          "additionalProperties": {
+            "$ref": "#/$defs/JsonValue"
+          },
+          "title": "Details",
+          "type": "object"
+        },
+        "entity_type": {
+          "enum": [
+            "assumption",
+            "customer_profile",
+            "job_to_be_done",
+            "pain",
+            "alternative",
+            "competitor",
+            "capability",
+            "experiment",
+            "risk",
+            "decision",
+            "handoff_contract",
+            "buying_pattern",
+            "workflow",
+            "inaction",
+            "discovery_question",
+            "interview_plan",
+            "pricing",
+            "product_stage",
+            "moat",
+            "challenge",
+            "objection",
+            "trace"
+          ],
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "related_ids": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "title": "Related Ids",
+          "type": "array"
+        },
+        "status": {
+          "enum": [
+            "hypothesis",
+            "inference",
+            "planned",
+            "candidate",
+            "documented"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "entity_type",
+        "title",
+        "description",
+        "status",
+        "claim_ids"
+      ],
+      "title": "Entity",
+      "type": "object"
+    },
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "confidence": {
+          "enum": [
+            "C0",
+            "C1",
+            "C2",
+            "C3",
+            "C4"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "limitations": {
+          "title": "Limitations",
+          "type": "string"
+        },
+        "locator": {
+          "title": "Locator",
+          "type": "string"
+        },
+        "paraphrase": {
+          "minLength": 20,
+          "title": "Paraphrase",
+          "type": "string"
+        },
+        "source_id": {
+          "pattern": "^[a-z][a-z0-9-]+$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "stance": {
+          "enum": [
+            "supports",
+            "contradicts",
+            "context"
+          ],
+          "title": "Stance",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "paraphrase",
+        "locator",
+        "stance",
+        "confidence",
+        "limitations"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    },
+    "Interval": {
+      "additionalProperties": false,
+      "properties": {
+        "high": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "High",
+          "type": "number"
+        },
+        "low": {
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Low",
+          "type": "number"
+        }
+      },
+      "required": [
+        "low",
+        "high"
+      ],
+      "title": "Interval",
+      "type": "object"
+    },
+    "JsonValue": {},
+    "Opportunity": {
+      "additionalProperties": false,
+      "properties": {
+        "claim_ids": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "title": "Claim Ids",
+          "type": "array"
+        },
+        "classical_alternative": {
+          "title": "Classical Alternative",
+          "type": "string"
+        },
+        "dimensions": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/Interval"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Dimensions",
+          "type": "object"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "kill_gate": {
+          "title": "Kill Gate",
+          "type": "string"
+        },
+        "maturity_condition": {
+          "title": "Maturity Condition",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "opposing_claim_ids": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9-]+$",
+            "type": "string"
+          },
+          "title": "Opposing Claim Ids",
+          "type": "array"
+        },
+        "primary_icp": {
+          "pattern": "^[a-z][a-z0-9-]+$",
+          "title": "Primary Icp",
+          "type": "string"
+        },
+        "promise": {
+          "title": "Promise",
+          "type": "string"
+        },
+        "rationale": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Rationale",
+          "type": "object"
+        },
+        "secondary_icp": {
+          "pattern": "^[a-z][a-z0-9-]+$",
+          "title": "Secondary Icp",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "promise",
+        "classical_alternative",
+        "maturity_condition",
+        "kill_gate",
+        "primary_icp",
+        "secondary_icp",
+        "claim_ids",
+        "opposing_claim_ids",
+        "dimensions",
+        "rationale"
+      ],
+      "title": "Opportunity",
+      "type": "object"
+    },
+    "Source": {
+      "additionalProperties": false,
+      "properties": {
+        "access_note": {
+          "title": "Access Note",
+          "type": "string"
+        },
+        "accessed_on": {
+          "format": "date",
+          "title": "Accessed On",
+          "type": "string"
+        },
+        "classification": {
+          "enum": [
+            "primary",
+            "secondary"
+          ],
+          "title": "Classification",
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-z][a-z0-9-]+$",
+          "title": "Id",
+          "type": "string"
+        },
+        "published_on": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published On"
+        },
+        "publisher": {
+          "title": "Publisher",
+          "type": "string"
+        },
+        "scope": {
+          "title": "Scope",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "publisher",
+        "url",
+        "accessed_on",
+        "classification",
+        "scope",
+        "access_note"
+      ],
+      "title": "Source",
+      "type": "object"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "approval": {
+      "const": "pending_human_review",
+      "title": "Approval",
+      "type": "string"
+    },
+    "buyer_interviews_completed": {
+      "const": 0,
+      "title": "Buyer Interviews Completed",
+      "type": "integer"
+    },
+    "claims": {
+      "items": {
+        "$ref": "#/$defs/Claim"
+      },
+      "title": "Claims",
+      "type": "array"
+    },
+    "entities": {
+      "items": {
+        "$ref": "#/$defs/Entity"
+      },
+      "title": "Entities",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/Evidence"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "opportunities": {
+      "items": {
+        "$ref": "#/$defs/Opportunity"
+      },
+      "title": "Opportunities",
+      "type": "array"
+    },
+    "paying_customers_validated": {
+      "const": 0,
+      "title": "Paying Customers Validated",
+      "type": "integer"
+    },
+    "research_date": {
+      "format": "date",
+      "title": "Research Date",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "venture.corpus.v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "scope": {
+      "title": "Scope",
+      "type": "string"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/Source"
+      },
+      "title": "Sources",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "research_date",
+    "scope",
+    "buyer_interviews_completed",
+    "paying_customers_validated",
+    "approval",
+    "sources",
+    "evidence",
+    "claims",
+    "entities",
+    "opportunities"
+  ],
+  "title": "Corpus",
+  "type": "object"
+}

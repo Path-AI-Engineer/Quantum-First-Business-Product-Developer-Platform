@@ -1,0 +1,94 @@
+{
+  "$defs": {
+    "JsonValue": {}
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "claim_ids": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9-]+$",
+        "type": "string"
+      },
+      "title": "Claim Ids",
+      "type": "array"
+    },
+    "description": {
+      "title": "Description",
+      "type": "string"
+    },
+    "details": {
+      "additionalProperties": {
+        "$ref": "#/$defs/JsonValue"
+      },
+      "title": "Details",
+      "type": "object"
+    },
+    "entity_type": {
+      "enum": [
+        "assumption",
+        "customer_profile",
+        "job_to_be_done",
+        "pain",
+        "alternative",
+        "competitor",
+        "capability",
+        "experiment",
+        "risk",
+        "decision",
+        "handoff_contract",
+        "buying_pattern",
+        "workflow",
+        "inaction",
+        "discovery_question",
+        "interview_plan",
+        "pricing",
+        "product_stage",
+        "moat",
+        "challenge",
+        "objection",
+        "trace"
+      ],
+      "title": "Entity Type",
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^[a-z][a-z0-9-]+$",
+      "title": "Id",
+      "type": "string"
+    },
+    "related_ids": {
+      "items": {
+        "pattern": "^[a-z][a-z0-9-]+$",
+        "type": "string"
+      },
+      "title": "Related Ids",
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "hypothesis",
+        "inference",
+        "planned",
+        "candidate",
+        "documented"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "entity_type",
+    "title",
+    "description",
+    "status",
+    "claim_ids"
+  ],
+  "title": "Entity",
+  "type": "object"
+}

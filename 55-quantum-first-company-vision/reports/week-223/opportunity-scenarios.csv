@@ -1,0 +1,10 @@
+id,scenario,low,high,estimate
+opportunity-pqc,conservative,43.8,87.2,43.8
+opportunity-optimization,conservative,32.6,80.4,32.6
+opportunity-platform,conservative,19.8,68.2,19.8
+opportunity-pqc,base,43.8,87.2,65.5
+opportunity-optimization,base,32.6,80.4,56.5
+opportunity-platform,base,19.8,68.2,44.0
+opportunity-pqc,aggressive,43.8,87.2,87.2
+opportunity-optimization,aggressive,32.6,80.4,80.4
+opportunity-platform,aggressive,19.8,68.2,68.2

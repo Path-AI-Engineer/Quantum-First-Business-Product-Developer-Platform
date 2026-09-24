@@ -1,0 +1,56 @@
+# Company thesis · company-vision-v1
+
+Status: CANDIDATE — human approval pending.
+
+## Vision and mission
+
+Make technology decisions inspectable before customers commit capital or operational risk. Start with assisted cryptographic inventory and migration readiness for scoped financial-services workflows.
+
+## Decision
+
+Recommend proceeding to buyer discovery for a postquantum readiness assessment. Primary archetype: financial-services CISO. Secondary: regulated technology security lead. Neither archetype is a validated customer.
+
+Offer hypothesis: within four weeks, produce an owner-reviewed inventory for two agreed services, document blind spots and deliver a prioritized migration roadmap. No certification or cryptographic changes included.
+
+Initial revenue hypothesis: fixed-price assessment, illustrative USD 6,000–18,000. Price and effort ranges are assumptions. A recurring offer requires evidence of repeated paid use.
+
+## Comparison and uncertainty
+
+Formula: sum(normalized_weight * direction-adjusted_dimension / 5) * 100. Unknown values retain [0,5]; the base midpoint is illustrative. These intervals are not statistical confidence intervals.
+
+| Candidate | Base estimate | Assumption interval |
+|---|---:|---:|
+| Postquantum readiness assessment | 65.5 | 43.8–87.2 |
+| Quantum-ready optimization validation | 56.5 | 32.6–80.4 |
+| Hybrid development and operations platform | 44.0 | 19.8–68.2 |
+
+Intervals overlap: selection is fragile and provisional. Budget and buyer access remain unknown. Quantum-ready optimization is deferred because classical solvers already address many jobs; a hybrid platform is deferred because native cloud/SDK tooling already exists and paid workflow demand is unproved.
+
+## Dissent and kill gates
+
+Public guidance supports preparation, not demand for this particular offer. Libraries and incumbent providers can commoditize the technical portion. Discovery cannot guarantee visibility of embedded cryptography. Pause if qualified buyers cannot be reached; pivot if no buying trigger emerges in 15 interviews; reject subscription without recurring paid use; stop standalone differentiation claims if an incumbent meets the same job at lower total cost.
+
+## Product sequence and quantum maturity
+
+0–6 months: assisted service, gated by a consented paid pilot. 6–18 months: repeated product, gated by measured delivery and recurring use. 18–36 months: shared platform, gated by multiple repeatable workflows. Quantum execution requires independent workload evidence and acceptable total economics; retain the best classical alternative and promise no date of quantum advantage.
+
+## Evidence boundaries and reconstruction
+
+Zero interviews, zero validated paying customers, no observed revenue or market size. The market calculator is illustrative. NIST and CISA guidance is not a universal local legal mandate. Challenge responses are analyst self-review, not independent approval. Run `venture evidence validate`, `venture opportunity score --scenario base`, `venture opportunity sensitivity`, and `venture handoff verify` to reconstruct the decision.
+
+## Source register
+
+- [Post-Quantum Cryptography Project](https://csrc.nist.gov/projects/post-quantum-cryptography) — NIST; accessed 2026-09-12.
+- [Quantum-Readiness: Migration to PQC](https://media.defense.gov/2023/Aug/21/2003284212/-1/-1/0/CSI-QUANTUM-READINESS.PDF) — CISA / NSA / NIST; accessed 2026-09-12.
+- [FinOps Framework](https://www.finops.org/framework/) — FinOps Foundation; accessed 2026-09-12.
+- [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — NIST; accessed 2026-09-12.
+- [OR-Tools](https://developers.google.com/optimization) — Google; accessed 2026-09-12.
+- [Gurobi Optimizer](https://www.gurobi.com/product) — Gurobi; accessed 2026-09-12.
+- [ILOG CPLEX Optimization Studio](https://www.ibm.com/products/ilog-cplex-optimization-studio) — IBM; accessed 2026-09-12.
+- [What is Amazon Braket?](https://docs.aws.amazon.com/braket/latest/developerguide/what-is-braket.html) — AWS; accessed 2026-09-12.
+- [What is Azure Quantum?](https://learn.microsoft.com/en-us/azure/quantum/overview-azure-quantum) — Microsoft; accessed 2026-09-12.
+- [Qiskit](https://www.ibm.com/quantum/qiskit) — IBM; accessed 2026-09-12.
+- [Open Quantum Safe](https://openquantumsafe.org/) — Open Quantum Safe; accessed 2026-09-12.
+- [EVP_KEM-ML-KEM](https://docs.openssl.org/3.5/man7/EVP_KEM-ML-KEM/) — OpenSSL; accessed 2026-09-12.
+- [Post-quantum cryptography](https://developers.cloudflare.com/ssl/post-quantum-cryptography/) — Cloudflare; accessed 2026-09-12.
+- [D-Wave Documentation](https://docs.dwavequantum.com/en/latest/) — D-Wave; accessed 2026-09-12.

@@ -1,0 +1,608 @@
+[
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-cloudflare-1"
+    ],
+    "description": "Unresolved risk; no evidence of mitigation completion.",
+    "details": {
+      "kill_gate": "Pivot if no recurring trigger after 15 qualified interviews",
+      "owner": "founder",
+      "response": "Pivot scope, pause spend or stop thesis; record dissent",
+      "trigger": "15 opt-in interviews; at least 5 identify a recent concrete trigger"
+    },
+    "entity_type": "risk",
+    "id": "risk-discovery",
+    "related_ids": [
+      "experiment-discovery"
+    ],
+    "status": "hypothesis",
+    "title": "Risk: interview buying committees"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-cloudflare-1"
+    ],
+    "description": "Unresolved risk; no evidence of mitigation completion.",
+    "details": {
+      "kill_gate": "Change ICP/channel if no access after two channels",
+      "owner": "founder",
+      "response": "Pivot scope, pause spend or stop thesis; record dissent",
+      "trigger": "10 tailored opt-in introduction requests; at least 3 qualified conversations"
+    },
+    "entity_type": "risk",
+    "id": "risk-access",
+    "related_ids": [
+      "experiment-access"
+    ],
+    "status": "hypothesis",
+    "title": "Risk: test buyer access"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-cloudflare-1"
+    ],
+    "description": "Unresolved risk; no evidence of mitigation completion.",
+    "details": {
+      "kill_gate": "Pause after 3 explicit no-budget decisions; do not count polite interest",
+      "owner": "founder",
+      "response": "Pivot scope, pause spend or stop thesis; record dissent",
+      "trigger": "3 qualified proposals reviewed by budget owners"
+    },
+    "entity_type": "risk",
+    "id": "risk-price",
+    "related_ids": [
+      "experiment-price"
+    ],
+    "status": "hypothesis",
+    "title": "Risk: test paid assessment proposal"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-cloudflare-1"
+    ],
+    "description": "Unresolved risk; no evidence of mitigation completion.",
+    "details": {
+      "kill_gate": "Rescope if effort exceeds 120h or data access is denied",
+      "owner": "founder",
+      "response": "Pivot scope, pause spend or stop thesis; record dissent",
+      "trigger": "One consented pilot; at most 120 delivery hours for 2 scoped services"
+    },
+    "entity_type": "risk",
+    "id": "risk-delivery",
+    "related_ids": [
+      "experiment-delivery"
+    ],
+    "status": "hypothesis",
+    "title": "Risk: measure assisted delivery"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-cloudflare-1"
+    ],
+    "description": "Unresolved risk; no evidence of mitigation completion.",
+    "details": {
+      "kill_gate": "Kill differentiation claim if incumbent meets the job at lower total cost",
+      "owner": "founder",
+      "response": "Pivot scope, pause spend or stop thesis; record dissent",
+      "trigger": "Blind compare evidence completeness and operator time on same scope"
+    },
+    "entity_type": "risk",
+    "id": "risk-incumbent",
+    "related_ids": [
+      "experiment-incumbent"
+    ],
+    "status": "hypothesis",
+    "title": "Risk: compare incumbent outcome"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-cloudflare-1"
+    ],
+    "description": "Unresolved risk; no evidence of mitigation completion.",
+    "details": {
+      "kill_gate": "Do not launch subscription without recurring paid use",
+      "owner": "founder",
+      "response": "Pivot scope, pause spend or stop thesis; record dissent",
+      "trigger": "Two subsequent review cycles with explicit customer continuation decision"
+    },
+    "entity_type": "risk",
+    "id": "risk-repeat",
+    "related_ids": [
+      "experiment-repeat"
+    ],
+    "status": "hypothesis",
+    "title": "Risk: test recurring need"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Unproven; test workflow value beyond supplied primitives in experiment-incumbent.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-01",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Why would a buyer pay when libraries already ship PQC?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Primary candidate is icp-finance-security; not a validated customer.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-02",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Which specific buyer owns this problem?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "No verified budget exists; assumption-price remains open.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-03",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Where is the verified budget?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "No access evidence exists; experiment-access is planned.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-04",
+    "related_ids": [],
+    "status": "documented",
+    "title": "What proves access to that buyer?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Long confidentiality lifetime is a plausible signal, not vertical demand evidence; compare secondary ICP.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-05",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Why start in finance?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "No. Jurisdiction-specific legal review is required; no local compliance promise.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-06",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Are NIST recommendations local legal mandates?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Report coverage limitations and require vendor inventories; claim-cisa-2 contradicts exhaustive scanning.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-07",
+    "related_ids": [],
+    "status": "documented",
+    "title": "How will scope exclude undiscoverable embedded crypto?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Run experiment-incumbent and kill the standalone price claim if no measurable gap remains.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-08",
+    "related_ids": [],
+    "status": "documented",
+    "title": "What if the incumbent bundles the assessment?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Keep an assessment business or stop; experiment-repeat gates subscription.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-09",
+    "related_ids": [],
+    "status": "documented",
+    "title": "What if there is no recurring need?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "It initially is an assisted service; productization is conditional on repeated evidence.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-10",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Why is this not ordinary security consulting?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "No client data rights exist yet; require explicit contractual permission and export rights.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-11",
+    "related_ids": [],
+    "status": "documented",
+    "title": "What data rights permit a future moat?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Value proposition is classical inventory and migration readiness, with no hardware date dependency.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-12",
+    "related_ids": [],
+    "status": "documented",
+    "title": "What if a quantum computer useful for attacks takes decades?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Deliver the classical result and reject quantum uplift claims.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-13",
+    "related_ids": [],
+    "status": "documented",
+    "title": "What if classical optimization always wins?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Unknown; scope and liability review required before any live engagement.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-14",
+    "related_ids": [],
+    "status": "documented",
+    "title": "What is the cost of an incorrect inventory?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "The customer security/change authority; this laboratory cannot approve changes.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-15",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Who approves cryptographic changes?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "No. Scores are analyst assumptions that prioritize future validation.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-16",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Does a high score demonstrate willingness to pay?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "No. Null expands to [0,5] and lowers known-weight coverage.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-17",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Are unknown values treated as zero?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Protocol digest pins the authored method; sensitivity exposes weight-driven flips.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-18",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Can weights be changed to force a preferred answer?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Overlapping intervals make the wedge provisional even if midpoint rank is stable.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-19",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Does the ranking survive interval uncertainty?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Only illustrative parameters; observed market count is unknown.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-20",
+    "related_ids": [],
+    "status": "documented",
+    "title": "What supports the TAM numbers?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Only modeled delivery labor; acquisition, taxes and other overhead are explicitly excluded.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-21",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Are founder labor and acquisition included in margins?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Each experiment links to an explicit risk and kill gate.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-22",
+    "related_ids": [],
+    "status": "documented",
+    "title": "What evidence can make the team stop?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "Zero interviews conducted; all 15 are planned.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-23",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Has anyone actually been interviewed?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-finops-2",
+      "claim-braket-2"
+    ],
+    "description": "CLI, source notes, protocol, schemas and checksummed bundle reconstruct the calculation.",
+    "details": {
+      "result": "answered_with_explicit_limit",
+      "review_kind": "analyst_self_review_not_independent_red_team"
+    },
+    "entity_type": "challenge",
+    "id": "challenge-24",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Can another reviewer reproduce this decision?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-ai-rmf-1"
+    ],
+    "description": "Local-only workflow; agree a redacted evidence contract before pilot.",
+    "details": {},
+    "entity_type": "objection",
+    "id": "objection-01",
+    "related_ids": [],
+    "status": "documented",
+    "title": "No raw infrastructure data may leave our environment"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-ai-rmf-1"
+    ],
+    "description": "We cannot promise total discovery; specify covered services, blind spots and vendor confirmations.",
+    "details": {},
+    "entity_type": "objection",
+    "id": "objection-02",
+    "related_ids": [],
+    "status": "documented",
+    "title": "How do we verify completeness?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-ai-rmf-1"
+    ],
+    "description": "No live changes in the offer until separate legal and change approvals.",
+    "details": {},
+    "entity_type": "objection",
+    "id": "objection-03",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Who is liable for changing cryptography?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-ai-rmf-1"
+    ],
+    "description": "Versioned JSON/Markdown export with checksums and no proprietary data lock.",
+    "details": {},
+    "entity_type": "objection",
+    "id": "objection-04",
+    "related_ids": [],
+    "status": "documented",
+    "title": "How can we exit the service?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-ai-rmf-1"
+    ],
+    "description": "Nothing yet; compare timed pilot effort and current alternative with budget owner.",
+    "details": {},
+    "entity_type": "objection",
+    "id": "objection-05",
+    "related_ids": [],
+    "status": "documented",
+    "title": "What proves the price is justified?"
+  },
+  {
+    "claim_ids": [
+      "claim-cisa-2",
+      "claim-ai-rmf-1"
+    ],
+    "description": "No certification, universal security or quantum advantage claim is made.",
+    "details": {},
+    "entity_type": "objection",
+    "id": "objection-06",
+    "related_ids": [],
+    "status": "documented",
+    "title": "Are you certifying compliance or quantum safety?"
+  }
+]
