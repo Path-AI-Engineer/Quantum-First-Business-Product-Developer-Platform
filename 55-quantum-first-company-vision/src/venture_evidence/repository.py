@@ -4,11 +4,12 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from pathlib import Path
 
 from venture_evidence.models import Corpus, Protocol
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(os.getenv("VENTURE_ROOT", Path(__file__).resolve().parents[2])).resolve()
 
 
 def load_corpus(root: Path = ROOT) -> Corpus:

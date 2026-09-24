@@ -1,3 +1,4 @@
+import importlib
 import json
 import shutil
 from pathlib import Path
@@ -84,6 +85,14 @@ def test_api_real_data_scenarios_invalid_inputs_and_read_only():
     assert "pending" in client.get("/api/thesis").text
     assert client.get("/docs").status_code == 200
     assert before == digest(ROOT / "data/evidence/corpus.v1.json")
+
+
+def test_allowed_hosts_can_be_configured_for_managed_ingress(monkeypatch):
+    monkeypatch.setenv("VENTURE_ALLOWED_HOSTS", "internal.example,testserver")
+    module = importlib.reload(importlib.import_module("venture_evidence.api"))
+    configured = TestClient(module.app)
+
+    assert configured.get("/health", headers={"host": "internal.example"}).status_code == 200
 
 
 @pytest.mark.parametrize(

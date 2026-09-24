@@ -1,5 +1,6 @@
 """Loopback-only read API; query calculations never write the evidence corpus."""
 
+import os
 from functools import lru_cache
 from typing import Annotated, Any
 
@@ -17,7 +18,12 @@ app = FastAPI(
     version="1.0.0",
     description="Local read-only analyst evidence. Zero buyer validation; handoff approval pending.",
 )
-app.add_middleware(TrustedHostMiddleware, allowed_hosts=["127.0.0.1", "localhost", "testserver"])
+allowed_hosts = [
+    host.strip()
+    for host in os.getenv("VENTURE_ALLOWED_HOSTS", "127.0.0.1,localhost,testserver").split(",")
+    if host.strip()
+]
+app.add_middleware(TrustedHostMiddleware, allowed_hosts=allowed_hosts)
 
 
 @lru_cache(maxsize=1)

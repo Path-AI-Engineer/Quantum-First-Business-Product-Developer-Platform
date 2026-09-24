@@ -1,91 +1,91 @@
-﻿{
-    "elapsed_seconds":  188.65,
-    "cloud_deployed":  false,
-    "human_approval":  "pending_human_review",
-    "project":  55,
-    "status":  "technical_gates_passed",
-    "completed_at":  "2026-09-24T17:05:25.6592780Z",
-    "checks":  [
-                   {
-                       "label":  "Ruff lint",
-                       "status":  "passed",
-                       "seconds":  1.21
-                   },
-                   {
-                       "label":  "Ruff format",
-                       "status":  "passed",
-                       "seconds":  0.18
-                   },
-                   {
-                       "label":  "mypy strict",
-                       "status":  "passed",
-                       "seconds":  1.19
-                   },
-                   {
-                       "label":  "Python dependency consistency",
-                       "status":  "passed",
-                       "seconds":  3
-                   },
-                   {
-                       "label":  "Evidence coverage, confidence and decision-to-source traces",
-                       "status":  "passed",
-                       "seconds":  4.69
-                   },
-                   {
-                       "label":  "Unit, property, API, CLI and tamper tests",
-                       "status":  "passed",
-                       "seconds":  12.2
-                   },
-                   {
-                       "label":  "Research documents and contract examples",
-                       "status":  "passed",
-                       "seconds":  0.46
-                   },
-                   {
-                       "label":  "Reports and JSON Schemas",
-                       "status":  "passed",
-                       "seconds":  1.28
-                   },
-                   {
-                       "label":  "Candidate handoff export",
-                       "status":  "passed",
-                       "seconds":  1.58
-                   },
-                   {
-                       "label":  "Frontend security audit",
-                       "status":  "passed",
-                       "seconds":  13.03
-                   },
-                   {
-                       "label":  "Web TypeScript",
-                       "status":  "passed",
-                       "seconds":  3.95
-                   },
-                   {
-                       "label":  "Web lint",
-                       "status":  "passed",
-                       "seconds":  76.14
-                   },
-                   {
-                       "label":  "Web production build",
-                       "status":  "passed",
-                       "seconds":  40.53
-                   },
-                   {
-                       "label":  "Playwright evidence, responsive and accessibility flows",
-                       "status":  "passed",
-                       "seconds":  27.44
-                   },
-                   {
-                       "label":  "Bundle checksums and lineage after frontend build",
-                       "status":  "passed",
-                       "seconds":  1.44
-                   },
-                   {
-                       "label":  "Project whitespace diff",
-                       "status":  "passed",
-                       "seconds":  0.1
-                   }
-               ],
-    "interviews_conducted":  0
+{
+  "interviews_conducted": 0,
+  "checks": [
+    {
+      "seconds": 0.22,
+      "status": "passed",
+      "label": "Ruff lint"
+    },
+    {
+      "seconds": 0.18,
+      "status": "passed",
+      "label": "Ruff format"
+    },
+    {
+      "seconds": 1.3,
+      "status": "passed",
+      "label": "mypy strict"
+    },
+    {
+      "seconds": 1.03,
+      "status": "passed",
+      "label": "Python dependency consistency"
+    },
+    {
+      "seconds": 1.38,
+      "status": "passed",
+      "label": "Evidence coverage, confidence and decision-to-source traces"
+    },
+    {
+      "seconds": 11.29,
+      "status": "passed",
+      "label": "Unit, property, API, CLI and tamper tests"
+    },
+    {
+      "seconds": 0.42,
+      "status": "passed",
+      "label": "Research documents and contract examples"
+    },
+    {
+      "seconds": 1.34,
+      "status": "passed",
+      "label": "Reports and JSON Schemas"
+    },
+    {
+      "seconds": 1.48,
+      "status": "passed",
+      "label": "Candidate handoff export"
+    },
+    {
+      "seconds": 2.0,
+      "status": "passed",
+      "label": "Frontend security audit"
+    },
+    {
+      "seconds": 2.75,
+      "status": "passed",
+      "label": "Web TypeScript"
+    },
+    {
+      "seconds": 10.08,
+      "status": "passed",
+      "label": "Web lint"
+    },
+    {
+      "seconds": 25.17,
+      "status": "passed",
+      "label": "Web production build"
+    },
+    {
+      "seconds": 20.5,
+      "status": "passed",
+      "label": "Playwright evidence, responsive and accessibility flows"
+    },
+    {
+      "seconds": 1.38,
+      "status": "passed",
+      "label": "Bundle checksums and lineage after frontend build"
+    },
+    {
+      "seconds": 0.19,
+      "status": "passed",
+      "label": "Project whitespace diff"
+    }
+  ],
+  "elapsed_seconds": 80.82,
+  "project": 55,
+  "cloud_deployed": false,
+  "completed_at": "2026-09-24T17:52:44.5071429Z",
+  "status": "technical_gates_passed",
+  "human_approval": "pending_human_review"
 }
