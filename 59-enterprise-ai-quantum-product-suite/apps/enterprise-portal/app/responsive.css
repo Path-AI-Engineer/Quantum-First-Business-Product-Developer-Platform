@@ -1,0 +1,12 @@
+@media (min-width: 721px) and (max-width: 900px) {
+  main { display: block; }
+  aside { border: 0; border-bottom: 1px solid var(--line); padding: 16px; }
+  nav { grid-template-columns: repeat(2, minmax(0, 1fr)); max-height: 170px; overflow: auto; }
+  .boundary { display: none; }
+  .workspace { padding: 24px 16px; }
+  header { display: grid; }
+  select { width: 100%; min-width: 0; }
+  .module-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .flow ol { grid-template-columns: 1fr; }
+  .flow li:not(:last-child)::after { content: "↓"; right: 8px; top: auto; bottom: -8px; }
+}

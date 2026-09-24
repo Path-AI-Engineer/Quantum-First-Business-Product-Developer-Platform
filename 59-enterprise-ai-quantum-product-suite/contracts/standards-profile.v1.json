@@ -1,0 +1,19 @@
+{
+  "profile": "enterprise-suite-standards.v1",
+  "validated_on": "2026-09-24",
+  "standards": {
+    "openapi": {"version": "3.1.1", "source": "https://spec.openapis.org/oas/v3.1.1.html"},
+    "json_schema": {"version": "2020-12", "source": "https://json-schema.org/draft/2020-12"},
+    "asyncapi": {"version": "3.0.0", "source": "https://www.asyncapi.com/docs/reference/specification/latest"},
+    "cloudevents": {"version": "1.0", "source": "https://cloudevents.io/"},
+    "opentelemetry": {"version_policy": "current stable semantic conventions at implementation time", "source": "https://opentelemetry.io/docs/"},
+    "trace_context": {"version": "W3C Recommendation", "source": "https://www.w3.org/TR/trace-context/"},
+    "semver": {"version": "2.0.0", "source": "https://semver.org/"}
+  },
+  "governance_profiles": {
+    "nist_ai_rmf": "risk-management reference; no compliance claim",
+    "owasp_api_security": "threat-model reference; no certification claim",
+    "finops": "usage and value transparency reference; pricing remains hypothetical"
+  }
+}
+

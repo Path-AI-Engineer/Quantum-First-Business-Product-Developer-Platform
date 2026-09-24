@@ -1,0 +1,9 @@
+.venv
+apps/enterprise-portal/node_modules
+apps/enterprise-portal/.next*
+apps/enterprise-portal/test-results
+apps/enterprise-portal/playwright-report
+.git
+.coverage
+htmlcov
+

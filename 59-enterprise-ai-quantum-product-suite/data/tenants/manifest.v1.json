@@ -1,0 +1,10 @@
+{
+  "schema_version": "enterprise-suite.tenants.v1",
+  "synthetic_only": true,
+  "tenants": [
+    {"tenant_id": "meridian", "name": "Meridian Financial Group", "identities": 10, "business_units": 5},
+    {"tenant_id": "atlas", "name": "Atlas Health Network", "identities": 10, "business_units": 5},
+    {"tenant_id": "northport", "name": "Northport Manufacturing", "identities": 10, "business_units": 5}
+  ]
+}
+

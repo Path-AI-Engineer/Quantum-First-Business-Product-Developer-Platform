@@ -1,0 +1,11 @@
+{
+  "specversion": "1.0",
+  "id": "evt-synthetic-001",
+  "source": "/enterprise-suite/reference",
+  "type": "com.decodelabs.enterprise.DecisionRecorded.v1",
+  "subject": "rec-meridian-1",
+  "tenantid": "meridian",
+  "correlationid": "corr-meridian-001",
+  "data": {"decision": "hold", "human_approved": true, "synthetic": true}
+}
+

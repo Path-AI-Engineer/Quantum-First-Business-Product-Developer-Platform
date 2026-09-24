@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://contracts.decodelabs.example/enterprise/shared-kernel.v1.schema.json",
+  "title": "Enterprise Suite Shared Kernel Resource",
+  "type": "object",
+  "required": ["resource_id", "tenant_id", "workspace_id", "module", "revision"],
+  "properties": {
+    "resource_id": {"type": "string", "minLength": 1},
+    "tenant_id": {"type": "string", "enum": ["meridian", "atlas", "northport"]},
+    "workspace_id": {"type": "string", "minLength": 1},
+    "module": {"type": "string", "enum": ["crypto-readiness", "optimization-studio", "quantum-workbench", "shared-governance"]},
+    "classification": {"type": "string", "enum": ["public", "internal", "restricted"]},
+    "revision": {"type": "integer", "minimum": 1}
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,46 @@
+{
+  "approval": null,
+  "evaluation_cases": 687,
+  "executive_portfolio_decision": null,
+  "files": [
+    {
+      "path": "contracts/openapi/openapi.v1alpha1.json",
+      "sha256": "baef927146e29a496bdc769cac856e1e10397781bbf4cf0279b70370dd655da9"
+    },
+    {
+      "path": "contracts/asyncapi/asyncapi.v1alpha1.json",
+      "sha256": "ec1b8b6b63fb013bb2142b542847fb75aa46137770100052375d03ea4a38afbd"
+    },
+    {
+      "path": "contracts/jsonschema/shared-kernel.v1.schema.json",
+      "sha256": "2e7abf9dd8e15153a3e984b53863d81ad0fcb083919e64726ca51ba87b53d025"
+    },
+    {
+      "path": "reports/week-237/evaluation.v1.json",
+      "sha256": "70a82026fb61e3b86f84b2f412b0f7470c526459e1462de0a4cb16dfaf071008"
+    },
+    {
+      "path": "docs/product/PRODUCT_AND_PACKAGING.md",
+      "sha256": "57805058a99825ce41db4ee6df28837101fb0b54aa1878c355424853f89b6289"
+    },
+    {
+      "path": "docs/security/THREAT_MODEL.md",
+      "sha256": "98926e9d6682228dfc00cefbac84419d694fffefd00bc6f542861be9e70b2e16"
+    }
+  ],
+  "limitations": [
+    "Synthetic data only",
+    "No production, compliance, customer, ROI, or quantum advantage claim",
+    "External contract approval and executive invest/hold/kill decisions remain pending"
+  ],
+  "module_decisions": {
+    "crypto-readiness": "pending-executive-review",
+    "optimization-studio": "pending-executive-review",
+    "quantum-workbench": "pending-executive-review",
+    "shared-governance": "pending-executive-review"
+  },
+  "runtime_dependencies_on_projects_56_57_58": [],
+  "schema_version": "enterprise-suite-contracts-v1",
+  "source_project": "59-enterprise-ai-quantum-product-suite",
+  "status": "technical_candidate_unapproved"
+}

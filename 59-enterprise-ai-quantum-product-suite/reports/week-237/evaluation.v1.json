@@ -1,0 +1,79 @@
+{
+  "claims": {
+    "compliant": false,
+    "production_ready": false,
+    "quantum_advantage": false,
+    "real_customers": false
+  },
+  "corpus": {
+    "business_units": 15,
+    "decisions": 36,
+    "evidence": 180,
+    "experiments": 9,
+    "identities": 30,
+    "opportunities": 12,
+    "tenants": 3
+  },
+  "failed": 0,
+  "passed": 687,
+  "schema_version": "enterprise-suite.evaluation.v1",
+  "status": "verified",
+  "suites": [
+    {
+      "cases": 240,
+      "failed": 0,
+      "passed": 240,
+      "suite": "authorization_tenant"
+    },
+    {
+      "cases": 120,
+      "failed": 0,
+      "passed": 120,
+      "suite": "contract_event_compatibility"
+    },
+    {
+      "cases": 90,
+      "failed": 0,
+      "passed": 90,
+      "suite": "cross_module_journeys"
+    },
+    {
+      "cases": 72,
+      "failed": 0,
+      "passed": 72,
+      "suite": "ai_grounding_injection_abstention"
+    },
+    {
+      "cases": 60,
+      "failed": 0,
+      "passed": 60,
+      "suite": "policy_approval"
+    },
+    {
+      "cases": 45,
+      "failed": 0,
+      "passed": 45,
+      "suite": "fault_recovery"
+    },
+    {
+      "cases": 30,
+      "failed": 0,
+      "passed": 30,
+      "suite": "report_reconciliation"
+    },
+    {
+      "cases": 18,
+      "failed": 0,
+      "passed": 18,
+      "suite": "persona_usability"
+    },
+    {
+      "cases": 12,
+      "failed": 0,
+      "passed": 12,
+      "suite": "package_pilot_decisions"
+    }
+  ],
+  "synthetic_only": true,
+  "total_cases": 687
+}

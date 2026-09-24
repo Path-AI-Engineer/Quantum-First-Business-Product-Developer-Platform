@@ -1,0 +1,31 @@
+{
+  "asyncapi": "3.0.0",
+  "info": {"title": "Enterprise Suite Events", "version": "1.0.0-alpha.1"},
+  "defaultContentType": "application/cloudevents+json; charset=UTF-8",
+  "channels": {
+    "enterpriseEvents": {
+      "address": "enterprise.events.v1",
+      "messages": {
+        "suiteEvent": {
+          "name": "SuiteCloudEvent",
+          "payload": {
+            "type": "object",
+            "required": ["specversion", "id", "source", "type", "tenantid", "correlationid"],
+            "properties": {
+              "specversion": {"const": "1.0"},
+              "id": {"type": "string"},
+              "source": {"type": "string"},
+              "type": {"type": "string"},
+              "tenantid": {"type": "string"},
+              "correlationid": {"type": "string"}
+            }
+          }
+        }
+      }
+    }
+  },
+  "operations": {
+    "receiveEnterpriseEvent": {"action": "receive", "channel": {"$ref": "#/channels/enterpriseEvents"}}
+  }
+}
+

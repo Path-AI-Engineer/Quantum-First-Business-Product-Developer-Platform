@@ -1,0 +1,9 @@
+FROM python:3.13-slim AS runtime
+WORKDIR /app
+COPY pyproject.toml README.md ./
+COPY src ./src
+RUN pip install --no-cache-dir .
+USER 65532:65532
+EXPOSE 8059
+CMD ["uvicorn", "enterprise_suite.api:app", "--host", "0.0.0.0", "--port", "8059"]
+

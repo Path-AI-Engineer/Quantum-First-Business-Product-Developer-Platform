@@ -1,0 +1,47 @@
+name: enterprise-quantum-intelligence-suite
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: enterprise_suite
+      POSTGRES_USER: suite
+      POSTGRES_PASSWORD: local-synthetic-only
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U suite -d enterprise_suite"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    volumes: ["postgres-data:/var/lib/postgresql/data"]
+  redis:
+    image: redis:8-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+  object-store:
+    image: localstack/localstack:4.7.0
+    environment:
+      SERVICES: s3
+      PERSISTENCE: "1"
+    volumes: ["object-data:/var/lib/localstack"]
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:0.136.0
+    command: ["--config=/etc/otel/config.yaml"]
+    volumes: ["./infra/otel-collector.yaml:/etc/otel/config.yaml:ro"]
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports: ["8059:8059"]
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+  portal:
+    build: ./apps/enterprise-portal
+    ports: ["8959:8959"]
+    depends_on: [api]
+volumes:
+  postgres-data:
+  object-data:

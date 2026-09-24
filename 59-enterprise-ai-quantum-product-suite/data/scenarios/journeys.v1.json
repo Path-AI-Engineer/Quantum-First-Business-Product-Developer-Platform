@@ -1,0 +1,14 @@
+{
+  "schema_version": "enterprise-suite.journeys.v1",
+  "journeys": [
+    "executive-portfolio-review",
+    "pqc-to-platform",
+    "optimization-to-workbench",
+    "experiment-to-decision",
+    "policy-exception",
+    "procurement-evidence",
+    "incident-support"
+  ],
+  "personas": ["executive-sponsor", "ciso-crypto-lead", "coo-operations-lead", "cto-platform-lead", "optimization-scientist", "quantum-developer", "risk-reviewer", "procurement-finance", "auditor"]
+}
+
