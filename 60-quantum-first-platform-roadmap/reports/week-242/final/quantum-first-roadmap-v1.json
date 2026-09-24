@@ -1,0 +1,147 @@
+{
+  "approval": null,
+  "artifacts": {
+    "data/canonical/strategy.v1.json": {
+      "bytes": 25332,
+      "sha256": "894a8e6b491da1347016a583d651df37bfe3daf4f6012730f4bb6eacf47a0efb"
+    },
+    "reports/week-242/board.json": {
+      "bytes": 608,
+      "sha256": "68c063a9ee34978d12490df0b19475d93ed91c7ed9a1f0cb45c987b624352d6f"
+    },
+    "reports/week-242/final-evaluation.json": {
+      "bytes": 551,
+      "sha256": "ae6940f12eed44dd30bb6bf38c5a18f61e9e652d78769f1be284a0f5c7104a4d"
+    },
+    "reports/week-242/operating.json": {
+      "bytes": 613,
+      "sha256": "afb202d12475a898a173fdf10355f7314449c30ca9532f01a76ef3fad671948b"
+    },
+    "reports/week-242/technical.json": {
+      "bytes": 615,
+      "sha256": "16fde44df09c78dfe4cb827be624f5215e0bb9f6c5219f5d61e591b8eb08691e"
+    }
+  },
+  "claim_boundary": "synthetic scenarios; no external board, financial, staffing, product, or cloud action",
+  "material_figures": {
+    "adoption": "scenario.adoption_multiplier \u00d7 shock.adoption_multiplier",
+    "budget": "scenario.budget \u00d7 shock.budget_multiplier",
+    "initiative_cost": "initiative.cost.expected \u00d7 compute_multiplier \u00d7 shock.cost_multiplier",
+    "source": "quantum-first-roadmap-v1-candidate"
+  },
+  "reports_reconciled": true,
+  "revision": "quantum-first-roadmap-v1-candidate",
+  "roadmap_horizons": [
+    "year_1",
+    "year_3",
+    "year_10"
+  ],
+  "scenarios": [
+    {
+      "adoption_index": 0.55,
+      "allocation": {
+        "budget": 780000,
+        "headcount_limit": 9.0,
+        "headcount_used": 6.0,
+        "held": [
+          "finops-observability",
+          "developer-sandbox",
+          "partner-integrations",
+          "enterprise-suite",
+          "sovereign-ecosystem",
+          "quantum-optimization",
+          "platform-extraction",
+          "quantum-ml"
+        ],
+        "selected": [
+          "enterprise-controls",
+          "pqc-readiness",
+          "evidence-plane",
+          "optimization-assessment"
+        ],
+        "spent": 739500,
+        "unmet_demand": 8,
+        "within_constraints": true
+      },
+      "budget": 780000,
+      "cost_multiplier": 1.45,
+      "decision": "execute quarterly gates and preserve reversibility",
+      "external_side_effects": false,
+      "scenario": "conservative",
+      "shock": null
+    },
+    {
+      "adoption_index": 1.0,
+      "allocation": {
+        "budget": 1080000,
+        "headcount_limit": 13.0,
+        "headcount_used": 11.5,
+        "held": [
+          "enterprise-suite",
+          "quantum-optimization",
+          "platform-extraction",
+          "quantum-ml"
+        ],
+        "selected": [
+          "enterprise-controls",
+          "pqc-readiness",
+          "evidence-plane",
+          "optimization-assessment",
+          "finops-observability",
+          "developer-sandbox",
+          "partner-integrations",
+          "sovereign-ecosystem"
+        ],
+        "spent": 1015000,
+        "unmet_demand": 4,
+        "within_constraints": true
+      },
+      "budget": 1080000,
+      "cost_multiplier": 1.0,
+      "decision": "execute quarterly gates and preserve reversibility",
+      "external_side_effects": false,
+      "scenario": "base",
+      "shock": null
+    },
+    {
+      "adoption_index": 1.55,
+      "allocation": {
+        "budget": 1520000,
+        "headcount_limit": 18.0,
+        "headcount_used": 18.0,
+        "held": [
+          "quantum-ml"
+        ],
+        "selected": [
+          "enterprise-controls",
+          "pqc-readiness",
+          "evidence-plane",
+          "optimization-assessment",
+          "finops-observability",
+          "developer-sandbox",
+          "partner-integrations",
+          "enterprise-suite",
+          "sovereign-ecosystem",
+          "quantum-optimization",
+          "platform-extraction"
+        ],
+        "spent": 1287400,
+        "unmet_demand": 1,
+        "within_constraints": true
+      },
+      "budget": 1520000,
+      "cost_multiplier": 0.82,
+      "decision": "execute quarterly gates and preserve reversibility",
+      "external_side_effects": false,
+      "scenario": "accelerated",
+      "shock": null
+    }
+  ],
+  "schema_version": "quantum-first-roadmap-bundle.v1",
+  "status": "technical_candidate_unapproved",
+  "transition": {
+    "blocked_until_external_approval": true,
+    "next_plan": "Plan 11 \u2014 Embodied AI + Autonomous Systems"
+  },
+  "version": "quantum-first-roadmap-v1"
+}

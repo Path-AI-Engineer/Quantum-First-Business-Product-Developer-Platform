@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://decodelabs.example/schemas/strategy-control-tower.v1.schema.json",
+  "title": "Quantum-First Strategy Control Tower",
+  "type": "object",
+  "required": ["schema_version", "revision", "approval_status", "scenarios", "shocks", "capabilities", "initiatives"],
+  "properties": {
+    "schema_version": {"const": "strategy-control-tower.v1"},
+    "revision": {"type": "string", "minLength": 1},
+    "approval_status": {"enum": ["technical_candidate_unapproved", "approved", "rejected"]},
+    "scenarios": {"type": "array", "minItems": 3},
+    "shocks": {"type": "array", "minItems": 10},
+    "capabilities": {"type": "array", "minItems": 12},
+    "initiatives": {"type": "array", "minItems": 1}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,844 @@
+{
+  "approval_status": "technical_candidate_unapproved",
+  "as_of": "2026-09-24",
+  "board_questions": [
+    "Board challenge 01: what evidence would reverse this decision?",
+    "Board challenge 02: what evidence would reverse this decision?",
+    "Board challenge 03: what evidence would reverse this decision?",
+    "Board challenge 04: what evidence would reverse this decision?",
+    "Board challenge 05: what evidence would reverse this decision?",
+    "Board challenge 06: what evidence would reverse this decision?",
+    "Board challenge 07: what evidence would reverse this decision?",
+    "Board challenge 08: what evidence would reverse this decision?",
+    "Board challenge 09: what evidence would reverse this decision?",
+    "Board challenge 10: what evidence would reverse this decision?",
+    "Board challenge 11: what evidence would reverse this decision?",
+    "Board challenge 12: what evidence would reverse this decision?",
+    "Board challenge 13: what evidence would reverse this decision?",
+    "Board challenge 14: what evidence would reverse this decision?",
+    "Board challenge 15: what evidence would reverse this decision?",
+    "Board challenge 16: what evidence would reverse this decision?",
+    "Board challenge 17: what evidence would reverse this decision?",
+    "Board challenge 18: what evidence would reverse this decision?",
+    "Board challenge 19: what evidence would reverse this decision?",
+    "Board challenge 20: what evidence would reverse this decision?"
+  ],
+  "capabilities": [
+    {
+      "bottleneck_weight": 0.35,
+      "current": "emerging",
+      "evidence": "evidence-01",
+      "id": "cap-01",
+      "name": "Product discovery",
+      "owner": "capability-owner-01",
+      "prerequisites": [],
+      "sourcing": "build",
+      "target": "managed"
+    },
+    {
+      "bottleneck_weight": 0.39,
+      "current": "emerging",
+      "evidence": "evidence-02",
+      "id": "cap-02",
+      "name": "PQC and crypto agility",
+      "owner": "capability-owner-02",
+      "prerequisites": [],
+      "sourcing": "buy",
+      "target": "managed"
+    },
+    {
+      "bottleneck_weight": 0.43,
+      "current": "emerging",
+      "evidence": "evidence-03",
+      "id": "cap-03",
+      "name": "Optimization science",
+      "owner": "capability-owner-03",
+      "prerequisites": [
+        "cap-02"
+      ],
+      "sourcing": "partner",
+      "target": "managed"
+    },
+    {
+      "bottleneck_weight": 0.47,
+      "current": "emerging",
+      "evidence": "evidence-04",
+      "id": "cap-04",
+      "name": "Quantum software and algorithms",
+      "owner": "capability-owner-04",
+      "prerequisites": [
+        "cap-03"
+      ],
+      "sourcing": "build",
+      "target": "managed"
+    },
+    {
+      "bottleneck_weight": 0.51,
+      "current": "emerging",
+      "evidence": "evidence-05",
+      "id": "cap-05",
+      "name": "Developer platform",
+      "owner": "capability-owner-05",
+      "prerequisites": [
+        "cap-04"
+      ],
+      "sourcing": "buy",
+      "target": "managed"
+    },
+    {
+      "bottleneck_weight": 0.55,
+      "current": "emerging",
+      "evidence": "evidence-06",
+      "id": "cap-06",
+      "name": "Enterprise IAM and security",
+      "owner": "capability-owner-06",
+      "prerequisites": [
+        "cap-05"
+      ],
+      "sourcing": "partner",
+      "target": "managed"
+    },
+    {
+      "bottleneck_weight": 0.59,
+      "current": "emerging",
+      "evidence": "evidence-01",
+      "id": "cap-07",
+      "name": "Data, evidence, and AI governance",
+      "owner": "capability-owner-07",
+      "prerequisites": [
+        "cap-06"
+      ],
+      "sourcing": "build",
+      "target": "managed"
+    },
+    {
+      "bottleneck_weight": 0.63,
+      "current": "emerging",
+      "evidence": "evidence-02",
+      "id": "cap-08",
+      "name": "Cloud and platform engineering",
+      "owner": "capability-owner-08",
+      "prerequisites": [
+        "cap-07"
+      ],
+      "sourcing": "buy",
+      "target": "managed"
+    },
+    {
+      "bottleneck_weight": 0.67,
+      "current": "absent",
+      "evidence": "evidence-03",
+      "id": "cap-09",
+      "name": "SRE and FinOps",
+      "owner": "capability-owner-09",
+      "prerequisites": [
+        "cap-08"
+      ],
+      "sourcing": "partner",
+      "target": "repeatable"
+    },
+    {
+      "bottleneck_weight": 0.71,
+      "current": "absent",
+      "evidence": "evidence-04",
+      "id": "cap-10",
+      "name": "Sales, pilots, and customer success",
+      "owner": "capability-owner-10",
+      "prerequisites": [
+        "cap-09"
+      ],
+      "sourcing": "build",
+      "target": "repeatable"
+    },
+    {
+      "bottleneck_weight": 0.75,
+      "current": "absent",
+      "evidence": "evidence-05",
+      "id": "cap-11",
+      "name": "Legal, procurement, and partnerships",
+      "owner": "capability-owner-11",
+      "prerequisites": [
+        "cap-10"
+      ],
+      "sourcing": "buy",
+      "target": "repeatable"
+    },
+    {
+      "bottleneck_weight": 0.79,
+      "current": "absent",
+      "evidence": "evidence-06",
+      "id": "cap-12",
+      "name": "Research and talent",
+      "owner": "capability-owner-12",
+      "prerequisites": [
+        "cap-11"
+      ],
+      "sourcing": "partner",
+      "target": "repeatable"
+    }
+  ],
+  "cost_pools": [
+    "people",
+    "cloud",
+    "AI",
+    "quantum",
+    "security",
+    "data",
+    "support",
+    "partnerships",
+    "sales",
+    "contingency"
+  ],
+  "evidence": [
+    {
+      "claim_boundary": "PQC migration is current work, not a calendar promise",
+      "confidence": "high",
+      "id": "evidence-01",
+      "observed_on": "2026-09-24",
+      "source_url": "https://csrc.nist.gov/projects/post-quantum-cryptography",
+      "title": "NIST PQC"
+    },
+    {
+      "claim_boundary": "Migration guidance; availability recheck required",
+      "confidence": "high",
+      "id": "evidence-02",
+      "observed_on": "2026-09-24",
+      "source_url": "https://www.cisa.gov/resources-tools/resources/quantum-readiness-migration-post-quantum-cryptography",
+      "title": "CISA quantum readiness"
+    },
+    {
+      "claim_boundary": "Voluntary framework; version 1.0 is under revision",
+      "confidence": "high",
+      "id": "evidence-03",
+      "observed_on": "2026-09-24",
+      "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "title": "NIST AI RMF"
+    },
+    {
+      "claim_boundary": "Technology value and accountability model",
+      "confidence": "high",
+      "id": "evidence-04",
+      "observed_on": "2026-09-24",
+      "source_url": "https://www.finops.org/framework/",
+      "title": "FinOps Framework"
+    },
+    {
+      "claim_boundary": "Kubernetes requires workload evidence",
+      "confidence": "high",
+      "id": "evidence-05",
+      "observed_on": "2026-09-24",
+      "source_url": "https://kubernetes.io/docs/concepts/workloads/",
+      "title": "Kubernetes workloads"
+    },
+    {
+      "claim_boundary": "Vendor-neutral telemetry contract",
+      "confidence": "high",
+      "id": "evidence-06",
+      "observed_on": "2026-09-24",
+      "source_url": "https://opentelemetry.io/docs/",
+      "title": "OpenTelemetry"
+    }
+  ],
+  "gates": [
+    {
+      "cadence": "quarterly",
+      "id": "gate-01",
+      "metric": "evidence_coverage",
+      "name": "Evidence completeness",
+      "owner": "strategy",
+      "threshold": 0.95
+    },
+    {
+      "cadence": "quarterly",
+      "id": "gate-02",
+      "metric": "control_coverage",
+      "name": "Security readiness",
+      "owner": "security",
+      "threshold": 0.9
+    },
+    {
+      "cadence": "quarterly",
+      "id": "gate-03",
+      "metric": "adoption_index",
+      "name": "Adoption validity",
+      "owner": "product",
+      "threshold": 0.6
+    },
+    {
+      "cadence": "quarterly",
+      "id": "gate-04",
+      "metric": "margin_index",
+      "name": "Economic viability",
+      "owner": "finance",
+      "threshold": 0.2
+    },
+    {
+      "cadence": "quarterly",
+      "id": "gate-05",
+      "metric": "slo_attainment",
+      "name": "Reliability",
+      "owner": "platform",
+      "threshold": 0.99
+    },
+    {
+      "cadence": "quarterly",
+      "id": "gate-06",
+      "metric": "advantage_confidence",
+      "name": "Quantum maturity",
+      "owner": "research",
+      "threshold": 0.8
+    }
+  ],
+  "initiatives": [
+    {
+      "capability_ids": [
+        "cap-01"
+      ],
+      "classical_baseline": null,
+      "cost": {
+        "currency": "USD",
+        "expected": 145000,
+        "maximum": 190000,
+        "minimum": 115000
+      },
+      "dependencies": [
+        "foundation"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-01"
+      ],
+      "headcount_max": 3.0,
+      "headcount_min": 1.5,
+      "horizon": "year_1",
+      "id": "pqc-readiness",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "PQC Readiness Program",
+      "outcome": "Inventory 95% of cryptographic assets",
+      "owner": "initiative-owner-01",
+      "reversible": true,
+      "state": "COMMITTED",
+      "strategic_class": "regulatory_obligation",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-02"
+      ],
+      "classical_baseline": "Best validated classical solver",
+      "cost": {
+        "currency": "USD",
+        "expected": 120000,
+        "maximum": 165000,
+        "minimum": 90000
+      },
+      "dependencies": [
+        "foundation"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-02"
+      ],
+      "headcount_max": 3.0,
+      "headcount_min": 1.5,
+      "horizon": "year_1",
+      "id": "optimization-assessment",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "Optimization Assessment",
+      "outcome": "Complete five evidence-backed assessments",
+      "owner": "initiative-owner-02",
+      "reversible": true,
+      "state": "COMMITTED",
+      "strategic_class": "core_commitment",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-03"
+      ],
+      "classical_baseline": null,
+      "cost": {
+        "currency": "USD",
+        "expected": 140000,
+        "maximum": 185000,
+        "minimum": 105000
+      },
+      "dependencies": [
+        "foundation"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-03"
+      ],
+      "headcount_max": 3.5,
+      "headcount_min": 2.0,
+      "horizon": "year_1",
+      "id": "developer-sandbox",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "Developer Platform Sandbox",
+      "outcome": "Three authorized workflows complete",
+      "owner": "initiative-owner-03",
+      "reversible": true,
+      "state": "COMMITTED",
+      "strategic_class": "capability_enabler",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-04"
+      ],
+      "classical_baseline": null,
+      "cost": {
+        "currency": "USD",
+        "expected": 110000,
+        "maximum": 145000,
+        "minimum": 85000
+      },
+      "dependencies": [
+        "pqc-readiness"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-04"
+      ],
+      "headcount_max": 3.0,
+      "headcount_min": 1.5,
+      "horizon": "year_1",
+      "id": "evidence-plane",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "Evidence and Governance Plane",
+      "outcome": "Every material claim has provenance",
+      "owner": "initiative-owner-04",
+      "reversible": true,
+      "state": "COMMITTED",
+      "strategic_class": "core_commitment",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-05"
+      ],
+      "classical_baseline": null,
+      "cost": {
+        "currency": "USD",
+        "expected": 135000,
+        "maximum": 180000,
+        "minimum": 100000
+      },
+      "dependencies": [
+        "optimization-assessment"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-05"
+      ],
+      "headcount_max": 3.0,
+      "headcount_min": 1.5,
+      "horizon": "year_1",
+      "id": "enterprise-controls",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "Enterprise IAM and Audit Controls",
+      "outcome": "Tenant and approval isolation verified",
+      "owner": "initiative-owner-05",
+      "reversible": false,
+      "state": "COMMITTED",
+      "strategic_class": "regulatory_obligation",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-06"
+      ],
+      "classical_baseline": null,
+      "cost": {
+        "currency": "USD",
+        "expected": 95000,
+        "maximum": 130000,
+        "minimum": 70000
+      },
+      "dependencies": [
+        "developer-sandbox"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-06"
+      ],
+      "headcount_max": 2.5,
+      "headcount_min": 1.0,
+      "horizon": "year_1",
+      "id": "finops-observability",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "FinOps and Observability Baseline",
+      "outcome": "Showback reconciles to canonical cost",
+      "owner": "initiative-owner-06",
+      "reversible": true,
+      "state": "COMMITTED",
+      "strategic_class": "capability_enabler",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-07"
+      ],
+      "classical_baseline": null,
+      "cost": {
+        "currency": "USD",
+        "expected": 225000,
+        "maximum": 320000,
+        "minimum": 160000
+      },
+      "dependencies": [
+        "evidence-plane"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-01"
+      ],
+      "headcount_max": 4.5,
+      "headcount_min": 3.0,
+      "horizon": "year_3",
+      "id": "enterprise-suite",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "Enterprise Product Suite",
+      "outcome": "Retention and unit economics gates pass",
+      "owner": "initiative-owner-07",
+      "reversible": false,
+      "state": "CANDIDATE",
+      "strategic_class": "growth_bet",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-08"
+      ],
+      "classical_baseline": null,
+      "cost": {
+        "currency": "USD",
+        "expected": 175000,
+        "maximum": 245000,
+        "minimum": 120000
+      },
+      "dependencies": [
+        "enterprise-controls"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-02"
+      ],
+      "headcount_max": 3.5,
+      "headcount_min": 2.0,
+      "horizon": "year_3",
+      "id": "partner-integrations",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "Provider and Partner Integrations",
+      "outcome": "Two exit-tested provider adapters",
+      "owner": "initiative-owner-08",
+      "reversible": true,
+      "state": "CANDIDATE",
+      "strategic_class": "growth_bet",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-09"
+      ],
+      "classical_baseline": null,
+      "cost": {
+        "currency": "USD",
+        "expected": 210000,
+        "maximum": 300000,
+        "minimum": 150000
+      },
+      "dependencies": [
+        "finops-observability"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-03"
+      ],
+      "headcount_max": 4.0,
+      "headcount_min": 2.5,
+      "horizon": "year_3",
+      "id": "platform-extraction",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "Conditional Platform Extraction",
+      "outcome": "Scale threshold justifies extraction",
+      "owner": "initiative-owner-09",
+      "reversible": true,
+      "state": "CANDIDATE",
+      "strategic_class": "real_option",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-10"
+      ],
+      "classical_baseline": "Best validated classical solver",
+      "cost": {
+        "currency": "USD",
+        "expected": 120000,
+        "maximum": 190000,
+        "minimum": 80000
+      },
+      "dependencies": [
+        "enterprise-suite"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-04"
+      ],
+      "headcount_max": 2.5,
+      "headcount_min": 1.0,
+      "horizon": "year_10",
+      "id": "quantum-optimization",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "Quantum Optimization Option",
+      "outcome": "Resource and economics gate beats baseline",
+      "owner": "initiative-owner-10",
+      "reversible": true,
+      "state": "CANDIDATE",
+      "strategic_class": "real_option",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-11"
+      ],
+      "classical_baseline": "Best validated classical and AI model",
+      "cost": {
+        "currency": "USD",
+        "expected": 85000,
+        "maximum": 135000,
+        "minimum": 55000
+      },
+      "dependencies": [
+        "partner-integrations"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-05"
+      ],
+      "headcount_max": 2.0,
+      "headcount_min": 0.5,
+      "horizon": "year_10",
+      "id": "quantum-ml",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "Quantum ML Research Option",
+      "outcome": "Repeatable advantage signal survives review",
+      "owner": "initiative-owner-11",
+      "reversible": true,
+      "state": "CANDIDATE",
+      "strategic_class": "watch_item",
+      "target_user": "authorized enterprise decision maker"
+    },
+    {
+      "capability_ids": [
+        "cap-12"
+      ],
+      "classical_baseline": null,
+      "cost": {
+        "currency": "USD",
+        "expected": 95000,
+        "maximum": 155000,
+        "minimum": 60000
+      },
+      "dependencies": [
+        "platform-extraction"
+      ],
+      "exit_plan": "Export evidence and contracts, revoke access, and retain provider-neutral records",
+      "gate_ids": [
+        "gate-06"
+      ],
+      "headcount_max": 2.0,
+      "headcount_min": 0.5,
+      "horizon": "year_10",
+      "id": "sovereign-ecosystem",
+      "kill_condition": "Kill or hold when the named outcome misses two consecutive reviews",
+      "metrics": [
+        "evidence_coverage",
+        "gate_pass_rate"
+      ],
+      "name": "Sovereign and Ecosystem Option",
+      "outcome": "Residency demand and economics justify exercise",
+      "owner": "initiative-owner-12",
+      "reversible": true,
+      "state": "CANDIDATE",
+      "strategic_class": "real_option",
+      "target_user": "authorized enterprise decision maker"
+    }
+  ],
+  "providers": [
+    {
+      "exit": "OpenAPI and OCI images",
+      "id": "azure",
+      "strategy": "buy"
+    },
+    {
+      "exit": "provider adapter contract",
+      "id": "aws",
+      "strategy": "partner"
+    },
+    {
+      "exit": "portable circuit evidence",
+      "id": "ibm",
+      "strategy": "option"
+    }
+  ],
+  "revision": "quantum-first-roadmap-v1-candidate",
+  "scenarios": [
+    {
+      "adoption_multiplier": 0.55,
+      "budget": 780000,
+      "compute_multiplier": 1.45,
+      "confidence": "medium",
+      "headcount": 9.0,
+      "id": "conservative",
+      "name": "Conservative"
+    },
+    {
+      "adoption_multiplier": 1.0,
+      "budget": 1080000,
+      "compute_multiplier": 1.0,
+      "confidence": "medium",
+      "headcount": 13.0,
+      "id": "base",
+      "name": "Base"
+    },
+    {
+      "adoption_multiplier": 1.55,
+      "budget": 1520000,
+      "compute_multiplier": 0.82,
+      "confidence": "low",
+      "headcount": 18.0,
+      "id": "accelerated",
+      "name": "Accelerated"
+    }
+  ],
+  "schema_version": "strategy-control-tower.v1",
+  "shocks": [
+    {
+      "adoption_multiplier": 0.8,
+      "budget_multiplier": 1.0,
+      "cost_multiplier": 1.0,
+      "expected_action": "hold quantum options; invest in classical and PQC",
+      "id": "hardware-delay",
+      "name": "Quantum hardware delayed 3\u20135 years"
+    },
+    {
+      "adoption_multiplier": 0.9,
+      "budget_multiplier": 0.95,
+      "cost_multiplier": 1.15,
+      "expected_action": "exercise exit plan and dual-source adapters",
+      "id": "provider-exit",
+      "name": "Provider exit or lock-in"
+    },
+    {
+      "adoption_multiplier": 0.9,
+      "budget_multiplier": 1.0,
+      "cost_multiplier": 2.0,
+      "expected_action": "enforce FinOps guardrails and reallocate",
+      "id": "compute-cost",
+      "name": "Compute cost doubles"
+    },
+    {
+      "adoption_multiplier": 0.9,
+      "budget_multiplier": 1.1,
+      "cost_multiplier": 1.15,
+      "expected_action": "protect PQC and security obligations",
+      "id": "security-deadline",
+      "name": "Breach or regulatory deadline"
+    },
+    {
+      "adoption_multiplier": 0.5,
+      "budget_multiplier": 0.9,
+      "cost_multiplier": 1.0,
+      "expected_action": "hold growth bets and preserve learning",
+      "id": "adoption-half",
+      "name": "Adoption reaches only 50%"
+    },
+    {
+      "adoption_multiplier": 0.8,
+      "budget_multiplier": 0.95,
+      "cost_multiplier": 1.1,
+      "expected_action": "activate secondary partner and reduce coupling",
+      "id": "partner-loss",
+      "name": "Top partner unavailable"
+    },
+    {
+      "adoption_multiplier": 1.0,
+      "budget_multiplier": 1.0,
+      "cost_multiplier": 0.9,
+      "expected_action": "kill quantum bet unless renewed evidence clears gate",
+      "id": "classical-10x",
+      "name": "Classical solver improves 10x"
+    },
+    {
+      "adoption_multiplier": 0.85,
+      "budget_multiplier": 0.65,
+      "cost_multiplier": 1.0,
+      "expected_action": "fund obligations, core, then learning options",
+      "id": "funding-cut",
+      "name": "Funding cut 35%"
+    },
+    {
+      "adoption_multiplier": 3.0,
+      "budget_multiplier": 1.2,
+      "cost_multiplier": 1.25,
+      "expected_action": "protect reliability before feature expansion",
+      "id": "demand-surge",
+      "name": "Demand surges 3x"
+    },
+    {
+      "adoption_multiplier": 0.85,
+      "budget_multiplier": 0.9,
+      "cost_multiplier": 1.25,
+      "expected_action": "use adapters, version contracts, and pause rollout",
+      "id": "breaking-standard",
+      "name": "Breaking standard or API"
+    }
+  ]
+}

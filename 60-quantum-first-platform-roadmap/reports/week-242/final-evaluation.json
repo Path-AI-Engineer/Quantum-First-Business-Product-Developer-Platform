@@ -1,0 +1,20 @@
+{
+  "cases": {
+    "architecture_tradeoffs": 15,
+    "board_challenges": 20,
+    "cost_reconciliation": 36,
+    "dependency_critical_path": 60,
+    "fresh_review_usability": 12,
+    "gate_authorization": 30,
+    "portfolio_constraints": 48,
+    "report_reconciliation": 24,
+    "scenarios_shocks": 72,
+    "schema_invariants": 120
+  },
+  "revision": "quantum-first-roadmap-v1-candidate",
+  "scenario_shock_runs": 30,
+  "schema_version": "strategy-evaluation.v1",
+  "status": "passed",
+  "test_locked": true,
+  "total_cases": 437
+}

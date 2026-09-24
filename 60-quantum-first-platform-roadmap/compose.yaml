@@ -1,0 +1,55 @@
+name: quantum-first-strategy-control-tower
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: strategy
+      POSTGRES_USER: strategy
+      POSTGRES_PASSWORD: local-synthetic-only
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U strategy -d strategy"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    volumes: ["postgres-data:/var/lib/postgresql/data"]
+  redis:
+    image: redis:8-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+  object-store:
+    image: localstack/localstack:4.7.0
+    environment:
+      SERVICES: s3
+      PERSISTENCE: "1"
+    volumes: ["object-data:/var/lib/localstack"]
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:0.136.0
+    command: ["--config=/etc/otel/config.yaml"]
+    volumes: ["./infra/otel-collector.yaml:/etc/otel/config.yaml:ro"]
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports: ["8060:8060"]
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8060/health', timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 18
+  portal:
+    build: ./apps/control-tower
+    environment:
+      STRATEGY_API_URL: http://api:8060
+    ports: ["8960:8960"]
+    depends_on:
+      api: {condition: service_healthy}
+volumes:
+  postgres-data:
+  object-data:
+

@@ -1,0 +1,11 @@
+.git
+.venv
+**/__pycache__
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+apps/control-tower/node_modules
+apps/control-tower/.next*
+apps/control-tower/test-results*
+reports/runtime
+

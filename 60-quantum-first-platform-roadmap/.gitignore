@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+apps/control-tower/node_modules/
+apps/control-tower/.next*/
+apps/control-tower/test-results*/
+apps/control-tower/playwright-report/
+apps/control-tower/*.tsbuildinfo
+reports/runtime/
+.env
